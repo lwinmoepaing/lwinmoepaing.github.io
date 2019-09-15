@@ -1,0 +1,23 @@
+// All Variables
+@import "variables";
+@import "mixin";
+
+@include font-face(HeptaSlab-Regular, '../fonts/HeptaSlab-Regular', null, null, ttf);
+@include font-face(HeptaSlab-Light, '../fonts/HeptaSlab-Light', null, null, ttf);
+@include font-face(HeptaSlab-Bold, '../fonts/HeptaSlab-Bold', null, null, ttf);
+
+// Fixed Navigation
+@import "navigations";
+// First Slide With Profile SVG
+@import "first_slide";
+// About Me
+@import "about_me";
+
+// This is Body
+body {
+	margin: 0 auto;
+	max-width: $max-width;
+	padding: 0;
+	padding-top: $navigation-height;
+	overflow-x: hidden;
+}

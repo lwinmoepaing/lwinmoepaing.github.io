@@ -1,0 +1,59 @@
+.navigation {
+	height: $navigation-height;
+	line-height: $navigation-height;
+	background-color: #ffffff;
+	font-size: 1em;
+	color: #333;
+	position: fixed;
+	width: 100%;
+	max-width: $max-width;
+	top: 0;
+	z-index: 999;
+	border-bottom: 1px solid #dfdfdf;
+
+	.navigator-button {
+		position: absolute;
+		left: 1rem;
+		width: 31px;
+		svg {
+			cursor: pointer;
+			line {
+				@include transition(all 0.2s ease-in-out);
+				stroke-dasharray: 350;
+				stroke-dashoffset: 0;
+			}
+			line:nth-child(3) {
+				stroke-dasharray: 350;
+				stroke-dashoffset: 250;
+			}
+			&:hover {
+				line:nth-child(1) {
+					stroke-dasharray: 350;
+					stroke-dashoffset: 250;
+				}
+
+				line:nth-child(3) {
+					stroke-dasharray: 350;
+					stroke-dashoffset: 0;
+				}
+			}
+		}
+	}
+
+	.logo {
+		position: absolute;
+		left: 50%;
+		top: -3px;
+		width: 53px;
+		opacity: 0.75;
+		@include transform(translateX(-50%));
+	}
+
+	.ph {
+		position: absolute;
+		right: 1rem;
+		text-decoration: underline;
+		font-family: $title-font-light;
+		font-size: .9em;
+	}
+}

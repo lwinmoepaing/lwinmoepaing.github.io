@@ -1,0 +1,1060 @@
+@font-face {
+  font-family: "HeptaSlab-Regular";
+  src: url("../fonts/HeptaSlab-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "HeptaSlab-Light";
+  src: url("../fonts/HeptaSlab-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "HeptaSlab-Bold";
+  src: url("../fonts/HeptaSlab-Bold.ttf") format("truetype"); }
+
+.navigation {
+  height: 60px;
+  line-height: 60px;
+  background-color: #ffffff;
+  font-size: 1em;
+  color: #333;
+  position: fixed;
+  width: 100%;
+  max-width: 2000px;
+  top: 0;
+  z-index: 999;
+  border-bottom: 1px solid #dfdfdf; }
+  .navigation .navigator-button {
+    position: absolute;
+    left: 1rem;
+    width: 31px; }
+    .navigation .navigator-button svg {
+      cursor: pointer; }
+      .navigation .navigator-button svg line {
+        transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        stroke-dasharray: 350;
+        stroke-dashoffset: 0; }
+      .navigation .navigator-button svg line:nth-child(3) {
+        stroke-dasharray: 350;
+        stroke-dashoffset: 250; }
+      .navigation .navigator-button svg:hover line:nth-child(1) {
+        stroke-dasharray: 350;
+        stroke-dashoffset: 250; }
+      .navigation .navigator-button svg:hover line:nth-child(3) {
+        stroke-dasharray: 350;
+        stroke-dashoffset: 0; }
+  .navigation .logo {
+    position: absolute;
+    left: 50%;
+    top: -3px;
+    width: 53px;
+    opacity: 0.75;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%); }
+  .navigation .ph {
+    position: absolute;
+    right: 1rem;
+    text-decoration: underline;
+    font-family: "HeptaSlab-Light";
+    font-size: .9em; }
+
+.First-Slide {
+  min-height: calc(100vh - 60px);
+  background: #fff;
+  font-family: "HeptaSlab-Light";
+  position: relative; }
+  .First-Slide .Text-Wrapper {
+    position: relative; }
+    .First-Slide .Text-Wrapper div {
+      margin-bottom: .1em; }
+    .First-Slide .Text-Wrapper span {
+      font-family: "HeptaSlab-Bold";
+      color: #231a6b; }
+    .First-Slide .Text-Wrapper .Finding-Web-Developer {
+      text-align: center; }
+      @media (max-width: 599px) {
+        .First-Slide .Text-Wrapper .Finding-Web-Developer {
+          font-size: 1.4em; } }
+      @media (min-width: 600px) {
+        .First-Slide .Text-Wrapper .Finding-Web-Developer {
+          font-size: 2em; } }
+      @media (min-width: 900px) {
+        .First-Slide .Text-Wrapper .Finding-Web-Developer {
+          font-size: 2.7em; } }
+    .First-Slide .Text-Wrapper .I-More-Than {
+      text-align: center; }
+      @media (max-width: 599px) {
+        .First-Slide .Text-Wrapper .I-More-Than {
+          font-size: 1.2em; } }
+      @media (min-width: 600px) {
+        .First-Slide .Text-Wrapper .I-More-Than {
+          font-size: 1.8em; } }
+      @media (min-width: 900px) {
+        .First-Slide .Text-Wrapper .I-More-Than {
+          font-size: 2em; } }
+    .First-Slide .Text-Wrapper .Scroll-Down {
+      font-family: "HeptaSlab-Regular";
+      color: #333333;
+      margin-top: .4em;
+      margin-bottom: 1.5rem;
+      display: inline-block;
+      cursor: pointer; }
+      @media (max-width: 599px) {
+        .First-Slide .Text-Wrapper .Scroll-Down {
+          font-size: .8em; } }
+      @media (min-width: 600px) {
+        .First-Slide .Text-Wrapper .Scroll-Down {
+          font-size: .9em; } }
+
+.My-Face {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%); }
+  @media (max-width: 599px) {
+    .My-Face {
+      width: 160px; } }
+  @media (min-width: 600px) {
+    .My-Face {
+      width: 18vw; } }
+  @media (min-width: 900px) {
+    .My-Face {
+      width: 14vw; } }
+  @media (min-width: 1600px) {
+    .My-Face {
+      width: 12vw; } }
+  @media (min-width: 1800px) {
+    .My-Face {
+      width: 400px; } }
+
+.Top-Image {
+  width: 100%;
+  background-image: url("../images/Background.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+  position: absolute;
+  transform: translateY(-60px);
+  -webkit-transform: translateY(-60px);
+  -o-transform: translateY(-60px);
+  -moz-transform: translateY(-60px); }
+  @media (max-width: 599px) {
+    .Top-Image {
+      background-size: 380%; } }
+  @media (min-width: 600px) {
+    .Top-Image {
+      background-size: contain; } }
+
+#Hair > g > polygon,
+#Face_SKin > g > polygon {
+  transition: 0.5s all ease-in-out;
+  transform-origin: center; }
+
+.Hand-Animation {
+  animation: hand-animate 1.5s linear infinite alternate; }
+
+@keyframes hand-animate {
+  from {
+    transform: rotate(3deg);
+    transform-origin: bottom; }
+  to {
+    transform: rotate(-4deg);
+    transform-origin: bottom; } }
+
+@-webkit-keyframes hand-animate {
+  from {
+    transform: rotate(3deg);
+    transform-origin: bottom; }
+  to {
+    transform: rotate(-4deg);
+    transform-origin: bottom; } }
+
+@keyframes hair-animate-1 {
+  from {
+    transform: translateY(1px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-1 {
+  from {
+    transform: translateY(1px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--1 {
+  from {
+    transform: translateY(-1px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--1 {
+  from {
+    transform: translateY(-1px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-1 {
+  animation: hair-animate-1 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--1 {
+  animation: hair-animate--1 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-2 {
+  from {
+    transform: translateY(2px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-2 {
+  from {
+    transform: translateY(2px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--2 {
+  from {
+    transform: translateY(-2px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--2 {
+  from {
+    transform: translateY(-2px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-2 {
+  animation: hair-animate-2 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--2 {
+  animation: hair-animate--2 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-3 {
+  from {
+    transform: translateY(3px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-3 {
+  from {
+    transform: translateY(3px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--3 {
+  from {
+    transform: translateY(-3px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--3 {
+  from {
+    transform: translateY(-3px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-3 {
+  animation: hair-animate-3 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--3 {
+  animation: hair-animate--3 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-4 {
+  from {
+    transform: translateY(4px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-4 {
+  from {
+    transform: translateY(4px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--4 {
+  from {
+    transform: translateY(-4px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--4 {
+  from {
+    transform: translateY(-4px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-4 {
+  animation: hair-animate-4 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--4 {
+  animation: hair-animate--4 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-5 {
+  from {
+    transform: translateY(5px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-5 {
+  from {
+    transform: translateY(5px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--5 {
+  from {
+    transform: translateY(-5px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--5 {
+  from {
+    transform: translateY(-5px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-5 {
+  animation: hair-animate-5 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--5 {
+  animation: hair-animate--5 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-6 {
+  from {
+    transform: translateY(6px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-6 {
+  from {
+    transform: translateY(6px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--6 {
+  from {
+    transform: translateY(-6px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--6 {
+  from {
+    transform: translateY(-6px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-6 {
+  animation: hair-animate-6 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--6 {
+  animation: hair-animate--6 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-7 {
+  from {
+    transform: translateY(7px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-7 {
+  from {
+    transform: translateY(7px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--7 {
+  from {
+    transform: translateY(-7px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--7 {
+  from {
+    transform: translateY(-7px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-7 {
+  animation: hair-animate-7 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--7 {
+  animation: hair-animate--7 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-8 {
+  from {
+    transform: translateY(8px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-8 {
+  from {
+    transform: translateY(8px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--8 {
+  from {
+    transform: translateY(-8px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--8 {
+  from {
+    transform: translateY(-8px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-8 {
+  animation: hair-animate-8 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--8 {
+  animation: hair-animate--8 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-9 {
+  from {
+    transform: translateY(9px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-9 {
+  from {
+    transform: translateY(9px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--9 {
+  from {
+    transform: translateY(-9px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--9 {
+  from {
+    transform: translateY(-9px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-9 {
+  animation: hair-animate-9 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--9 {
+  animation: hair-animate--9 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-10 {
+  from {
+    transform: translateY(10px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-10 {
+  from {
+    transform: translateY(10px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--10 {
+  from {
+    transform: translateY(-10px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--10 {
+  from {
+    transform: translateY(-10px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-10 {
+  animation: hair-animate-10 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--10 {
+  animation: hair-animate--10 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-11 {
+  from {
+    transform: translateY(11px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-11 {
+  from {
+    transform: translateY(11px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--11 {
+  from {
+    transform: translateY(-11px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--11 {
+  from {
+    transform: translateY(-11px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-11 {
+  animation: hair-animate-11 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--11 {
+  animation: hair-animate--11 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-12 {
+  from {
+    transform: translateY(12px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-12 {
+  from {
+    transform: translateY(12px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--12 {
+  from {
+    transform: translateY(-12px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--12 {
+  from {
+    transform: translateY(-12px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-12 {
+  animation: hair-animate-12 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--12 {
+  animation: hair-animate--12 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-13 {
+  from {
+    transform: translateY(13px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-13 {
+  from {
+    transform: translateY(13px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--13 {
+  from {
+    transform: translateY(-13px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--13 {
+  from {
+    transform: translateY(-13px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-13 {
+  animation: hair-animate-13 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--13 {
+  animation: hair-animate--13 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-14 {
+  from {
+    transform: translateY(14px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-14 {
+  from {
+    transform: translateY(14px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--14 {
+  from {
+    transform: translateY(-14px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--14 {
+  from {
+    transform: translateY(-14px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-14 {
+  animation: hair-animate-14 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--14 {
+  animation: hair-animate--14 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-15 {
+  from {
+    transform: translateY(15px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-15 {
+  from {
+    transform: translateY(15px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--15 {
+  from {
+    transform: translateY(-15px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--15 {
+  from {
+    transform: translateY(-15px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-15 {
+  animation: hair-animate-15 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--15 {
+  animation: hair-animate--15 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-16 {
+  from {
+    transform: translateY(16px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-16 {
+  from {
+    transform: translateY(16px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--16 {
+  from {
+    transform: translateY(-16px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--16 {
+  from {
+    transform: translateY(-16px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-16 {
+  animation: hair-animate-16 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--16 {
+  animation: hair-animate--16 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-17 {
+  from {
+    transform: translateY(17px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-17 {
+  from {
+    transform: translateY(17px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--17 {
+  from {
+    transform: translateY(-17px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--17 {
+  from {
+    transform: translateY(-17px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-17 {
+  animation: hair-animate-17 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--17 {
+  animation: hair-animate--17 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-18 {
+  from {
+    transform: translateY(18px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-18 {
+  from {
+    transform: translateY(18px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--18 {
+  from {
+    transform: translateY(-18px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--18 {
+  from {
+    transform: translateY(-18px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-18 {
+  animation: hair-animate-18 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--18 {
+  animation: hair-animate--18 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-19 {
+  from {
+    transform: translateY(19px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-19 {
+  from {
+    transform: translateY(19px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--19 {
+  from {
+    transform: translateY(-19px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--19 {
+  from {
+    transform: translateY(-19px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-19 {
+  animation: hair-animate-19 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--19 {
+  animation: hair-animate--19 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-20 {
+  from {
+    transform: translateY(20px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-20 {
+  from {
+    transform: translateY(20px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--20 {
+  from {
+    transform: translateY(-20px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--20 {
+  from {
+    transform: translateY(-20px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-20 {
+  animation: hair-animate-20 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--20 {
+  animation: hair-animate--20 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-21 {
+  from {
+    transform: translateY(21px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-21 {
+  from {
+    transform: translateY(21px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--21 {
+  from {
+    transform: translateY(-21px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--21 {
+  from {
+    transform: translateY(-21px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-21 {
+  animation: hair-animate-21 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--21 {
+  animation: hair-animate--21 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-22 {
+  from {
+    transform: translateY(22px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-22 {
+  from {
+    transform: translateY(22px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--22 {
+  from {
+    transform: translateY(-22px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--22 {
+  from {
+    transform: translateY(-22px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-22 {
+  animation: hair-animate-22 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--22 {
+  animation: hair-animate--22 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-23 {
+  from {
+    transform: translateY(23px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-23 {
+  from {
+    transform: translateY(23px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--23 {
+  from {
+    transform: translateY(-23px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--23 {
+  from {
+    transform: translateY(-23px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-23 {
+  animation: hair-animate-23 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--23 {
+  animation: hair-animate--23 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-24 {
+  from {
+    transform: translateY(24px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-24 {
+  from {
+    transform: translateY(24px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--24 {
+  from {
+    transform: translateY(-24px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--24 {
+  from {
+    transform: translateY(-24px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-24 {
+  animation: hair-animate-24 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--24 {
+  animation: hair-animate--24 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-25 {
+  from {
+    transform: translateY(25px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-25 {
+  from {
+    transform: translateY(25px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--25 {
+  from {
+    transform: translateY(-25px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--25 {
+  from {
+    transform: translateY(-25px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-25 {
+  animation: hair-animate-25 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--25 {
+  animation: hair-animate--25 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-26 {
+  from {
+    transform: translateY(26px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-26 {
+  from {
+    transform: translateY(26px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--26 {
+  from {
+    transform: translateY(-26px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--26 {
+  from {
+    transform: translateY(-26px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-26 {
+  animation: hair-animate-26 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--26 {
+  animation: hair-animate--26 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-27 {
+  from {
+    transform: translateY(27px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-27 {
+  from {
+    transform: translateY(27px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--27 {
+  from {
+    transform: translateY(-27px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--27 {
+  from {
+    transform: translateY(-27px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-27 {
+  animation: hair-animate-27 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--27 {
+  animation: hair-animate--27 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-28 {
+  from {
+    transform: translateY(28px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-28 {
+  from {
+    transform: translateY(28px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--28 {
+  from {
+    transform: translateY(-28px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--28 {
+  from {
+    transform: translateY(-28px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-28 {
+  animation: hair-animate-28 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--28 {
+  animation: hair-animate--28 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-29 {
+  from {
+    transform: translateY(29px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-29 {
+  from {
+    transform: translateY(29px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--29 {
+  from {
+    transform: translateY(-29px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--29 {
+  from {
+    transform: translateY(-29px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-29 {
+  animation: hair-animate-29 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--29 {
+  animation: hair-animate--29 3s ease-in-out infinite alternate; }
+
+.About-Me {
+  min-height: calc(100vh - 3rem);
+  padding-top: 3rem;
+  background-color: #fafafa; }
+
+body {
+  margin: 0 auto;
+  max-width: 2000px;
+  padding: 0;
+  padding-top: 60px;
+  overflow-x: hidden; }

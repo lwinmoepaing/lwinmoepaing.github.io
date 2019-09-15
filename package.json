@@ -1,0 +1,19 @@
+{
+	"name": "Porfolio",
+	"version": "1.0.0",
+	"description": "Nothing",
+	"main": "index.js",
+	"scripts": {
+		"start": "live-server",
+		"css-compile": "node-sass --output assets/css ./assets/scss",
+		"css-watch": "npm run css-compile && npm run css-compile -- -w",
+		"dev": "concurrently \"npm run css-watch \" live-server "
+	},
+	"author": "Lwin Moe Paing",
+	"license": "MIT",
+	"devDependencies": {
+		"concurrently": "^4.1.2",
+		"live-server": "^1.2.1",
+		"node-sass": "^4.12.0"
+	}
+}
