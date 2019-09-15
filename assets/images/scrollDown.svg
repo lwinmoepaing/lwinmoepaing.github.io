@@ -1,0 +1,15 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #333;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 80px;
+      }
+    </style>
+  </defs>
+  <title>scrollDown</title>
+  <polyline class="cls-1" points="449.53 146.68 255.6 353.32 244.4 353.32 50.47 146.68"/>
+</svg>

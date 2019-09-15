@@ -1,5 +1,34 @@
 .About-Me {
-	min-height: calc(100vh - 3rem);
-	padding-top: 3rem;
+	padding: 4rem 0;
 	background-color: $secondary;
+
+	@media (max-width: 767px) {
+		text-align: center;
+	}
+
+	.title {
+		font-size: 2em;
+		font-family: $title-font-regular;
+
+		.name {
+			font-family: $title-font-bold;
+			color: $primary;
+		}
+	}
+
+	.image-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+
+		@media (max-width: 767px) {
+			padding-bottom: 3rem;
+		}
+
+		img {
+			flex: 1;
+		}
+	}
 }

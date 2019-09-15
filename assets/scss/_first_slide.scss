@@ -6,6 +6,7 @@
 
 	.Text-Wrapper {
 		position: relative;
+		color: #333333;
 
 		div {
 			margin-bottom: .1em;
@@ -52,7 +53,6 @@
 			margin-top: .4em;
 			margin-bottom: 1.5rem;
 			display: inline-block;
-			cursor: pointer;
 
 			@include for-size(phone-only) {
 				font-size: .8em;
@@ -60,6 +60,17 @@
 
 			@include for-size(tablet-portrait-up) {
 				font-size: .9em;
+			}
+
+			i {
+				width: 1em;
+				height: 1em;
+				display: inline-block;
+				position: relative;
+				top: .2em;
+				background-image: url('../images/scrollDown.svg');
+				background-repeat: no-repeat;
+				animation: scroll-animate 1.3s cubic-bezier(0.6, 0.01, 0.32, 1) infinite alternate;
 			}
 		}
 	}
@@ -136,6 +147,17 @@
 	}
 	to {
 		transform: rotate(-4deg);
+		transform-origin: bottom;
+	}
+}
+
+@include keyframes(scroll-animate) {
+	from {
+		transform: translateY(0px);
+		transform-origin: bottom;
+	}
+	to {
+		transform: translateY(2px);
 		transform-origin: bottom;
 	}
 }

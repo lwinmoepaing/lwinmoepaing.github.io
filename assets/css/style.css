@@ -1,3 +1,46 @@
+.second-title {
+  font-size: 1.2em;
+  font-family: "HeptaSlab-Regular"; }
+
+.custom-button {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.275rem .75rem 0.355rem .75rem;
+  font-size: .9em;
+  line-height: 1.3;
+  border-radius: 4rem;
+  cursor: pointer;
+  transition: all 0.15s linear;
+  -webkit-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear; }
+  .custom-button.primary {
+    box-shadow: 1px 2px 5px -1px #231a6b;
+    color: #ffffff;
+    background-color: #643fe6; }
+    .custom-button.primary:focus {
+      outline: none; }
+    .custom-button.primary:hover {
+      opacity: 0.8; }
+  .custom-button.primary-outline {
+    color: #643fe6;
+    background-color: #ffffff;
+    border: 1px solid #643fe6; }
+    .custom-button.primary-outline:focus {
+      outline: none; }
+    .custom-button.primary-outline:hover {
+      color: #ffffff;
+      box-shadow: 1px 2px 5px -1px #231a6b;
+      background-color: #643fe6; }
+
 @font-face {
   font-family: "HeptaSlab-Regular";
   src: url("../fonts/HeptaSlab-Regular.ttf") format("truetype"); }
@@ -21,7 +64,21 @@
   max-width: 2000px;
   top: 0;
   z-index: 999;
-  border-bottom: 1px solid #dfdfdf; }
+  border-bottom: 1px solid #dfdfdf;
+  box-shadow: 2px 0 2px 0 #403f3f6e;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out; }
+  .navigation.hide {
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transform: translateY(-63px);
+    -webkit-transform: translateY(-63px);
+    -o-transform: translateY(-63px);
+    -moz-transform: translateY(-63px); }
   .navigation .navigator-button {
     position: absolute;
     left: 1rem;
@@ -67,7 +124,8 @@
   font-family: "HeptaSlab-Light";
   position: relative; }
   .First-Slide .Text-Wrapper {
-    position: relative; }
+    position: relative;
+    color: #333333; }
     .First-Slide .Text-Wrapper div {
       margin-bottom: .1em; }
     .First-Slide .Text-Wrapper span {
@@ -100,14 +158,22 @@
       color: #333333;
       margin-top: .4em;
       margin-bottom: 1.5rem;
-      display: inline-block;
-      cursor: pointer; }
+      display: inline-block; }
       @media (max-width: 599px) {
         .First-Slide .Text-Wrapper .Scroll-Down {
           font-size: .8em; } }
       @media (min-width: 600px) {
         .First-Slide .Text-Wrapper .Scroll-Down {
           font-size: .9em; } }
+      .First-Slide .Text-Wrapper .Scroll-Down i {
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        position: relative;
+        top: .2em;
+        background-image: url("../images/scrollDown.svg");
+        background-repeat: no-repeat;
+        animation: scroll-animate 1.3s cubic-bezier(0.6, 0.01, 0.32, 1) infinite alternate; }
 
 .My-Face {
   position: absolute;
@@ -175,6 +241,22 @@
     transform-origin: bottom; }
   to {
     transform: rotate(-4deg);
+    transform-origin: bottom; } }
+
+@keyframes scroll-animate {
+  from {
+    transform: translateY(0px);
+    transform-origin: bottom; }
+  to {
+    transform: translateY(2px);
+    transform-origin: bottom; } }
+
+@-webkit-keyframes scroll-animate {
+  from {
+    transform: translateY(0px);
+    transform-origin: bottom; }
+  to {
+    transform: translateY(2px);
     transform-origin: bottom; } }
 
 @keyframes hair-animate-1 {
@@ -1048,9 +1130,32 @@
   animation: hair-animate--29 3s ease-in-out infinite alternate; }
 
 .About-Me {
-  min-height: calc(100vh - 3rem);
-  padding-top: 3rem;
+  padding: 4rem 0;
   background-color: #fafafa; }
+  @media (max-width: 767px) {
+    .About-Me {
+      text-align: center; } }
+  .About-Me .title {
+    font-size: 2em;
+    font-family: "HeptaSlab-Regular"; }
+    .About-Me .title .name {
+      font-family: "HeptaSlab-Bold";
+      color: #231a6b; }
+  .About-Me .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+    @media (max-width: 767px) {
+      .About-Me .image-container {
+        padding-bottom: 3rem; } }
+    .About-Me .image-container img {
+      flex: 1; }
+
+.My-Skills {
+  min-height: 100vh;
+  background-color: #ffffff; }
 
 body {
   margin: 0 auto;

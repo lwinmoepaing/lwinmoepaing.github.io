@@ -4,24 +4,14 @@ $(document).ready(function() {
 	//========================================
 	marginFromFaceSVG();
 	myHairAnimate();
+	// jQuery.scrollSpeed(200, 1000);
 
 	//========================================
-	// Sticky Nav Bar
+	// When Window Scroll
 	//========================================
-	// ...
-
-	// Menu Bar CLick
-	$('#H-Menu_Bar').click(function() {
-		alert('Comming Soon');
-	});
-
-	//========================================
-	// Scroll Down
-	//========================================
-
-	$('.Scroll-Down').click(function() {
-		alert('Comming Soon');
-	});
+	window.onscroll = function() {
+		stickyNavBar();
+	};
 
 	//========================================
 	// When Window Resize
@@ -31,6 +21,29 @@ $(document).ready(function() {
 		// Svg from Background Magin
 		marginFromFaceSVG();
 	};
+
+	//========================================
+	// Sticky Nav Bar
+	//========================================
+	var pageY_Navbar = window.pageY_NavbarOffset;
+	function stickyNavBar() {
+		var navBar = $('#Navigation_Bar');
+		var hasClass = $(navBar).hasClass('hide');
+		if (pageY_Navbar < window.pageYOffset) {
+			if (!hasClass) $(navBar).addClass('hide');
+		} else {
+			if (hasClass) $(navBar).removeClass('hide');
+		}
+		pageY_Navbar = window.pageYOffset;
+	}
+
+	//========================================
+	// Menu Bar CLick
+	//========================================
+
+	$('#H-Menu_Bar').click(function() {
+		alert('Comming Soon');
+	});
 
 	//========================================
 	// My Face
@@ -55,12 +68,11 @@ $(document).ready(function() {
 	function myFaceScaleOn() {
 		var allFacePolygons = $('#Face_SKin > g > polygon');
 		$(allFacePolygons).each(function(k, v) {
-			var getRandom = random(5);
-			console.log(minusOrPlus());
+			var getRandom = random(60, 5);
 			$(v).css({
 				transform:
 					'scale(1.0' +
-					random(3) +
+					random(8) +
 					') translateY(' +
 					minusOrPlus() +
 					getRandom +
