@@ -7,12 +7,23 @@
 	}
 
 	.title {
-		font-size: 2em;
 		font-family: $title-font-regular;
 
 		.name {
 			font-family: $title-font-bold;
 			color: $primary;
+		}
+
+		@include for-size(phone-only) {
+			font-size: 1.3em;
+		}
+
+		@include for-size(tablet-portrait-up) {
+			font-size: 1.6em;
+		}
+
+		@include for-size(tablet-landscape-up) {
+			font-size: 2em;
 		}
 	}
 

@@ -1141,11 +1141,19 @@
     .About-Me {
       text-align: center; } }
   .About-Me .title {
-    font-size: 2em;
     font-family: "HeptaSlab-Regular"; }
     .About-Me .title .name {
       font-family: "HeptaSlab-Bold";
       color: #231a6b; }
+    @media (max-width: 599px) {
+      .About-Me .title {
+        font-size: 1.3em; } }
+    @media (min-width: 600px) {
+      .About-Me .title {
+        font-size: 1.6em; } }
+    @media (min-width: 900px) {
+      .About-Me .title {
+        font-size: 2em; } }
   .About-Me .image-container {
     display: flex;
     flex-direction: column;
@@ -1289,14 +1297,39 @@
     position: absolute;
     background-color: #643fe6;
     box-shadow: 1px 2px 5px -1px #231a6b;
-    height: 25px;
-    width: 25px;
+    height: 21px;
+    width: 21px;
     border-radius: 5px;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     top: 50%; }
+
+.Services {
+  padding: 3rem 0;
+  min-height: 100vh;
+  background-color: #fafafa; }
+  .Services .Card {
+    min-height: 300px;
+    padding: 1em;
+    background: #5c3ff8;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #5c3ff8 0%, #7a40b6 50%, #954178 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #5c3ff8 0%, #7a40b6 50%, #954178 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #5c3ff8 0%, #7a40b6 50%, #954178 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c3ff8', endColorstr='#954178', GradientType=0 );
+    /* IE6-9 */ }
+    .Services .Card .Title,
+    .Services .Card .Body {
+      color: #fff;
+      text-align: center; }
+    .Services .Card .Title .title-header {
+      font-family: "HeptaSlab-Bold";
+      font-size: 1.2em; }
 
 body {
   margin: 0 auto;
