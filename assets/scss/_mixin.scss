@@ -1,6 +1,7 @@
 // ==============================================================================
 // All BreakPoints
 // ==============================================================================
+
 @mixin for-size($size) {
 	@if $size == phone-only {
 		@media (max-width: $phone-only) {
@@ -58,7 +59,7 @@
 	-moz-transform: $properties;
 }
 
-// keyframe
+// keyframes
 @mixin keyframes($name) {
 	@keyframes #{$name} {
 		@content;

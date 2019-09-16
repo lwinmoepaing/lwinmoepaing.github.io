@@ -4,7 +4,6 @@ $(document).ready(function() {
 	//========================================
 	marginFromFaceSVG();
 	myHairAnimate();
-	// jQuery.scrollSpeed(200, 1000);
 
 	//========================================
 	// When Window Scroll
