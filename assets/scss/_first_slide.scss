@@ -128,7 +128,8 @@
 }
 
 #Hair > g > polygon,
-#Face_SKin > g > polygon {
+#Face_SKin > g > polygon,
+#Face_SKin > g > path {
 	transition: 0.75s all ease-in-out;
 	transform-origin: center;
 }
