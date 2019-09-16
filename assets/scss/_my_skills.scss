@@ -1,7 +1,7 @@
 .My-Skills {
-	min-height: 100vh;
 	background-color: #ffffff;
 	padding: 4rem 0;
+
 	.image-container {
 		display: flex;
 		flex-direction: column;
@@ -14,20 +14,25 @@
 		}
 	}
 
-	div {
-		div {
-			div:nth-child(1) {
-				div.pl-md-2 {
-					@media (max-width: 767px) {
-						text-align: center;
-					}
-				}
-			}
+	.Skill-List-Wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+
+	.less-center {
+		@media (max-width: 767px) {
+			text-align: center;
 		}
 	}
 }
 
 .Skill-Bar-Container {
+	@media (max-width: 767px) {
+		margin-bottom: 2rem;
+	}
 	.Skill-Bar {
 		.text-container {
 			margin-bottom: .2rem;

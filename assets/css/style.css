@@ -1159,7 +1159,6 @@
       flex: 1; }
 
 .My-Skills {
-  min-height: 100vh;
   background-color: #ffffff;
   padding: 4rem 0; }
   .My-Skills .image-container {
@@ -1170,9 +1169,19 @@
     height: 100%; }
     .My-Skills .image-container .img {
       flex: 1; }
+  .My-Skills .Skill-List-Wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
   @media (max-width: 767px) {
-    .My-Skills div div div:nth-child(1) div.pl-md-2 {
+    .My-Skills .less-center {
       text-align: center; } }
+
+@media (max-width: 767px) {
+  .Skill-Bar-Container {
+    margin-bottom: 2rem; } }
 
 .Skill-Bar-Container .Skill-Bar .text-container {
   margin-bottom: .2rem;
