@@ -59,19 +59,34 @@ $(document).ready(function() {
 	function myHairAnimate() {
 		var allPolygons = $('#Hair > g > polygon');
 		$(allPolygons).each(function(k, v) {
-			var getRandom = random(20, 4);
-			$(v).addClass('Hair-Animation--' + getRandom);
+			$(v).addClass('Hair-Animation--' + random(30, 6));
 		});
 	}
 
+	var faceAnimateTimer = null;
 	function myFaceScaleOn() {
+		generateFaceAnimate();
+		faceAnimateTimer = setInterval(function() {
+			generateFaceAnimate();
+		}, 900);
+	}
+
+	function myFaceScaleDown() {
+		var allFacePolygons = $('#Face_SKin > g > polygon');
+		$(allFacePolygons).each(function(k, v) {
+			$(v).removeAttr('style');
+		});
+		clearInterval(faceAnimateTimer);
+	}
+
+	function generateFaceAnimate() {
 		var allFacePolygons = $('#Face_SKin > g > polygon');
 		$(allFacePolygons).each(function(k, v) {
 			var getRandom = random(60, 5);
 			$(v).css({
 				transform:
 					'scale(1.0' +
-					random(8) +
+					random(9) +
 					') translateY(' +
 					minusOrPlus() +
 					getRandom +
@@ -83,13 +98,6 @@ $(document).ready(function() {
 		});
 	}
 
-	function myFaceScaleDown() {
-		var allFacePolygons = $('#Face_SKin > g > polygon');
-		$(allFacePolygons).each(function(k, v) {
-			$(v).removeAttr('style');
-		});
-	}
-
 	//=======================================
 	// Margin Top From Images
 	//========================================
@@ -98,7 +106,7 @@ $(document).ready(function() {
 		var svgHeight = $('#My-Face').height();
 		var offsetTop = $('#My-Face').offset().top;
 		var navigateHeight = 60 / 1.3;
-		// set Height Div
+		// Set Height Div
 		$('#First-Slide-Offset-Top').height(svgHeight + offsetTop - navigateHeight);
 	}
 

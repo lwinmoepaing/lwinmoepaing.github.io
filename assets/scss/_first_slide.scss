@@ -103,9 +103,6 @@
 	@include for-size(big-desktop-up) {
 		width: 400px;
 	}
-
-	svg {
-	}
 }
 
 .Top-Image {
@@ -132,7 +129,7 @@
 
 #Hair > g > polygon,
 #Face_SKin > g > polygon {
-	transition: 0.5s all ease-in-out;
+	transition: 0.75s all ease-in-out;
 	transform-origin: center;
 }
 
@@ -157,12 +154,12 @@
 		transform-origin: bottom;
 	}
 	to {
-		transform: translateY(2px);
+		transform: translateY(8px);
 		transform-origin: bottom;
 	}
 }
 
-@for $i from 1 to 30 {
+@for $i from 1 to 40 {
 	@include keyframes('hair-animate-#{$i}') {
 		from {
 			transform: translateY(#{$i}px);

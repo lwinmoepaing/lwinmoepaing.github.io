@@ -226,7 +226,7 @@
 
 #Hair > g > polygon,
 #Face_SKin > g > polygon {
-  transition: 0.5s all ease-in-out;
+  transition: 0.75s all ease-in-out;
   transform-origin: center; }
 
 .Hand-Animation {
@@ -253,7 +253,7 @@
     transform: translateY(0px);
     transform-origin: bottom; }
   to {
-    transform: translateY(2px);
+    transform: translateY(8px);
     transform-origin: bottom; } }
 
 @-webkit-keyframes scroll-animate {
@@ -261,7 +261,7 @@
     transform: translateY(0px);
     transform-origin: bottom; }
   to {
-    transform: translateY(2px);
+    transform: translateY(8px);
     transform-origin: bottom; } }
 
 @keyframes hair-animate-1 {
@@ -1134,6 +1134,306 @@
 .Hair-Animation--29 {
   animation: hair-animate--29 3s ease-in-out infinite alternate; }
 
+@keyframes hair-animate-30 {
+  from {
+    transform: translateY(30px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-30 {
+  from {
+    transform: translateY(30px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--30 {
+  from {
+    transform: translateY(-30px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--30 {
+  from {
+    transform: translateY(-30px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-30 {
+  animation: hair-animate-30 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--30 {
+  animation: hair-animate--30 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-31 {
+  from {
+    transform: translateY(31px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-31 {
+  from {
+    transform: translateY(31px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--31 {
+  from {
+    transform: translateY(-31px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--31 {
+  from {
+    transform: translateY(-31px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-31 {
+  animation: hair-animate-31 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--31 {
+  animation: hair-animate--31 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-32 {
+  from {
+    transform: translateY(32px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-32 {
+  from {
+    transform: translateY(32px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--32 {
+  from {
+    transform: translateY(-32px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--32 {
+  from {
+    transform: translateY(-32px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-32 {
+  animation: hair-animate-32 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--32 {
+  animation: hair-animate--32 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-33 {
+  from {
+    transform: translateY(33px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-33 {
+  from {
+    transform: translateY(33px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--33 {
+  from {
+    transform: translateY(-33px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--33 {
+  from {
+    transform: translateY(-33px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-33 {
+  animation: hair-animate-33 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--33 {
+  animation: hair-animate--33 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-34 {
+  from {
+    transform: translateY(34px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-34 {
+  from {
+    transform: translateY(34px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--34 {
+  from {
+    transform: translateY(-34px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--34 {
+  from {
+    transform: translateY(-34px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-34 {
+  animation: hair-animate-34 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--34 {
+  animation: hair-animate--34 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-35 {
+  from {
+    transform: translateY(35px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-35 {
+  from {
+    transform: translateY(35px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--35 {
+  from {
+    transform: translateY(-35px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--35 {
+  from {
+    transform: translateY(-35px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-35 {
+  animation: hair-animate-35 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--35 {
+  animation: hair-animate--35 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-36 {
+  from {
+    transform: translateY(36px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-36 {
+  from {
+    transform: translateY(36px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--36 {
+  from {
+    transform: translateY(-36px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--36 {
+  from {
+    transform: translateY(-36px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-36 {
+  animation: hair-animate-36 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--36 {
+  animation: hair-animate--36 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-37 {
+  from {
+    transform: translateY(37px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-37 {
+  from {
+    transform: translateY(37px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--37 {
+  from {
+    transform: translateY(-37px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--37 {
+  from {
+    transform: translateY(-37px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-37 {
+  animation: hair-animate-37 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--37 {
+  animation: hair-animate--37 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-38 {
+  from {
+    transform: translateY(38px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-38 {
+  from {
+    transform: translateY(38px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--38 {
+  from {
+    transform: translateY(-38px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--38 {
+  from {
+    transform: translateY(-38px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-38 {
+  animation: hair-animate-38 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--38 {
+  animation: hair-animate--38 3s ease-in-out infinite alternate; }
+
+@keyframes hair-animate-39 {
+  from {
+    transform: translateY(39px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate-39 {
+  from {
+    transform: translateY(39px); }
+  to {
+    transform: translateY(0px); } }
+
+@keyframes hair-animate--39 {
+  from {
+    transform: translateY(-39px); }
+  to {
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hair-animate--39 {
+  from {
+    transform: translateY(-39px); }
+  to {
+    transform: translateY(0px); } }
+
+.Hair-Animation-39 {
+  animation: hair-animate-39 3s ease-in-out infinite alternate; }
+
+.Hair-Animation--39 {
+  animation: hair-animate--39 3s ease-in-out infinite alternate; }
+
 .About-Me {
   padding: 4rem 0;
   background-color: #fafafa; }
@@ -1307,12 +1607,16 @@
     top: 50%; }
 
 .Services {
-  padding: 3rem 0;
-  min-height: 100vh;
+  padding: 3rem 0 1.5rem 0;
   background-color: #fafafa; }
   .Services .Card {
-    min-height: 300px;
-    padding: 1em;
+    padding: 2em 1em 1em 1em;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
     background: #5c3ff8;
     /* Old browsers */
     background: -moz-linear-gradient(top, #5c3ff8 0%, #7a40b6 50%, #954178 100%);
@@ -1323,13 +1627,93 @@
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c3ff8', endColorstr='#954178', GradientType=0 );
     /* IE6-9 */ }
+    @media (max-width: 599px) {
+      .Services .Card {
+        max-width: 270px;
+        margin-right: auto;
+        margin-left: auto; } }
+    .Services .Card:hover {
+      box-shadow: -1px 3px 8px 2px #3838399c;
+      transform: translateY(-6px);
+      -webkit-transform: translateY(-6px);
+      -o-transform: translateY(-6px);
+      -moz-transform: translateY(-6px); }
     .Services .Card .Title,
     .Services .Card .Body {
       color: #fff;
       text-align: center; }
-    .Services .Card .Title .title-header {
-      font-family: "HeptaSlab-Bold";
-      font-size: 1.2em; }
+    .Services .Card .Title {
+      margin-bottom: 2rem; }
+      .Services .Card .Title .title-header {
+        font-family: "HeptaSlab-Bold";
+        font-size: 1.2em; }
+      .Services .Card .Title .title-image img {
+        width: 50px;
+        height: auto;
+        margin-bottom: .5rem; }
+    .Services .Card .Body {
+      height: 115px;
+      overflow-y: auto;
+      margin-bottom: 2rem; }
+    .Services .Card .Footer {
+      text-align: center; }
+      .Services .Card .Footer button.default {
+        color: #ffffff;
+        background-color: transparent;
+        border: 1px solid #ffffff; }
+        .Services .Card .Footer button.default:focus {
+          outline: none; }
+        .Services .Card .Footer button.default:hover {
+          color: #231a6b;
+          background-color: #ffffff; }
+
+.Latest-News {
+  padding: 3rem 0; }
+  @media (max-width: 767px) {
+    .Latest-News .container .row.order div:nth-child(1) {
+      order: 2; } }
+  @media (max-width: 767px) {
+    .Latest-News .container .row.order div:nth-child(2) {
+      order: 1; } }
+  .Latest-News .image-container {
+    max-width: 270px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white; }
+    .Latest-News .image-container.left {
+      position: relative;
+      left: -19px; }
+    .Latest-News .image-container.right {
+      position: relative;
+      right: -19px; }
+    .Latest-News .image-container .first-layer {
+      width: 100%;
+      height: 100%;
+      position: relative; }
+      .Latest-News .image-container .first-layer::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: -19px;
+        border: 9px solid #643fe6; }
+      .Latest-News .image-container .first-layer .image-layer {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: #ffffff;
+        width: 100%;
+        height: 100%;
+        position: relative; }
+        .Latest-News .image-container .first-layer .image-layer.left {
+          left: 19px; }
+        .Latest-News .image-container .first-layer .image-layer.right {
+          right: 19px; }
+  .Latest-News .second-title {
+    margin-bottom: 1rem; }
+  @media (max-width: 767px) {
+    .Latest-News .Text--Center {
+      text-align: center; } }
 
 body {
   margin: 0 auto;
