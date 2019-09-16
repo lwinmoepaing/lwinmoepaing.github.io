@@ -21,19 +21,30 @@
 	.image-container {
 		max-width: 270px;
 		height: 200px;
-		margin: 0 auto;
+		@media (max-width: 767px) {
+			margin: 0 auto;
+		}
 		background-color: white;
 
 		&.left {
 			position: relative;
-
-			left: -19px;
+			@media (max-width: 767px) {
+				left: -19px;
+			}
+			@media (min-width: 768px) {
+				left: 19px;
+			}
 		}
 
 		&.right {
 			position: relative;
-
-			right: -19px;
+			@media (max-width: 767px) {
+				right: -19px;
+			}
+			@media (min-width: 768px) {
+				right: 19px;
+				margin-left: auto;
+			}
 		}
 
 		.first-layer {
