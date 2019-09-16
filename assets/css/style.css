@@ -1162,20 +1162,87 @@
   min-height: 100vh;
   background-color: #ffffff;
   padding: 4rem 0; }
+  .My-Skills .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+    .My-Skills .image-container .img {
+      flex: 1; }
+  @media (max-width: 767px) {
+    .My-Skills div div div:nth-child(1) div.pl-md-2 {
+      text-align: center; } }
 
 .Skill-Bar-Container .Skill-Bar .text-container {
-  margin-bottom: .15rem;
+  margin-bottom: .2rem;
   position: relative; }
   .Skill-Bar-Container .Skill-Bar .text-container .title {
     font-size: 1em;
     padding-left: 40px; }
   .Skill-Bar-Container .Skill-Bar .text-container img {
-    width: 27px;
+    width: 25px;
     position: absolute;
-    left: 2px; }
+    left: 2px;
+    bottom: 1px; }
     .Skill-Bar-Container .Skill-Bar .text-container img.sm {
-      width: 20px;
-      left: 5px; }
+      width: 19px;
+      left: 5px;
+      bottom: 0; }
+
+.Skill-Bar-Container .Skill-Bar.width-1 .Bar .Bar-Width {
+  width: 10%; }
+
+.Skill-Bar-Container .Skill-Bar.width-1 .Bar .Bar-Button {
+  left: 10%; }
+
+.Skill-Bar-Container .Skill-Bar.width-2 .Bar .Bar-Width {
+  width: 20%; }
+
+.Skill-Bar-Container .Skill-Bar.width-2 .Bar .Bar-Button {
+  left: 20%; }
+
+.Skill-Bar-Container .Skill-Bar.width-3 .Bar .Bar-Width {
+  width: 30%; }
+
+.Skill-Bar-Container .Skill-Bar.width-3 .Bar .Bar-Button {
+  left: 30%; }
+
+.Skill-Bar-Container .Skill-Bar.width-4 .Bar .Bar-Width {
+  width: 40%; }
+
+.Skill-Bar-Container .Skill-Bar.width-4 .Bar .Bar-Button {
+  left: 40%; }
+
+.Skill-Bar-Container .Skill-Bar.width-5 .Bar .Bar-Width {
+  width: 50%; }
+
+.Skill-Bar-Container .Skill-Bar.width-5 .Bar .Bar-Button {
+  left: 50%; }
+
+.Skill-Bar-Container .Skill-Bar.width-6 .Bar .Bar-Width {
+  width: 60%; }
+
+.Skill-Bar-Container .Skill-Bar.width-6 .Bar .Bar-Button {
+  left: 60%; }
+
+.Skill-Bar-Container .Skill-Bar.width-7 .Bar .Bar-Width {
+  width: 70%; }
+
+.Skill-Bar-Container .Skill-Bar.width-7 .Bar .Bar-Button {
+  left: 70%; }
+
+.Skill-Bar-Container .Skill-Bar.width-8 .Bar .Bar-Width {
+  width: 80%; }
+
+.Skill-Bar-Container .Skill-Bar.width-8 .Bar .Bar-Button {
+  left: 80%; }
+
+.Skill-Bar-Container .Skill-Bar.width-9 .Bar .Bar-Width {
+  width: 90%; }
+
+.Skill-Bar-Container .Skill-Bar.width-9 .Bar .Bar-Button {
+  left: 90%; }
 
 .Skill-Bar-Container .Skill-Bar .Bar {
   border: 1px solid #231a6b;
@@ -1184,7 +1251,6 @@
   position: relative;
   margin-bottom: 1.5rem; }
   .Skill-Bar-Container .Skill-Bar .Bar .Bar-Width {
-    width: 65%;
     border-radius: 10px;
     position: absolute;
     height: 100%;
@@ -1212,8 +1278,7 @@
     -webkit-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
-    top: 50%;
-    left: 65%; }
+    top: 50%; }
 
 body {
   margin: 0 auto;
