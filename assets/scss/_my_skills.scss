@@ -1,6 +1,13 @@
 .My-Skills {
 	background-color: #ffffff;
-	padding: 4rem 0;
+
+	@include for-size(phone-only) {
+		padding: 2rem 0;
+	}
+
+	@include for-size(tablet-portrait-up) {
+		padding: 3rem 0;
+	}
 
 	.image-container {
 		display: flex;
@@ -9,8 +16,10 @@
 		align-items: center;
 		height: 100%;
 
-		.img {
-			flex: 1;
+		img {
+			@include for-size(767px) {
+				flex: 1;
+			}
 		}
 	}
 
@@ -20,6 +29,15 @@
 		justify-content: center;
 		align-items: center;
 		height: 100%;
+
+		div {
+			@include for-size(tablet-landscape-up) {
+				margin-bottom: 1rem;
+			}
+			@include for-size(desktop-up) {
+				margin-bottom: 2rem;
+			}
+		}
 	}
 
 	.less-center {

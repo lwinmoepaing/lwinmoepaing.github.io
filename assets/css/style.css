@@ -1159,22 +1159,31 @@
       flex: 1; }
 
 .My-Skills {
-  background-color: #ffffff;
-  padding: 4rem 0; }
+  background-color: #ffffff; }
+  @media (max-width: 599px) {
+    .My-Skills {
+      padding: 2rem 0; } }
+  @media (min-width: 600px) {
+    .My-Skills {
+      padding: 3rem 0; } }
   .My-Skills .image-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%; }
-    .My-Skills .image-container .img {
-      flex: 1; }
   .My-Skills .Skill-List-Wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%; }
+    @media (min-width: 900px) {
+      .My-Skills .Skill-List-Wrapper div {
+        margin-bottom: 1rem; } }
+    @media (min-width: 1600px) {
+      .My-Skills .Skill-List-Wrapper div {
+        margin-bottom: 2rem; } }
   @media (max-width: 767px) {
     .My-Skills .less-center {
       text-align: center; } }
