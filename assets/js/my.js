@@ -73,11 +73,7 @@ $(document).ready(function() {
 
 	function myFaceScaleDown() {
 		var allFacePolygons = $('#Face_SKin > g > polygon');
-		var allFacePath = $('#Face_SKin > g > path');
 		$(allFacePolygons).each(function(k, v) {
-			$(v).removeAttr('style');
-		});
-		$(allFacePath).each(function(k, v) {
 			$(v).removeAttr('style');
 		});
 		clearInterval(faceAnimateTimer);
@@ -85,23 +81,7 @@ $(document).ready(function() {
 
 	function generateFaceAnimate() {
 		var allFacePolygons = $('#Face_SKin > g > polygon');
-		var allFacePath = $('#Face_SKin > g > path');
 		$(allFacePolygons).each(function(k, v) {
-			var getRandom = random(60, 5);
-			$(v).css({
-				transform:
-					'scale(1.0' +
-					random(9) +
-					') translateY(' +
-					minusOrPlus() +
-					getRandom +
-					'px) translateX(' +
-					minusOrPlus() +
-					getRandom +
-					'px)'
-			});
-		});
-		$(allFacePath).each(function(k, v) {
 			var getRandom = random(60, 5);
 			$(v).css({
 				transform:

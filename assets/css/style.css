@@ -1730,9 +1730,34 @@
       text-align: center; } }
 
 .What-Clients-Say {
-  padding: 3rem 0;
-  min-height: 100vh;
+  padding: 3rem 0 3rem 0;
   background-color: #fafafa; }
+  .What-Clients-Say .section-title {
+    margin-bottom: 3rem; }
+  .What-Clients-Say .Clients-Say-Container {
+    background: #ffffff;
+    width: calc(100% - 19px);
+    min-height: 50vh;
+    position: relative;
+    left: 19px; }
+    .What-Clients-Say .Clients-Say-Container::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: -19px;
+      top: -19px;
+      border: 9px solid #643fe6; }
+    .What-Clients-Say .Clients-Say-Container .Context {
+      width: 100%;
+      min-height: 50vh;
+      background-color: #ffffff;
+      position: relative;
+      box-shadow: 1px 1px 3px 1px #afafaf; }
+      @media (min-width: 600px) {
+        .What-Clients-Say .Clients-Say-Container .Context .Middle-Text p {
+          width: 50%;
+          margin: 0 auto; } }
 
 body {
   margin: 0 auto;
