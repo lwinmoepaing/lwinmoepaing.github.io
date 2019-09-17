@@ -10,7 +10,7 @@
 	.Clients-Say-Container {
 		background: #ffffff;
 		width: calc(100% - 19px);
-		min-height: 50vh;
+		min-height: 25vh;
 		position: relative;
 		left: 19px;
 
@@ -28,7 +28,7 @@
 
 		.Context {
 			width: 100%;
-			min-height: 50vh;
+			min-height: 25vh;
 			background-color: #ffffff;
 			position: relative;
 			box-shadow: 1px 1px 3px 1px #afafaf;
@@ -36,6 +36,7 @@
 			.Clients-Image {
 				position: relative;
 				height: 70px;
+				margin-bottom: 1.5rem;
 				img {
 					width: 50px;
 					height: 50px;
@@ -43,7 +44,7 @@
 					object-fit: cover;
 					object-position: center;
 					position: absolute;
-					@include transform(translate(-50%, -50%));
+					@include transform(translate(-50%, 0%));
 					@include transition(all 0.3s linear);
 					left: 50%;
 					cursor: pointer;
@@ -56,18 +57,18 @@
 
 					&.right {
 						left: calc(50% + 70px);
-						@include transform(translate(-50%, -50%));
+						@include transform(translate(-50%, 0%));
 					}
 
 					&.left {
 						left: calc(50% - 70px);
-						@include transform(translate(-50%, -50%));
+						@include transform(translate(-50%, 0%));
 					}
 
 					&.center {
 						z-index: 2;
 						border: 3px solid $primary-button;
-						@include transform(translate(-50%, -50%) scale(1.4));
+						@include transform(translate(-50%, 0%) scale(1.4));
 					}
 				}
 			}

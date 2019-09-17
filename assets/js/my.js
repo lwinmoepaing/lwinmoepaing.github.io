@@ -47,13 +47,13 @@ $(document).ready(function() {
 	// My Face
 	//========================================
 
-	$('#My-Face').on('mouseenter', function() {
-		myFaceScaleOn();
-	});
+	// $('#My-Face').on('mouseenter', function() {
+	// 	myFaceScaleOn();
+	// });
 
-	$('#My-Face').on('mouseleave', function() {
-		myFaceScaleDown();
-	});
+	// $('#My-Face').on('mouseleave', function() {
+	// 	myFaceScaleDown();
+	// });
 
 	function myHairAnimate() {
 		var allPolygons = $('#Hair > g > polygon');
@@ -63,19 +63,26 @@ $(document).ready(function() {
 	}
 
 	var faceAnimateTimer = null;
-	function myFaceScaleOn() {
-		generateFaceAnimate();
+	var faceClearTimer = null;
+	function myFaceAnimateStart() {
+		if (!faceAnimateTimer)
+			setTimeout(function() {
+				generateFaceAnimate();
+			}, 500);
+
 		faceAnimateTimer = setInterval(function() {
 			generateFaceAnimate();
-		}, 900);
+		}, 2000);
+		faceClearTimer = setInterval(function() {
+			myFaceStyleClear();
+		}, 6000);
 	}
 
-	function myFaceScaleDown() {
+	function myFaceStyleClear() {
 		var allFacePolygons = $('#Face_SKin > g > polygon');
 		$(allFacePolygons).each(function(k, v) {
 			$(v).removeAttr('style');
 		});
-		clearInterval(faceAnimateTimer);
 	}
 
 	function generateFaceAnimate() {
@@ -190,6 +197,7 @@ $(document).ready(function() {
 		setNavigation();
 		marginFromFaceSVG();
 		myHairAnimate();
+		myFaceAnimateStart();
 	}
 
 	function setNavigation() {

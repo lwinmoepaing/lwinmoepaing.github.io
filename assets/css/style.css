@@ -227,7 +227,7 @@
 #Hair > g > polygon,
 #Face_SKin > g > polygon,
 #Face_SKin > g > path {
-  transition: 0.75s all ease-in-out;
+  transition: 1.3s all ease-in-out;
   transform-origin: center; }
 
 .Hand-Animation {
@@ -1737,7 +1737,7 @@
   .What-Clients-Say .Clients-Say-Container {
     background: #ffffff;
     width: calc(100% - 19px);
-    min-height: 50vh;
+    min-height: 25vh;
     position: relative;
     left: 19px; }
     .What-Clients-Say .Clients-Say-Container::before {
@@ -1750,13 +1750,14 @@
       border: 9px solid #643fe6; }
     .What-Clients-Say .Clients-Say-Container .Context {
       width: 100%;
-      min-height: 50vh;
+      min-height: 25vh;
       background-color: #ffffff;
       position: relative;
       box-shadow: 1px 1px 3px 1px #afafaf; }
       .What-Clients-Say .Clients-Say-Container .Context .Clients-Image {
         position: relative;
-        height: 70px; }
+        height: 70px;
+        margin-bottom: 1.5rem; }
         .What-Clients-Say .Clients-Say-Container .Context .Clients-Image img {
           width: 50px;
           height: 50px;
@@ -1764,10 +1765,10 @@
           object-fit: cover;
           object-position: center;
           position: absolute;
-          transform: translate(-50%, -50%);
-          -webkit-transform: translate(-50%, -50%);
-          -o-transform: translate(-50%, -50%);
-          -moz-transform: translate(-50%, -50%);
+          transform: translate(-50%, 0%);
+          -webkit-transform: translate(-50%, 0%);
+          -o-transform: translate(-50%, 0%);
+          -moz-transform: translate(-50%, 0%);
           transition: all 0.3s linear;
           -webkit-transition: all 0.3s linear;
           -o-transition: all 0.3s linear;
@@ -1779,23 +1780,23 @@
             z-index: 1; }
           .What-Clients-Say .Clients-Say-Container .Context .Clients-Image img.right {
             left: calc(50% + 70px);
-            transform: translate(-50%, -50%);
-            -webkit-transform: translate(-50%, -50%);
-            -o-transform: translate(-50%, -50%);
-            -moz-transform: translate(-50%, -50%); }
+            transform: translate(-50%, 0%);
+            -webkit-transform: translate(-50%, 0%);
+            -o-transform: translate(-50%, 0%);
+            -moz-transform: translate(-50%, 0%); }
           .What-Clients-Say .Clients-Say-Container .Context .Clients-Image img.left {
             left: calc(50% - 70px);
-            transform: translate(-50%, -50%);
-            -webkit-transform: translate(-50%, -50%);
-            -o-transform: translate(-50%, -50%);
-            -moz-transform: translate(-50%, -50%); }
+            transform: translate(-50%, 0%);
+            -webkit-transform: translate(-50%, 0%);
+            -o-transform: translate(-50%, 0%);
+            -moz-transform: translate(-50%, 0%); }
           .What-Clients-Say .Clients-Say-Container .Context .Clients-Image img.center {
             z-index: 2;
             border: 3px solid #643fe6;
-            transform: translate(-50%, -50%) scale(1.4);
-            -webkit-transform: translate(-50%, -50%) scale(1.4);
-            -o-transform: translate(-50%, -50%) scale(1.4);
-            -moz-transform: translate(-50%, -50%) scale(1.4); }
+            transform: translate(-50%, 0%) scale(1.4);
+            -webkit-transform: translate(-50%, 0%) scale(1.4);
+            -o-transform: translate(-50%, 0%) scale(1.4);
+            -moz-transform: translate(-50%, 0%) scale(1.4); }
       .What-Clients-Say .Clients-Say-Container .Context .Middle-Text {
         position: relative; }
         .What-Clients-Say .Clients-Say-Container .Context .Middle-Text::before, .What-Clients-Say .Clients-Say-Container .Context .Middle-Text::after {
