@@ -1754,10 +1754,95 @@
       background-color: #ffffff;
       position: relative;
       box-shadow: 1px 1px 3px 1px #afafaf; }
-      @media (min-width: 600px) {
+      .What-Clients-Say .Clients-Say-Container .Context .Clients-Image {
+        position: relative;
+        height: 70px; }
+        .What-Clients-Say .Clients-Say-Container .Context .Clients-Image img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50px;
+          object-fit: cover;
+          object-position: center;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          -webkit-transform: translate(-50%, -50%);
+          -o-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+          transition: all 0.3s linear;
+          -webkit-transition: all 0.3s linear;
+          -o-transition: all 0.3s linear;
+          -moz-transition: all 0.3s linear;
+          left: 50%;
+          cursor: pointer; }
+          .What-Clients-Say .Clients-Say-Container .Context .Clients-Image img.left, .What-Clients-Say .Clients-Say-Container .Context .Clients-Image img.right {
+            opacity: .6;
+            z-index: 1; }
+          .What-Clients-Say .Clients-Say-Container .Context .Clients-Image img.right {
+            left: calc(50% + 70px);
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%); }
+          .What-Clients-Say .Clients-Say-Container .Context .Clients-Image img.left {
+            left: calc(50% - 70px);
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%); }
+          .What-Clients-Say .Clients-Say-Container .Context .Clients-Image img.center {
+            z-index: 2;
+            border: 3px solid #643fe6;
+            transform: translate(-50%, -50%) scale(1.4);
+            -webkit-transform: translate(-50%, -50%) scale(1.4);
+            -o-transform: translate(-50%, -50%) scale(1.4);
+            -moz-transform: translate(-50%, -50%) scale(1.4); }
+      .What-Clients-Say .Clients-Say-Container .Context .Middle-Text {
+        position: relative; }
+        .What-Clients-Say .Clients-Say-Container .Context .Middle-Text::before, .What-Clients-Say .Clients-Say-Container .Context .Middle-Text::after {
+          content: "";
+          width: 20px;
+          height: 20px;
+          display: block;
+          position: absolute;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-color: #ffffff;
+          transform: translate(-50%, -50%);
+          -webkit-transform: translate(-50%, -50%);
+          -o-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%); }
+        .What-Clients-Say .Clients-Say-Container .Context .Middle-Text::before {
+          top: 5px;
+          background-image: url(../images/Clients/Open_Comma.png); }
+          @media screen and (min-width: 768px) {
+            .What-Clients-Say .Clients-Say-Container .Context .Middle-Text::before {
+              left: 6%; } }
+          @media screen and (max-width: 767px) {
+            .What-Clients-Say .Clients-Say-Container .Context .Middle-Text::before {
+              left: -16px; } }
+        .What-Clients-Say .Clients-Say-Container .Context .Middle-Text::after {
+          top: 5px;
+          background-image: url(../images/Clients/Close_Comma.png); }
+          @media screen and (min-width: 768px) {
+            .What-Clients-Say .Clients-Say-Container .Context .Middle-Text::after {
+              right: 9%; } }
+          @media screen and (max-width: 768px) {
+            .What-Clients-Say .Clients-Say-Container .Context .Middle-Text::after {
+              right: -36px; } }
         .What-Clients-Say .Clients-Say-Container .Context .Middle-Text p {
-          width: 50%;
-          margin: 0 auto; } }
+          margin: 0 auto 1rem auto; }
+          @media screen and (max-width: 767px) {
+            .What-Clients-Say .Clients-Say-Container .Context .Middle-Text p {
+              width: 100%; } }
+          @media screen and (min-width: 768px) {
+            .What-Clients-Say .Clients-Say-Container .Context .Middle-Text p {
+              width: 60%; } }
+        .What-Clients-Say .Clients-Say-Container .Context .Middle-Text .client-name {
+          font-size: 1.15em;
+          font-family: "HeptaSlab-Regular";
+          color: #231a6b;
+          text-align: center; }
 
 body {
   margin: 0 auto;

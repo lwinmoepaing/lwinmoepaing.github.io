@@ -1,0 +1,1481 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 -20 341.32 621.33">
+<defs>
+    <style>
+    .my-face-cls-1 {
+        fill: #c3d1be;
+    }
+
+    .my-face-cls-2 {
+        fill: #070634;
+    }
+
+    .my-face-cls-3 {
+        fill: #110b5b;
+    }
+
+    .my-face-cls-4 {
+        fill: #0b0633;
+    }
+
+    .my-face-cls-5 {
+        fill: #b4beb6;
+    }
+
+    .my-face-cls-6 {
+        fill: #bcc6be;
+    }
+
+    .my-face-cls-7 {
+        fill: #d9dcd9;
+    }
+
+    .my-face-cls-8 {
+        fill: #d4dcd5;
+    }
+
+    .my-face-cls-9 {
+        fill: #8f9991;
+    }
+
+    .my-face-cls-10 {
+        fill: #000404;
+    }
+
+    .my-face-cls-11 {
+        fill: #131727;
+    }
+
+    .my-face-cls-12 {
+        fill: #00020a;
+    }
+
+    .my-face-cls-13 {
+        fill: #050933;
+    }
+
+    .my-face-cls-14 {
+        fill: #020617;
+    }
+
+    .my-face-cls-15 {
+        fill: #000003;
+    }
+
+    .my-face-cls-16 {
+        fill: #031113;
+    }
+
+    .my-face-cls-17 {
+        fill: #060823;
+    }
+
+    .my-face-cls-18 {
+        fill: #121635;
+    }
+
+    .my-face-cls-169, .my-face-cls-19, .my-face-cls-20 {
+        fill: #fff;
+    }
+
+    .my-face-cls-19, .my-face-cls-20, .my-face-cls-67 {
+        stroke: #8c8c8c;
+    }
+
+    .my-face-cls-137, .my-face-cls-169, .my-face-cls-188, .my-face-cls-19 {
+        stroke-miterlimit: 10;
+    }
+
+    .my-face-cls-20, .my-face-cls-67 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .my-face-cls-169, .my-face-cls-20 {
+        stroke-width: 2px;
+    }
+
+    .my-face-cls-21 {
+        fill: url(#my-face-linear-gradient);
+    }
+
+    .my-face-cls-22 {
+        fill: #05061c;
+    }
+
+    .my-face-cls-23 {
+        fill: #05082e;
+    }
+
+    .my-face-cls-24 {
+        fill: #09093e;
+    }
+
+    .my-face-cls-25 {
+        fill: #0d144d;
+    }
+
+    .my-face-cls-26 {
+        fill: url(#my-face-linear-gradient-2);
+    }
+
+    .my-face-cls-27 {
+        fill: url(#my-face-linear-gradient-3);
+    }
+
+    .my-face-cls-28 {
+        fill: url(#my-face-linear-gradient-4);
+    }
+
+    .my-face-cls-29 {
+        fill: #3f4a74;
+    }
+
+    .my-face-cls-30 {
+        fill: url(#my-face-linear-gradient-5);
+    }
+
+    .my-face-cls-31 {
+        fill: #212745;
+    }
+
+    .my-face-cls-32 {
+        fill: url(#my-face-linear-gradient-6);
+    }
+
+    .my-face-cls-33 {
+        fill: #090723;
+    }
+
+    .my-face-cls-34 {
+        fill: #2e375f;
+    }
+
+    .my-face-cls-35 {
+        fill: #060622;
+    }
+
+    .my-face-cls-36 {
+        fill: #1c2458;
+    }
+
+    .my-face-cls-37 {
+        fill: url(#my-face-linear-gradient-7);
+    }
+
+    .my-face-cls-38 {
+        fill: url(#my-face-linear-gradient-8);
+    }
+
+    .my-face-cls-39 {
+        fill: #08092f;
+    }
+
+    .my-face-cls-40 {
+        fill: url(#my-face-linear-gradient-9);
+    }
+
+    .my-face-cls-41 {
+        fill: url(#my-face-linear-gradient-10);
+    }
+
+    .my-face-cls-42 {
+        fill: url(#my-face-linear-gradient-11);
+    }
+
+    .my-face-cls-43 {
+        fill: #02080d;
+    }
+
+    .my-face-cls-44 {
+        fill: #08072c;
+    }
+
+    .my-face-cls-45 {
+        fill: url(#my-face-linear-gradient-12);
+    }
+
+    .my-face-cls-46 {
+        fill: #101445;
+    }
+
+    .my-face-cls-47 {
+        fill: #23275f;
+    }
+
+    .my-face-cls-48 {
+        fill: #090844;
+    }
+
+    .my-face-cls-49 {
+        fill: url(#my-face-linear-gradient-13);
+    }
+
+    .my-face-cls-50 {
+        fill: url(#my-face-linear-gradient-14);
+    }
+
+    .my-face-cls-51 {
+        fill: url(#my-face-linear-gradient-15);
+    }
+
+    .my-face-cls-52 {
+        fill: url(#my-face-linear-gradient-16);
+    }
+
+    .my-face-cls-53 {
+        fill: url(#my-face-linear-gradient-17);
+    }
+
+    .my-face-cls-54 {
+        fill: url(#my-face-linear-gradient-18);
+    }
+
+    .my-face-cls-55 {
+        fill: url(#my-face-linear-gradient-19);
+    }
+
+    .my-face-cls-56 {
+        fill: url(#my-face-linear-gradient-20);
+    }
+
+    .my-face-cls-57 {
+        fill: url(#my-face-linear-gradient-21);
+    }
+
+    .my-face-cls-58 {
+        fill: url(#my-face-linear-gradient-22);
+    }
+
+    .my-face-cls-59 {
+        fill: #1b223f;
+    }
+
+    .my-face-cls-60 {
+        fill: #020406;
+    }
+
+    .my-face-cls-61 {
+        fill: url(#my-face-linear-gradient-23);
+    }
+
+    .my-face-cls-62 {
+        fill: #454b62;
+    }
+
+    .my-face-cls-63 {
+        fill: #1c235a;
+    }
+
+    .my-face-cls-64 {
+        fill: url(#my-face-linear-gradient-24);
+    }
+
+    .my-face-cls-65 {
+        fill: url(#my-face-linear-gradient-25);
+    }
+
+    .my-face-cls-66 {
+        fill: url(#my-face-linear-gradient-26);
+    }
+
+    .my-face-cls-67 {
+        fill: #b8ffd5;
+    }
+
+    .my-face-cls-68 {
+        fill: #454b4f;
+    }
+
+    .my-face-cls-69 {
+        fill: #adc8ac;
+    }
+
+    .my-face-cls-70 {
+        fill: #eaebe6;
+    }
+
+    .my-face-cls-71 {
+        fill: #d3dccd;
+    }
+
+    .my-face-cls-72 {
+        fill: #8d9997;
+    }
+
+    .my-face-cls-73 {
+        fill: #9aa28f;
+    }
+
+    .my-face-cls-74 {
+        fill: #42494b;
+    }
+
+    .my-face-cls-75 {
+        fill: #454344;
+    }
+
+    .my-face-cls-76 {
+        fill: #c9d5c3;
+    }
+
+    .my-face-cls-77 {
+        fill: #83948c;
+    }
+
+    .my-face-cls-78 {
+        fill: #465156;
+    }
+
+    .my-face-cls-79 {
+        fill: #535f5b;
+    }
+
+    .my-face-cls-80 {
+        fill: #292c44;
+    }
+
+    .my-face-cls-81 {
+        fill: #21244a;
+    }
+
+    .my-face-cls-82 {
+        fill: #464e59;
+    }
+
+    .my-face-cls-83 {
+        fill: #93b094;
+    }
+
+    .my-face-cls-84 {
+        fill: #2f3646;
+    }
+
+    .my-face-cls-85 {
+        fill: #d1d7cc;
+    }
+
+    .my-face-cls-86 {
+        fill: #b9c7a7;
+    }
+
+    .my-face-cls-87 {
+        fill: #65748c;
+    }
+
+    .my-face-cls-88 {
+        fill: #555b62;
+    }
+
+    .my-face-cls-89 {
+        fill: #718d6d;
+    }
+
+    .my-face-cls-90 {
+        fill: #b7c2ba;
+    }
+
+    .my-face-cls-91 {
+        fill: #9ca783;
+    }
+
+    .my-face-cls-92 {
+        fill: #202349;
+    }
+
+    .my-face-cls-93 {
+        fill: #5a7163;
+    }
+
+    .my-face-cls-94 {
+        fill: #b2beac;
+    }
+
+    .my-face-cls-95 {
+        fill: #3b4151;
+    }
+
+    .my-face-cls-96 {
+        fill: #97af90;
+    }
+
+    .my-face-cls-97 {
+        fill: #181b41;
+    }
+
+    .my-face-cls-98 {
+        fill: #485054;
+    }
+
+    .my-face-cls-99 {
+        fill: #9ca8a4;
+    }
+
+    .my-face-cls-100 {
+        fill: #bdcabf;
+    }
+
+    .my-face-cls-101 {
+        fill: #7a927c;
+    }
+
+    .my-face-cls-102 {
+        fill: #484f5a;
+    }
+
+    .my-face-cls-103 {
+        fill: #030530;
+    }
+
+    .my-face-cls-104 {
+        fill: #929d92;
+    }
+
+    .my-face-cls-105 {
+        fill: #c8d1c7;
+    }
+
+    .my-face-cls-106 {
+        fill: #d2d6ce;
+    }
+
+    .my-face-cls-107 {
+        fill: #c2cab3;
+    }
+
+    .my-face-cls-108 {
+        fill: #758b82;
+    }
+
+    .my-face-cls-109 {
+        fill: #617683;
+    }
+
+    .my-face-cls-110 {
+        fill: #3a4554;
+    }
+
+    .my-face-cls-111 {
+        fill: #c7d1c0;
+    }
+
+    .my-face-cls-112 {
+        fill: #3c4257;
+    }
+
+    .my-face-cls-113 {
+        fill: #596168;
+    }
+
+    .my-face-cls-114 {
+        fill: #587164;
+    }
+
+    .my-face-cls-115 {
+        fill: #9ea5a3;
+    }
+
+    .my-face-cls-116 {
+        fill: #101336;
+    }
+
+    .my-face-cls-117 {
+        fill: #07051e;
+    }
+
+    .my-face-cls-118 {
+        fill: #191a4a;
+    }
+
+    .my-face-cls-119 {
+        fill: #060729;
+    }
+
+    .my-face-cls-120 {
+        fill: #252b4e;
+    }
+
+    .my-face-cls-121 {
+        fill: #5d6a61;
+    }
+
+    .my-face-cls-122 {
+        fill: #596264;
+    }
+
+    .my-face-cls-123 {
+        fill: #b6c3af;
+    }
+
+    .my-face-cls-124 {
+        fill: #333d49;
+    }
+
+    .my-face-cls-125 {
+        fill: #333c4c;
+    }
+
+    .my-face-cls-126 {
+        fill: #54625d;
+    }
+
+    .my-face-cls-127 {
+        fill: #4d5462;
+    }
+
+    .my-face-cls-128 {
+        fill: #64748e;
+    }
+
+    .my-face-cls-129 {
+        fill: #395b76;
+    }
+
+    .my-face-cls-130 {
+        fill: #343945;
+    }
+
+    .my-face-cls-131 {
+        fill: #a4aa88;
+    }
+
+    .my-face-cls-132 {
+        fill: #070928;
+    }
+
+    .my-face-cls-133 {
+        fill: #191e38;
+    }
+
+    .my-face-cls-134 {
+        fill: #2f3e60;
+    }
+
+    .my-face-cls-135 {
+        fill: #101740;
+    }
+
+    .my-face-cls-136 {
+        fill: #303a89;
+    }
+
+    .my-face-cls-137 {
+        fill: #ec3221;
+        stroke: #fff8f8;
+    }
+
+    .my-face-cls-138 {
+        fill: #2c2a38;
+    }
+
+    .my-face-cls-139 {
+        fill: #c0bea3;
+    }
+
+    .my-face-cls-140 {
+        fill: #504b44;
+    }
+
+    .my-face-cls-141 {
+        fill: #08061d;
+    }
+
+    .my-face-cls-142 {
+        fill: #4c5055;
+    }
+
+    .my-face-cls-143 {
+        fill: #1a1c49;
+    }
+
+    .my-face-cls-144 {
+        fill: #030816;
+    }
+
+    .my-face-cls-145 {
+        fill: #221f5b;
+    }
+
+    .my-face-cls-146 {
+        fill: #a3aeb3;
+    }
+
+    .my-face-cls-147 {
+        fill: #a2ba94;
+    }
+
+    .my-face-cls-148 {
+        fill: #758970;
+    }
+
+    .my-face-cls-149 {
+        fill: #e8e9e2;
+    }
+
+    .my-face-cls-150 {
+        fill: #464d4b;
+    }
+
+    .my-face-cls-151 {
+        fill: #555b60;
+    }
+
+    .my-face-cls-152 {
+        fill: #3b4148;
+    }
+
+    .my-face-cls-153 {
+        fill: #a4afb4;
+    }
+
+    .my-face-cls-154 {
+        fill: #4d5252;
+    }
+
+    .my-face-cls-155 {
+        fill: #d6d6c6;
+    }
+
+    .my-face-cls-156 {
+        fill: #060531;
+    }
+
+    .my-face-cls-157 {
+        fill: #03062c;
+    }
+
+    .my-face-cls-158 {
+        fill: #0b0c40;
+    }
+
+    .my-face-cls-159 {
+        fill: #08092b;
+    }
+
+    .my-face-cls-160 {
+        fill: #000d11;
+    }
+
+    .my-face-cls-161 {
+        fill: #7482ab;
+    }
+
+    .my-face-cls-162 {
+        fill: #5a6b85;
+    }
+
+    .my-face-cls-163 {
+        fill: #081016;
+    }
+
+    .my-face-cls-164 {
+        fill: #141925;
+    }
+
+    .my-face-cls-165 {
+        fill: #00051e;
+    }
+
+    .my-face-cls-166 {
+        fill: #282f4a;
+    }
+
+    .my-face-cls-167 {
+        fill: #222a92;
+    }
+
+    .my-face-cls-168 {
+        fill: #545452;
+    }
+
+    .my-face-cls-169 {
+        stroke: #000;
+    }
+
+    .my-face-cls-170 {
+        fill: #b6c5ae;
+    }
+
+    .my-face-cls-171 {
+        fill: #cdd5cc;
+    }
+
+    .my-face-cls-172 {
+        fill: #acbcac;
+    }
+
+    .my-face-cls-173 {
+        fill: #7f978f;
+    }
+
+    .my-face-cls-174 {
+        fill: #718480;
+    }
+
+    .my-face-cls-175 {
+        fill: #697b7a;
+    }
+
+    .my-face-cls-176 {
+        fill: #59686e;
+    }
+
+    .my-face-cls-177 {
+        fill: #3f4a56;
+    }
+
+    .my-face-cls-178 {
+        fill: #323c52;
+    }
+
+    .my-face-cls-179 {
+        fill: #212841;
+    }
+
+    .my-face-cls-180 {
+        fill: #405255;
+    }
+
+    .my-face-cls-181 {
+        fill: #2e354c;
+    }
+
+    .my-face-cls-182 {
+        fill: #353b4c;
+    }
+
+    .my-face-cls-183 {
+        fill: #3f4354;
+    }
+
+    .my-face-cls-184 {
+        fill: #4d5a5a;
+    }
+
+    .my-face-cls-185 {
+        fill: #55675f;
+    }
+
+    .my-face-cls-186 {
+        fill: #63756d;
+    }
+
+    .my-face-cls-187 {
+        fill: #839682;
+    }
+
+    .my-face-cls-188 {
+        fill: none;
+        stroke: #898989;
+    }
+
+    .my-face-cls-189 {
+        fill: #dae0d9;
+    }
+
+    .my-face-cls-190 {
+        fill: #ebedec;
+    }
+
+    .my-face-cls-191 {
+        fill: #e1e1df;
+    }
+
+    .my-face-cls-192 {
+        fill: #dcddd8;
+    }
+
+    .my-face-cls-193 {
+        fill: #daddda;
+    }
+
+    .my-face-cls-194 {
+        fill: #e0e3e0;
+    }
+
+    .my-face-cls-195 {
+        fill: #cdd2ce;
+    }
+
+    .my-face-cls-196 {
+        fill: #c4d0be;
+    }
+
+    .my-face-cls-197 {
+        fill: #d0d3d0;
+    }
+
+    .my-face-cls-198 {
+        fill: #8ea393;
+    }
+
+    .my-face-cls-199 {
+        fill: #9eb19d;
+    }
+
+    .my-face-cls-200 {
+        fill: #aec1a2;
+    }
+
+    .my-face-cls-201 {
+        fill: #ced4cc;
+    }
+
+    .my-face-cls-202 {
+        fill: #abb89d;
+    }
+
+    .my-face-cls-203 {
+        fill: #6a856c;
+    }
+
+    .my-face-cls-204 {
+        fill: #607468;
+    }
+
+    .my-face-cls-205 {
+        fill: #485454;
+    }
+
+    .my-face-cls-206 {
+        fill: #92a593;
+    }
+
+    .my-face-cls-207 {
+        fill: #4b585d;
+    }
+
+    .my-face-cls-208 {
+        fill: #717874;
+    }
+
+    .my-face-cls-209 {
+        fill: #708373;
+    }
+
+    .my-face-cls-210 {
+        fill: #ccd4c1;
+    }
+
+    .my-face-cls-211 {
+        fill: #d2d7d5;
+    }
+
+    .my-face-cls-212 {
+        fill: #c5d1c4;
+    }
+
+    .my-face-cls-213 {
+        fill: #d6dfd5;
+    }
+
+    .my-face-cls-214 {
+        fill: #9eab90;
+    }
+
+    .my-face-cls-215 {
+        fill: #becabb;
+    }
+
+    .my-face-cls-216 {
+        fill: #d1dbcc;
+    }
+
+    .my-face-cls-217 {
+        fill: #dfe2dd;
+    }
+
+    .my-face-cls-218 {
+        fill: #3c4345;
+    }
+
+    .my-face-cls-219 {
+        fill: #414344;
+    }
+
+    .my-face-cls-220 {
+        fill: #6b7c82;
+    }
+    </style>
+    <linearGradient id="my-face-linear-gradient" x1="77.94" y1="114.22" x2="100.67" y2="114.22" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000032"/>
+    <stop offset="1" stop-color="#434343"/>
+    </linearGradient>
+    <linearGradient id="my-face-linear-gradient-2" x1="47.07" y1="182.31" x2="88.69" y2="182.31" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-3" x1="50.41" y1="158.82" x2="110.19" y2="158.82" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-4" x1="48.1" y1="123.43" x2="77.94" y2="123.43" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-5" x1="53.75" y1="167.72" x2="101.56" y2="167.72" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-6" x1="118.25" y1="100.78" x2="150.5" y2="100.78" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-7" x1="8.06" y1="130.35" x2="32.25" y2="130.35" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-8" x1="53.75" y1="28.22" x2="88.69" y2="28.22" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-9" x1="309.07" y1="154.53" x2="341.32" y2="154.53" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-10" x1="317.13" y1="178.72" x2="338.63" y2="178.72" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-11" x1="169.14" y1="247.77" x2="177.63" y2="247.77" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-12" x1="59.66" y1="232.21" x2="69.34" y2="232.21" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-13" x1="13.44" y1="178.72" x2="53.75" y2="178.72" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-14" x1="34.94" y1="65.65" x2="48.1" y2="65.65" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-15" x1="32.25" y1="154.53" x2="53.75" y2="154.53" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-16" x1="32.25" y1="139.75" x2="53.75" y2="139.75" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-17" x1="53.75" y1="90.03" x2="91.38" y2="90.03" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-18" x1="53.75" y1="43" x2="91.38" y2="43" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-19" x1="53.75" y1="357.98" x2="69.34" y2="357.98" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-20" x1="26.88" y1="208.29" x2="53.75" y2="208.29" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-21" x1="18.81" y1="231.13" x2="37.63" y2="231.13" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-22" x1="47.38" y1="280.58" x2="59.66" y2="280.58" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-23" x1="258.01" y1="53.75" x2="295.63" y2="53.75" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-24" x1="88.69" y1="33.59" x2="120.94" y2="33.59" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-25" x1="35.44" y1="294.2" x2="59.66" y2="294.2" xlink:href="#my-face-linear-gradient"/>
+    <linearGradient id="my-face-linear-gradient-26" x1="16.13" y1="265.17" x2="59.66" y2="265.17" xlink:href="#my-face-linear-gradient"/>
+</defs>
+<title>Lwin Moe Paing</title>
+<g id="Neck">
+    <polygon class="my-face-cls-1" points="226.86 425.93 226.86 434.43 223.31 447.86 226.25 470.89 240.82 477.79 207.93 503.41 119.39 521.52 106.24 544.18 85.39 527.06 83.57 489.62 95.41 461.65 98.65 433.82 126.47 455.5 151.57 461.04 175.25 463.01 197.11 457.47 219.57 434.06 226.86 425.93"/>
+    <path class="my-face-cls-1" d="M387.93,474" transform="translate(-150.75 -16.64)"/>
+    <polygon class="my-face-cls-2" points="207.93 503.41 200.24 489.74 222.1 491.34 207.93 503.41"/>
+    <polygon class="my-face-cls-3" points="200.24 489.74 210.87 481.36 222.1 491.34 200.24 489.74"/>
+    <polygon class="my-face-cls-4" points="210.87 481.36 225.03 470.28 240.82 477.79 222.2 491.96 210.87 481.36"/>
+    <polygon class="my-face-cls-5" points="225.94 469.29 204.49 473.11 200.24 489.74 225.94 469.29"/>
+    <polygon class="my-face-cls-6" points="204.49 473.11 203.18 451.8 196.4 457.84 181.62 461.65 180.91 461.65 190.22 476.93 204.49 473.11"/>
+    <polygon class="my-face-cls-7" points="225.94 469.29 223.31 447.86 226.86 434.43 226.86 425.93 202.67 451.43 204.49 473.11 225.94 469.29"/>
+    <polygon class="my-face-cls-8" points="190.22 476.93 189.62 489.86 200.24 489.74 204.49 473.11 190.22 476.93"/>
+    <polygon class="my-face-cls-9" points="207.63 502.8 200.24 489.74 189.62 489.86 184.15 489.25 182.13 496.39 207.63 502.8"/>
+    <polygon class="my-face-cls-10" points="207.63 502.8 182.13 496.39 174.74 503.54 175.35 510.19 207.02 503.54 207.63 502.8"/>
+    <polygon class="my-face-cls-11" points="168.57 462.27 159.87 474.83 156.02 485.43 145.9 476.07 135.78 469.42 148.53 461.29 155.62 461.78 168.57 462.27"/>
+    <path class="my-face-cls-12" d="M300.1,477.43c.61,0-13.56,8.62-13.56,8.62l-7.49-5.17-2.63-7.39.81-1.35Z" transform="translate(-150.75 -16.64)"/>
+    <polygon class="my-face-cls-13" points="120.61 491.1 111.09 491.83 114.94 502.18 124.05 508.09 124.25 497.75 120.61 491.1"/>
+    <polygon class="my-face-cls-14" points="111.09 491.83 101.18 509.57 114.94 502.18 111.09 491.83"/>
+    <polygon class="my-face-cls-15" points="101.18 509.57 113.52 518.93 121.01 506.12 114.94 502.18 101.18 509.57"/>
+    <polygon class="my-face-cls-16" points="111.09 491.83 99.15 491.1 101.18 509.57 111.09 491.83"/>
+    <polygon class="my-face-cls-17" points="111.09 491.83 101.38 462.27 97.94 441.33 95.41 461.65 99.15 491.1 111.09 491.83"/>
+    <polygon class="my-face-cls-18" points="121.01 463.5 125.87 485.92 120.61 491.1 111.09 491.83 114.33 480.99 121.01 463.5"/>
+    <polygon class="my-face-cls-5" points="121.01 463.5 122.02 460.55 111.3 462.76 106.44 476.31 111.09 491.83 121.01 463.5"/>
+    <polygon class="my-face-cls-6" points="122.02 460.55 126.47 455.5 110.49 443.06 111.3 462.76 122.02 460.55"/>
+    <polygon class="my-face-cls-7" points="112.57 442.43 102.07 429.18 97.94 441.33 101.38 462.27 106.44 476.31 111.3 462.76 112.57 442.43"/>
+</g>
+<g id="Hair">
+    <g>
+    <polygon class="my-face-cls-19" points="306.38 282.19 305.61 281.31 304.9 282.97 306.38 282.19"/>
+    <polygon class="my-face-cls-20" points="106.84 156 107.5 155.88 107.42 155.42 106.84 156"/>
+    <polygon class="my-face-cls-20" points="107.42 155.42 107.5 155.88 107.44 155.4 107.42 155.42"/>
+    <polygon class="my-face-cls-20" points="107.5 155.88 107.61 155.23 107.44 155.4 107.5 155.88"/>
+    <polygon class="my-face-cls-21" points="91.38 67.19 77.94 161.25 100.67 118.31 91.38 67.19"/>
+    <polygon class="my-face-cls-22" points="284.88 258.01 284.88 255.32 284.42 256.98 305.61 281.31 306.38 279.51 311.76 231.13 262.84 232.21 284.88 258.01"/>
+    <polygon class="my-face-cls-23" points="102.81 112.88 77.94 161.19 109.56 155.28 110.19 154.63 102.81 112.88"/>
+    <polygon class="my-face-cls-24" points="262.84 212.85 262.84 232.21 311.76 231.13 253.17 183.83 262.84 212.85"/>
+    <polygon class="my-face-cls-25" points="311.76 231.13 301.01 204.25 253.17 183.83 311.76 231.13"/>
+    <polygon class="my-face-cls-26" points="47.07 200.69 88.69 174.15 53.75 163.94 47.07 200.69"/>
+    <polygon class="my-face-cls-23" points="45.69 202.64 68.22 213.39 77.89 194.04 87.56 174.69 45.95 201.22 45.69 202.64"/>
+    <polygon class="my-face-cls-27" points="50.41 164.44 104.24 161.45 110.19 153.19 77.94 161.25 50.41 164.44"/>
+    <polygon class="my-face-cls-28" points="48.1 82.92 53.75 163.94 77.94 161.25 48.1 82.92"/>
+    <polygon class="my-face-cls-29" points="46.43 204.22 59.66 251.56 69.34 212.85 46.81 202.1 46.43 204.22"/>
+    <polygon class="my-face-cls-30" points="88.69 174.15 101.56 161.28 53.75 163.94 88.69 174.15"/>
+    <polygon class="my-face-cls-29" points="118.25 91.38 142.04 154.8 142.69 154.8 150.5 120.94 118.25 91.38"/>
+    <polygon class="my-face-cls-31" points="142.69 154.8 171.34 154.8 150.5 120.94 142.69 154.8"/>
+    <polygon class="my-face-cls-32" points="139.75 80.63 118.25 91.38 150.5 120.94 139.75 80.63"/>
+    <polygon class="my-face-cls-33" points="172.3 154.8 195.12 154.8 196.19 155.88 180.07 126.31 172.3 154.8"/>
+    <polygon class="my-face-cls-33" points="150.5 120.94 171.34 154.8 172.3 154.8 180.07 126.31 150.5 120.94"/>
+    <polygon class="my-face-cls-31" points="180.07 126.31 169.32 88.69 150.5 120.94 180.07 126.31"/>
+    <polygon class="my-face-cls-34" points="169.32 88.69 139.75 80.63 150.5 120.94 169.32 88.69"/>
+    <polygon class="my-face-cls-35" points="204.25 107.5 174.69 56.44 180.07 126.31 204.25 107.5"/>
+    <polygon class="my-face-cls-34" points="174.69 56.44 120.94 40.31 169.32 88.69 180.07 126.31 174.69 56.44"/>
+    <polygon class="my-face-cls-34" points="107.61 155.23 108.04 154.8 117.72 154.8 142.04 154.8 118.25 91.38 107.61 155.23"/>
+    <polygon class="my-face-cls-34" points="180.07 126.31 196.19 155.88 204.25 107.5 180.07 126.31"/>
+    <polygon class="my-face-cls-36" points="13.44 80.63 8.06 115.56 32.25 115.56 13.44 80.63"/>
+    <polygon class="my-face-cls-37" points="8.06 115.56 32.25 145.13 32.25 115.56 8.06 115.56"/>
+    <polygon class="my-face-cls-23" points="0 145.13 32.25 161.25 32.25 145.13 0 145.13"/>
+    <polygon class="my-face-cls-38" points="72.56 21.5 53.75 18.81 88.69 37.63 72.56 21.5"/>
+    <polygon class="my-face-cls-29" points="109.11 0 96.75 26.88 134.38 21.5 109.11 0"/>
+    <polygon class="my-face-cls-39" points="263.38 352.07 282.19 335.94 272.52 299.93 263.38 352.07"/>
+    <polygon class="my-face-cls-40" points="325.19 153.19 341.32 139.75 309.07 147.82 319.82 169.32 338.63 161.25 325.19 153.19"/>
+    <polygon class="my-face-cls-41" points="338.63 182.75 319.82 169.32 317.13 188.13 338.63 182.75"/>
+    <path class="my-face-cls-42" d="M169.57,274.65l8.06-53.75S166.88,258.52,169.57,274.65Z" transform="translate(-150.75 -16.64)"/>
+    <polygon class="my-face-cls-43" points="282.19 335.94 304.9 282.97 272.52 299.93 282.19 335.94"/>
+    <polygon class="my-face-cls-20" points="206.94 43 193.5 21.5 217.69 64.5 206.94 43"/>
+    <polygon class="my-face-cls-44" points="301.01 204.25 317.13 188.13 319.82 169.32 309.07 147.82 301.01 204.25"/>
+    <polygon class="my-face-cls-45" points="69.34 232.21 69.34 212.85 59.66 251.56 69.34 232.21"/>
+    <polygon class="my-face-cls-46" points="253.17 183.83 301.01 204.25 309.07 147.82 253.17 183.83"/>
+    <polygon class="my-face-cls-35" points="244.57 18.81 258.01 40.31 271.44 32.25 244.57 18.81"/>
+    <polygon class="my-face-cls-22" points="283.54 255.96 262.84 232.21 272.52 261.23 283.54 255.96"/>
+    <polygon class="my-face-cls-47" points="309.07 147.82 309.07 137.07 317.13 126.31 301.01 129 290.26 137.07 204.79 164.48 309.07 147.82"/>
+    <polygon class="my-face-cls-48" points="233.82 174.15 253.17 183.83 309.07 147.82 204.79 164.48 233.82 174.15"/>
+    <polygon class="my-face-cls-36" points="35.92 306.51 53.75 352.07 59.66 309.61 35.92 306.51"/>
+    <polygon class="my-face-cls-49" points="32.25 161.25 13.44 196.19 53.75 163.94 32.25 161.25"/>
+    <polygon class="my-face-cls-50" points="45.69 48.38 34.94 48.38 48.1 82.92 45.69 48.38"/>
+    <polygon class="my-face-cls-31" points="34.94 48.38 29.56 77.94 32.25 115.56 53.75 163.94 34.94 48.38"/>
+    <polygon class="my-face-cls-51" points="32.25 145.13 32.25 161.25 53.75 163.94 32.25 145.13"/>
+    <polygon class="my-face-cls-52" points="32.25 115.56 32.25 145.13 53.75 163.94 32.25 115.56"/>
+    <polygon class="my-face-cls-34" points="48.1 82.92 34.94 48.38 53.75 163.94 48.1 82.92"/>
+    <polygon class="my-face-cls-29" points="77.94 161.25 72.5 126.32 59.13 40.31 45.69 48.38 48.1 82.92 77.94 161.25"/>
+    <polygon class="my-face-cls-53" points="72.5 126.32 77.94 161.25 91.38 67.19 53.75 18.81 77.94 80.63 72.5 126.32"/>
+    <polygon class="my-face-cls-54" points="88.69 37.63 53.75 18.81 91.38 67.19 88.69 37.63"/>
+    <polygon class="my-face-cls-31" points="77.94 80.63 53.75 18.81 59.13 40.31 72.5 126.32 77.94 80.63"/>
+    <path class="my-face-cls-23" d="M169.57,274.65c2.69,16.13,10.75,32.25,10.75,32.25l5.88,15,11.95-26.49Z" transform="translate(-150.75 -16.64)"/>
+    <polygon class="my-face-cls-23" points="13.44 196.19 8.06 241.88 26.88 204.25 53.75 163.94 13.44 196.19"/>
+    <polygon class="my-face-cls-23" points="204.25 107.5 196.19 155.88 231.13 115.56 204.25 107.5"/>
+    <polygon class="my-face-cls-55" points="69.34 348.31 53.75 352.07 69.34 367.66 69.34 357.98 69.34 348.31"/>
+    <polygon class="my-face-cls-22" points="283.54 255.96 272.52 261.23 272.52 299.93 284.42 256.98 283.54 255.96"/>
+    <polygon class="my-face-cls-31" points="100.67 118.31 102.13 115.56 107.44 155.4 107.61 155.23 118.25 91.38 88.69 37.63 91.38 67.19 100.67 118.31"/>
+    <polygon class="my-face-cls-56" points="45.69 201.57 47.07 200.69 53.75 163.94 26.88 204.25 37.63 252.63 45.69 201.57"/>
+    <polygon class="my-face-cls-57" points="26.88 204.25 18.81 258.01 37.63 252.63 26.88 204.25"/>
+    <polygon class="my-face-cls-29" points="45.69 198.7 32.23 251.92 16.13 258.01 61.81 252.63 45.69 198.7"/>
+    <polygon class="my-face-cls-58" points="48.38 279.51 59.66 309.61 59.66 280.58 59.66 251.56 47.38 278.79 48.38 279.51"/>
+    <polygon class="my-face-cls-59" points="272.52 299.93 304.9 282.97 305.61 281.31 284.42 256.98 272.52 299.93"/>
+    <polygon class="my-face-cls-35" points="258.01 40.31 239.19 37.63 260.69 64.5 258.01 40.31"/>
+    <polygon class="my-face-cls-60" points="290.26 137.07 295.63 75.25 260.69 64.5 290.26 137.07"/>
+    <polygon class="my-face-cls-61" points="295.63 75.25 271.44 32.25 258.01 40.31 260.69 64.5 295.63 75.25"/>
+    <polygon class="my-face-cls-31" points="260.69 64.5 239.19 37.63 231.13 56.44 231.13 115.56 260.69 64.5"/>
+    <polygon class="my-face-cls-35" points="231.13 56.44 217.69 64.5 231.13 115.56 231.13 56.44"/>
+    <polygon class="my-face-cls-31" points="231.13 115.56 217.69 64.5 204.25 107.5 231.13 115.56"/>
+    <polygon class="my-face-cls-62" points="231.13 115.56 196.19 155.88 225.75 134.38 231.13 115.56"/>
+    <polygon class="my-face-cls-63" points="263.38 112.88 204.79 164.48 290.26 137.07 260.69 64.5 263.38 112.88"/>
+    <polygon class="my-face-cls-35" points="196.19 155.88 204.79 164.48 225.75 134.38 196.19 155.88"/>
+    <polygon class="my-face-cls-29" points="260.69 64.5 231.13 115.56 225.75 134.38 204.79 164.48 263.38 112.88 260.69 64.5"/>
+    <polygon class="my-face-cls-34" points="174.69 56.44 134.38 21.5 96.75 26.88 120.94 40.31 174.69 56.44"/>
+    <polygon class="my-face-cls-29" points="169.32 88.69 120.94 40.31 88.69 37.63 139.75 80.63 169.32 88.69"/>
+    <polygon class="my-face-cls-23" points="155.88 26.88 134.38 21.5 174.69 56.44 155.88 26.88"/>
+    <polygon class="my-face-cls-62" points="182.04 42.8 155.88 26.88 174.69 56.44 182.04 42.8"/>
+    <polygon class="my-face-cls-64" points="96.75 26.88 88.69 37.63 120.94 40.31 96.75 26.88"/>
+    <polygon class="my-face-cls-29" points="174.69 56.44 204.25 107.5 217.69 64.5 182.04 42.8 174.69 56.44"/>
+    <polygon class="my-face-cls-23" points="139.75 80.63 88.69 37.63 118.25 91.38 139.75 80.63"/>
+    <polygon class="my-face-cls-34" points="193.5 21.5 149.97 0 155.88 26.88 182.04 42.8 193.5 21.5"/>
+    <polygon class="my-face-cls-23" points="217.69 64.5 193.5 21.5 182.04 42.8 217.69 64.5"/>
+    <path class="my-face-cls-20" d="M210.42,326.25l9.68,38.7S210.42,324.1,210.42,326.25Z" transform="translate(-150.75 -16.64)"/>
+    <polygon class="my-face-cls-23" points="59.66 309.61 53.75 352.07 69.34 348.31 59.66 309.61"/>
+    <polygon class="my-face-cls-20" points="34.94 306.38 35.92 306.51 35.44 305.27 34.94 306.38"/>
+    <polygon class="my-face-cls-65" points="48.38 279.51 47.38 278.79 35.44 305.27 35.92 306.51 59.66 309.61 48.38 279.51"/>
+    <polygon class="my-face-cls-66" points="59.66 251.56 16.13 258.01 47.38 278.79 59.66 251.56"/>
+    </g>
+</g>
+<g id="Face_SKin" data-name="Face SKin">
+    <g>
+    <polygon class="my-face-cls-67" points="153.19 252.63 142.44 255.32 143.78 256.66 153.19 252.63"/>
+    <polygon class="my-face-cls-68" points="142.44 255.32 120.94 249.94 131.69 266.07 142.44 255.32"/>
+    <polygon class="my-face-cls-69" points="153.19 266.07 143.78 256.66 142.44 255.32 141.25 266.07 153.19 266.07"/>
+    <polygon class="my-face-cls-70" points="141.25 266.07 142.44 255.32 131.69 266.07 141.25 266.07"/>
+    <polygon class="my-face-cls-71" points="107.5 263.38 96.75 249.94 86.54 270.37 86.69 271.19 107.5 263.38"/>
+    <polygon class="my-face-cls-72" points="115.56 284.88 88.69 282.19 99.23 291.42 115.56 284.88"/>
+    <polygon class="my-face-cls-73" points="86.9 272.34 88.69 282.19 91.38 276.82 86.9 272.34"/>
+    <polygon class="my-face-cls-74" points="107.5 263.38 86.69 271.19 86.9 272.34 91.38 276.82 107.5 263.38"/>
+    <polygon class="my-face-cls-75" points="123.63 284.88 139.75 279.51 131.69 266.07 120.94 249.94 107.5 263.38 91.38 276.82 88.69 282.19 115.56 284.88 123.63 284.88"/>
+    <polygon class="my-face-cls-72" points="201.53 372.38 200.32 363.5 172 378.95 201.53 372.38"/>
+    <polygon class="my-face-cls-76" points="147.82 430.01 153.19 408.51 166.63 411.2 142.44 405.82 147.82 430.01"/>
+    <polygon class="my-face-cls-67" points="175.13 262.51 158.57 244.57 174.69 263.38 175.13 262.51"/>
+    <polygon class="my-face-cls-70" points="110.19 323.64 110.19 344.01 139.75 325.19 110.19 323.64"/>
+    <polygon class="my-face-cls-70" points="115.79 363.06 123.63 389.7 137.07 349.38 115.79 363.06"/>
+    <polygon class="my-face-cls-77" points="166.63 352.07 166.63 384.32 153.19 378.95 123.63 389.7 132.36 415.9 142.44 405.82 166.63 411.2 190.82 405.82 204.25 392.38 172 378.95 166.63 352.07"/>
+    <polygon class="my-face-cls-78" points="233.82 311.76 190.82 279.51 204.25 309.07 233.82 311.76"/>
+    <polygon class="my-face-cls-67" points="190.82 279.51 175.5 262.92 174.69 263.38 190.82 279.51"/>
+    <polygon class="my-face-cls-70" points="177.38 303.69 174.69 276.82 172 268.76 174.69 263.38 161.7 263.38 163.94 276.82 158.57 298.32 150.5 317.13 139.75 325.19 110.19 344.01 110.3 344.36 137.07 349.38 147.61 368.71 166.63 352.07 200.13 362.12 196.19 333.26 204.25 309.07 177.38 303.69"/>
+    <polygon class="my-face-cls-79" points="196.19 333.26 219.88 319.72 204.25 309.07 196.19 333.26"/>
+    <polygon class="my-face-cls-70" points="99.23 291.42 88.69 282.19 88.69 295.63 99.23 291.42"/>
+    <polygon class="my-face-cls-80" points="166.63 411.2 185.44 424.63 172.51 426.48 180.07 446.13 187.05 419.95 166.63 411.2"/>
+    <polygon class="my-face-cls-70" points="100.29 373.02 99.44 373.57 99.77 372.66 98.86 372 102.39 394.6 123.63 389.7 100.29 373.02"/>
+    <polygon class="my-face-cls-70" points="118.34 307.68 110.19 311.76 110.19 323.64 139.75 325.19 118.34 307.68"/>
+    <polygon class="my-face-cls-76" points="132.97 417.72 139.75 438.07 147.25 430.57 132.97 417.72"/>
+    <polygon class="my-face-cls-81" points="215.2 417.4 215.88 418.96 222.38 418.1 221.45 394.84 217.63 394.3 215.2 417.4"/>
+    <polygon class="my-face-cls-82" points="241.88 239.19 220.38 236.5 198.88 239.19 182.75 247.25 175.13 262.51 175.5 262.92 193.5 252.63 190.82 279.51 209.63 284.88 217.69 284.88 231.13 279.51 241.88 284.88 267.88 263.61 268.64 261.07 251.67 263.33 247.25 279.51 231.13 266.07 215 263.38 201.57 268.76 206.94 255.32 212.32 249.94 228.44 247.25 249.94 252.63 231.13 266.07 251.67 263.33 255.32 249.94 260.69 231.13 252.17 224.5 241.88 239.19"/>
+    <polygon class="my-face-cls-81" points="220.86 380.3 220.38 368.2 218.96 381.69 220.86 380.3"/>
+    <polygon class="my-face-cls-83" points="120.24 419.03 120.94 419.26 120.43 419.46 125.25 430.31 123.63 389.7 115.56 408.51 120.24 419.03"/>
+    <polygon class="my-face-cls-70" points="88.69 296.48 88.69 322.51 104.85 299.88 88.69 296.48"/>
+    <polygon class="my-face-cls-70" points="104.85 299.88 88.69 322.51 110.19 301.01 104.85 299.88"/>
+    <polygon class="my-face-cls-67" points="110.19 344.01 94.06 341.32 110.08 344.32 110.19 344.01"/>
+    <polygon class="my-face-cls-71" points="75.93 293.79 68.53 300.52 71.3 303.54 87.41 296.21 75.93 293.79"/>
+    <polygon class="my-face-cls-70" points="88.69 295.63 88.69 282.19 75.93 293.79 87.41 296.21 88.69 295.63"/>
+    <polygon class="my-face-cls-70" points="87.41 296.21 71.3 303.54 88.69 322.51 88.69 296.48 87.41 296.21"/>
+    <polygon class="my-face-cls-70" points="110.19 323.64 88.69 322.51 110.19 344.01 110.19 323.64"/>
+    <polygon class="my-face-cls-84" points="252.17 224.5 260.69 212.32 236.5 212.32 252.17 224.5"/>
+    <polygon class="my-face-cls-70" points="110.19 301.01 88.69 322.51 110.19 311.76 110.19 301.01"/>
+    <polygon class="my-face-cls-70" points="110.19 311.76 88.69 322.51 110.19 323.64 110.19 311.76"/>
+    <polygon class="my-face-cls-1" points="88.69 322.51 94.06 341.32 110.19 344.01 88.69 322.51"/>
+    <polygon class="my-face-cls-72" points="106.41 297.7 110.19 301.01 115.56 284.88 106.41 297.7"/>
+    <polygon class="my-face-cls-70" points="110.19 301.01 110.19 311.76 118.34 307.68 110.19 301.01"/>
+    <polygon class="my-face-cls-67" points="149.61 215 158.57 244.57 153.19 225.75 149.61 215"/>
+    <polygon class="my-face-cls-85" points="157.47 207.22 163.13 182.66 139.75 180.07 157.18 207.29 157.47 207.22"/>
+    <polygon class="my-face-cls-70" points="157.38 207.61 157.18 207.29 148.41 209.48 153.19 225.75 157.38 207.61"/>
+    <polygon class="my-face-cls-86" points="179.27 241.81 158.57 244.57 182.75 247.25 179.27 241.81"/>
+    <polygon class="my-face-cls-70" points="104.85 299.88 110.19 301.01 106.41 297.7 104.85 299.88"/>
+    <polygon class="my-face-cls-70" points="99.23 291.42 88.69 295.63 88.69 296.48 104.85 299.88 106.41 297.7 99.23 291.42"/>
+    <polygon class="my-face-cls-87" points="206.51 420.21 214.75 419.12 190.82 405.82 206.51 420.21"/>
+    <polygon class="my-face-cls-1" points="115.56 284.88 99.23 291.42 106.41 297.7 115.56 284.88"/>
+    <polygon class="my-face-cls-88" points="218.96 381.69 204.25 392.38 217.63 394.3 218.96 381.69"/>
+    <polygon class="my-face-cls-1" points="104.81 177.38 99.44 198.88 110.96 183.52 104.81 177.38"/>
+    <polygon class="my-face-cls-89" points="69.82 273.62 88.69 282.19 73.85 267.35 69.82 273.62"/>
+    <polygon class="my-face-cls-81" points="232.07 372.15 231.06 363.52 220.38 368.2 226.31 376.35 232.07 372.15"/>
+    <polygon class="my-face-cls-71" points="64.5 241.88 59.13 252.63 83.31 252.63 64.5 241.88"/>
+    <polygon class="my-face-cls-86" points="182.75 226.29 195.94 218.58 191.98 190.9 185.54 194 182.75 226.29"/>
+    <polygon class="my-face-cls-90" points="153.19 231.13 137.85 213 136.01 220.82 153.19 231.13"/>
+    <polygon class="my-face-cls-91" points="211.18 209.67 195.94 218.58 198.88 239.19 211.18 209.67"/>
+    <polygon class="my-face-cls-91" points="158.57 206.94 157.47 207.22 157.38 207.61 172.66 231.48 198.88 239.19 182.75 226.29 158.57 206.94"/>
+    <polygon class="my-face-cls-70" points="127.26 215.57 123.63 196.19 99.44 198.88 126.31 215 127.26 215.57"/>
+    <polygon class="my-face-cls-92" points="234.96 213.42 235.3 212.88 233.28 204.79 198.88 239.19 234.96 213.42"/>
+    <polygon class="my-face-cls-85" points="163.94 182.75 184.56 166.72 167.57 163.43 163.13 182.66 163.94 182.75"/>
+    <polygon class="my-face-cls-73" points="131.69 301.01 123.63 284.88 119.96 289.28 131.69 301.01"/>
+    <polygon class="my-face-cls-70" points="144.92 279.51 139.75 279.51 131.69 301.01 144.92 279.51"/>
+    <polygon class="my-face-cls-74" points="131.69 266.07 139.75 279.51 141.25 266.07 131.69 266.07"/>
+    <polygon class="my-face-cls-73" points="153.19 266.07 139.75 279.51 145.3 278.89 153.19 266.07"/>
+    <polygon class="my-face-cls-93" points="155.15 277.8 153.19 266.07 145.3 278.89 155.15 277.8"/>
+    <polygon class="my-face-cls-67" points="145.3 278.89 139.75 279.51 144.92 279.51 145.3 278.89"/>
+    <polygon class="my-face-cls-90" points="119.96 289.28 110.19 301.01 131.69 301.01 119.96 289.28"/>
+    <polygon class="my-face-cls-73" points="123.63 284.88 115.56 284.88 119.96 289.28 123.63 284.88"/>
+    <polygon class="my-face-cls-70" points="131.69 301.01 110.19 301.01 118.34 307.68 131.69 301.01"/>
+    <polygon class="my-face-cls-73" points="115.56 284.88 110.19 301.01 119.96 289.28 115.56 284.88"/>
+    <polygon class="my-face-cls-72" points="139.75 279.51 123.63 284.88 131.69 301.01 139.75 279.51"/>
+    <polygon class="my-face-cls-1" points="131.69 301.01 150.5 317.13 147.97 299.38 131.69 301.01"/>
+    <polygon class="my-face-cls-90" points="145.13 279.51 144.92 279.51 131.69 301.01 147.97 299.38 145.13 279.51"/>
+    <polygon class="my-face-cls-70" points="139.75 325.19 150.5 317.13 131.69 301.01 139.75 325.19"/>
+    <polygon class="my-face-cls-70" points="163.94 276.82 153.19 266.07 155.15 277.8 163.94 276.82"/>
+    <polygon class="my-face-cls-1" points="118.34 307.68 139.75 325.19 131.69 301.01 118.34 307.68"/>
+    <polygon class="my-face-cls-69" points="141.25 266.07 139.75 279.51 153.19 266.07 141.25 266.07"/>
+    <polygon class="my-face-cls-70" points="145.3 278.89 144.92 279.51 145.13 279.51 158.57 298.32 155.15 277.8 145.3 278.89"/>
+    <polygon class="my-face-cls-90" points="158.57 298.32 163.94 276.82 155.15 277.8 158.57 298.32"/>
+    <polygon class="my-face-cls-1" points="147.97 299.38 158.57 298.32 145.13 279.51 147.97 299.38"/>
+    <polygon class="my-face-cls-70" points="150.5 317.13 158.57 298.32 147.97 299.38 150.5 317.13"/>
+    <polygon class="my-face-cls-88" points="233.82 311.76 241.88 284.88 217.69 284.88 233.82 311.76"/>
+    <polygon class="my-face-cls-70" points="88.69 282.19 59.13 290.26 75.93 293.79 88.69 282.19"/>
+    <polygon class="my-face-cls-70" points="69.82 273.62 59.13 290.26 88.69 282.19 69.82 273.62"/>
+    <polygon class="my-face-cls-70" points="88.69 322.51 59.13 309.07 94.06 341.32 88.69 322.51"/>
+    <polygon class="my-face-cls-71" points="75.93 293.79 59.13 290.26 68.53 300.52 75.93 293.79"/>
+    <polygon class="my-face-cls-71" points="73.85 267.35 59.13 252.63 59.13 268.76 69.82 273.62 73.85 267.35"/>
+    <polygon class="my-face-cls-70" points="71.3 303.54 59.13 309.07 88.69 322.51 71.3 303.54"/>
+    <polygon class="my-face-cls-1" points="68.53 300.52 59.13 309.07 71.3 303.54 68.53 300.52"/>
+    <polygon class="my-face-cls-71" points="59.13 290.26 59.13 309.07 68.53 300.52 59.13 290.26"/>
+    <polygon class="my-face-cls-70" points="59.13 268.76 59.13 290.26 69.82 273.62 59.13 268.76"/>
+    <polygon class="my-face-cls-1" points="123.63 196.19 131.69 155.88 110.96 183.52 123.63 196.19"/>
+    <polygon class="my-face-cls-94" points="148.41 209.48 139.75 180.07 131.69 155.88 147.97 209.59 148.41 209.48"/>
+    <polygon class="my-face-cls-70" points="161.52 162.26 142.44 158.57 139.75 180.07 161.52 162.26"/>
+    <polygon class="my-face-cls-95" points="191.98 190.9 225.75 174.69 188.64 167.51 191.98 190.9"/>
+    <polygon class="my-face-cls-1" points="83.31 252.63 59.13 252.63 73.85 267.35 83.31 252.63"/>
+    <polygon class="my-face-cls-96" points="88.69 282.19 86.9 272.34 86 271.44 86.54 270.37 83.31 252.63 73.85 267.35 88.69 282.19"/>
+    <polygon class="my-face-cls-71" points="96.75 249.94 107.5 263.38 120.94 249.94 142.44 255.32 153.19 252.63 158.57 244.57 145.13 244.57 131.69 239.19 118.25 239.19 96.75 241.88 83.31 252.63 86.54 270.37 96.75 249.94"/>
+    <polygon class="my-face-cls-67" points="186.03 167 188.13 163.94 184.56 166.72 186.03 167"/>
+    <polygon class="my-face-cls-84" points="233.28 204.79 252.63 185.44 231.53 197.78 233.28 204.79"/>
+    <polygon class="my-face-cls-97" points="226.94 340.64 263.38 349.38 230.24 326.79 226.94 340.64"/>
+    <polygon class="my-face-cls-88" points="247.25 327.88 233.98 311.95 233.97 311.95 260.6 345.84 258.01 322.51 266.07 325.19 254.15 320.23 247.25 327.88"/>
+    <polygon class="my-face-cls-67" points="255.32 354.76 254.69 355.71 263.38 349.38 253.35 353.77 255.32 354.76"/>
+    <polygon class="my-face-cls-67" points="235.37 213.13 236.5 212.32 252.63 185.44 235.3 212.88 235.37 213.13"/>
+    <polygon class="my-face-cls-98" points="233.82 387.01 233.77 386.61 226.31 376.35 220.86 380.3 221.45 394.84 241.88 397.76 233.94 386.83 233.82 387.01"/>
+    <polygon class="my-face-cls-78" points="251.9 301.57 271.44 290.26 241.88 284.88 251.9 301.57"/>
+    <polygon class="my-face-cls-99" points="126.31 432.7 126.31 456.88 136.03 443.29 126.31 432.7"/>
+    <polygon class="my-face-cls-100" points="108.47 425.05 108.17 425.77 126.31 456.88 125.33 432.27 108.47 425.05"/>
+    <polygon class="my-face-cls-101" points="215.02 419.08 215 419.26 206.62 420.31 223.07 435.38 215.88 418.96 215.02 419.08"/>
+    <polygon class="my-face-cls-6" points="104.53 408.32 95.14 402.06 88.69 408.51 105.44 414.09 104.53 408.32"/>
+    <polygon class="my-face-cls-102" points="231.53 197.78 225.75 174.69 211.18 209.67 231.53 197.78"/>
+    <polygon class="my-face-cls-6" points="102.13 395.07 103.66 402.75 102.39 394.6 88.69 397.76 95.14 402.06 102.13 395.07"/>
+    <polygon class="my-face-cls-103" points="196.84 441.94 223.07 435.38 193.64 422.77 196.84 441.94"/>
+    <polygon class="my-face-cls-87" points="139.75 438.07 185.44 464.95 160.1 442.14 139.75 438.07"/>
+    <polygon class="my-face-cls-70" points="131.69 155.88 107.5 155.34 104.81 177.38 131.69 155.88"/>
+    <polygon class="my-face-cls-70" points="104.81 177.38 83.31 188.13 99.44 198.88 104.81 177.38"/>
+    <polygon class="my-face-cls-90" points="107.5 155.34 88.15 174.69 83.31 188.13 104.81 177.38 107.5 155.34"/>
+    <polygon class="my-face-cls-70" points="83.31 188.13 69.88 212.32 99.44 198.88 83.31 188.13"/>
+    <polygon class="my-face-cls-90" points="69.88 212.32 69.88 233.82 99.44 198.88 69.88 212.32"/>
+    <polygon class="my-face-cls-1" points="110.96 183.52 131.69 155.88 104.81 177.38 110.96 183.52"/>
+    <polygon class="my-face-cls-1" points="110.96 183.52 99.44 198.88 123.63 196.19 110.96 183.52"/>
+    <polygon class="my-face-cls-70" points="131.69 239.19 145.13 244.57 153.19 231.13 131.69 239.19"/>
+    <polygon class="my-face-cls-94" points="142.44 193.5 137.85 213 153.19 231.13 158.57 244.57 149.61 215 147.82 209.63 147.97 209.59 131.69 155.88 123.63 196.19 142.44 193.5"/>
+    <polygon class="my-face-cls-93" points="161.7 263.38 161.25 263.38 158.57 244.57 153.19 252.63 163.94 276.82 161.7 263.38"/>
+    <polygon class="my-face-cls-70" points="153.19 266.07 163.94 276.82 153.19 252.63 143.78 256.66 153.19 266.07"/>
+    <polygon class="my-face-cls-104" points="145.13 244.57 158.57 244.57 153.19 231.13 145.13 244.57"/>
+    <polygon class="my-face-cls-70" points="136.01 220.82 137.85 213 123.63 196.19 127.26 215.57 136.01 220.82"/>
+    <polygon class="my-face-cls-70" points="142.44 193.5 123.63 196.19 137.85 213 142.44 193.5"/>
+    <polygon class="my-face-cls-90" points="136.01 220.82 131.69 239.19 153.19 231.13 136.01 220.82"/>
+    <polygon class="my-face-cls-1" points="69.88 233.82 83.31 252.63 96.75 241.88 69.88 233.82"/>
+    <polygon class="my-face-cls-104" points="126.31 215 118.25 239.19 131.69 239.19 127.26 215.57 126.31 215"/>
+    <polygon class="my-face-cls-105" points="96.75 241.88 118.25 239.19 101.73 237.36 96.75 241.88"/>
+    <polygon class="my-face-cls-90" points="99.44 198.88 69.88 233.82 88.69 212.32 99.44 198.88"/>
+    <polygon class="my-face-cls-105" points="127.26 215.57 131.69 239.19 136.01 220.82 127.26 215.57"/>
+    <polygon class="my-face-cls-1" points="101.73 237.36 69.88 233.82 96.75 241.88 101.73 237.36"/>
+    <polygon class="my-face-cls-105" points="108.98 230.76 118.25 239.19 126.31 215 108.98 230.76"/>
+    <polygon class="my-face-cls-70" points="99.44 198.88 88.69 212.32 126.31 215 99.44 198.88"/>
+    <polygon class="my-face-cls-106" points="88.69 212.32 100.95 223.46 126.31 215 88.69 212.32"/>
+    <polygon class="my-face-cls-106" points="100.95 223.46 108.98 230.76 126.31 215 100.95 223.46"/>
+    <polygon class="my-face-cls-104" points="101.73 237.36 118.25 239.19 108.98 230.76 101.73 237.36"/>
+    <polygon class="my-face-cls-106" points="88.69 212.32 69.88 233.82 100.95 223.46 88.69 212.32"/>
+    <polygon class="my-face-cls-90" points="108.98 230.76 100.95 223.46 69.88 233.82 101.73 237.36 108.98 230.76"/>
+    <polygon class="my-face-cls-70" points="59.13 309.07 67.19 349.38 94.06 341.32 59.13 309.07"/>
+    <polygon class="my-face-cls-72" points="84.6 361.82 67.19 349.38 77.94 378.95 78.56 377.5 77.94 376.26 84.6 361.82"/>
+    <polygon class="my-face-cls-72" points="98.86 372 91.63 366.84 88.69 397.76 102.39 394.6 98.86 372"/>
+    <polygon class="my-face-cls-67" points="104.53 408.32 105.44 414.09 105.76 414.2 104.81 408.51 104.53 408.32"/>
+    <polygon class="my-face-cls-72" points="115.56 408.51 123.63 389.7 102.39 394.6 103.66 402.75 104.81 408.51 115.56 408.51"/>
+    <polygon class="my-face-cls-1" points="85.12 362.19 78.56 377.5 88.69 397.76 91.63 366.84 85.12 362.19"/>
+    <polygon class="my-face-cls-107" points="84.6 361.82 77.94 376.26 78.56 377.5 85.12 362.19 84.6 361.82"/>
+    <polygon class="my-face-cls-70" points="110.3 344.36 110.08 344.32 99.77 372.66 100.29 373.02 115.79 363.06 110.3 344.36"/>
+    <polygon class="my-face-cls-70" points="137.07 349.38 110.3 344.36 115.79 363.06 137.07 349.38"/>
+    <polygon class="my-face-cls-1" points="100.29 373.02 123.63 389.7 115.79 363.06 100.29 373.02"/>
+    <polygon class="my-face-cls-70" points="110.08 344.32 94.06 341.32 98.86 372 99.77 372.66 110.08 344.32"/>
+    <polygon class="my-face-cls-70" points="94.06 341.32 67.19 349.38 84.6 361.82 94.06 341.32"/>
+    <polygon class="my-face-cls-70" points="91.63 366.84 98.86 372 94.06 341.32 91.63 366.84"/>
+    <polygon class="my-face-cls-70" points="85.12 362.19 91.63 366.84 94.06 341.32 85.12 362.19"/>
+    <polygon class="my-face-cls-107" points="84.6 361.82 85.12 362.19 94.06 341.32 84.6 361.82"/>
+    <polygon class="my-face-cls-108" points="107.5 427.32 107.5 435.38 126.31 456.88 108.17 425.77 107.5 427.32"/>
+    <polygon class="my-face-cls-83" points="102.13 395.07 95.14 402.06 104.53 408.32 103.66 402.75 102.13 395.07"/>
+    <polygon class="my-face-cls-72" points="137.07 349.38 123.63 389.7 147.61 368.71 137.07 349.38"/>
+    <polygon class="my-face-cls-67" points="125.33 432.27 126.31 456.88 126.31 432.7 125.33 432.27"/>
+    <polygon class="my-face-cls-109" points="88.69 408.51 107.02 424.22 105.44 414.09 88.69 408.51"/>
+    <polygon class="my-face-cls-110" points="138.73 446.24 155.88 464.95 139.75 438.07 138.73 446.24"/>
+    <polygon class="my-face-cls-109" points="138.73 446.24 136.03 443.29 126.31 456.88 155.88 464.95 137.07 459.57 138.73 446.24"/>
+    <polygon class="my-face-cls-72" points="88.69 397.76 88.69 408.51 95.14 402.06 88.69 397.76"/>
+    <polygon class="my-face-cls-111" points="120.43 419.46 108.89 424.08 108.47 425.05 125.33 432.27 125.25 430.31 120.43 419.46"/>
+    <polygon class="my-face-cls-67" points="125.33 432.27 126.31 432.7 125.25 430.31 125.33 432.27"/>
+    <polygon class="my-face-cls-67" points="131.69 416.57 139.75 438.07 132.97 417.72 131.69 416.57"/>
+    <polygon class="my-face-cls-72" points="132.36 415.9 123.63 389.7 125.25 430.31 126.31 432.7 131.69 416.57 132.36 415.9"/>
+    <polygon class="my-face-cls-83" points="115.56 408.51 112.21 416.35 120.24 419.03 115.56 408.51"/>
+    <polygon class="my-face-cls-111" points="112.21 416.35 108.89 424.08 120.43 419.46 120.24 419.03 112.21 416.35"/>
+    <polygon class="my-face-cls-67" points="103.66 402.75 104.53 408.32 104.81 408.51 103.66 402.75"/>
+    <polygon class="my-face-cls-110" points="115.56 408.51 104.81 408.51 105.76 414.2 112.21 416.35 115.56 408.51"/>
+    <polygon class="my-face-cls-67" points="105.76 414.2 105.44 414.09 107.02 424.22 107.5 424.63 105.76 414.2"/>
+    <polygon class="my-face-cls-100" points="112.21 416.35 105.76 414.2 107.5 424.63 108.89 424.08 112.21 416.35"/>
+    <polygon class="my-face-cls-72" points="166.63 384.32 166.63 352.07 147.61 368.71 153.19 378.95 166.63 384.32"/>
+    <polygon class="my-face-cls-77" points="147.61 368.71 123.63 389.7 153.19 378.95 147.61 368.71"/>
+    <polygon class="my-face-cls-87" points="155.88 464.95 185.44 464.95 139.75 438.07 155.88 464.95"/>
+    <polygon class="my-face-cls-112" points="160.1 442.14 185.44 464.95 178.77 445.88 160.1 442.14"/>
+    <polygon class="my-face-cls-67" points="172.51 426.48 166.63 411.2 172 426.55 172.51 426.48"/>
+    <polygon class="my-face-cls-113" points="147.82 430.01 147.25 430.57 160.1 442.14 178.77 445.88 172 426.55 147.82 430.01"/>
+    <polygon class="my-face-cls-76" points="132.36 415.9 132.97 417.72 147.25 430.57 147.82 430.01 142.44 405.82 132.36 415.9"/>
+    <polygon class="my-face-cls-99" points="136.03 443.29 139.75 438.07 126.31 432.7 136.03 443.29"/>
+    <polygon class="my-face-cls-114" points="147.82 430.01 166.63 411.2 153.19 408.51 147.82 430.01"/>
+    <polygon class="my-face-cls-115" points="139.75 438.07 160.1 442.14 147.25 430.57 139.75 438.07"/>
+    <polygon class="my-face-cls-110" points="137.07 459.57 155.88 464.95 138.73 446.24 137.07 459.57"/>
+    <polygon class="my-face-cls-110" points="138.73 446.24 139.75 438.07 136.03 443.29 138.73 446.24"/>
+    <polygon class="my-face-cls-100" points="126.31 432.7 139.75 438.07 131.69 416.57 126.31 432.7"/>
+    <polygon class="my-face-cls-116" points="198.88 454.2 180.07 446.13 178.77 445.88 185.44 464.95 223.07 435.38 196.84 441.94 198.88 454.2"/>
+    <polygon class="my-face-cls-117" points="185.44 424.63 166.63 411.2 172.51 426.48 185.44 424.63"/>
+    <polygon class="my-face-cls-118" points="198.88 454.2 196.84 441.94 180.07 446.13 198.88 454.2"/>
+    <polygon class="my-face-cls-70" points="180.07 446.13 196.84 441.94 193.64 422.77 187.05 419.95 180.07 446.13"/>
+    <polygon class="my-face-cls-67" points="172 426.55 178.77 445.88 180.07 446.13 172.51 426.48 172 426.55"/>
+    <polygon class="my-face-cls-119" points="172 426.55 166.63 411.2 147.82 430.01 172 426.55"/>
+    <polygon class="my-face-cls-117" points="187.05 419.95 190.82 405.82 166.63 411.2 187.05 419.95"/>
+    <polygon class="my-face-cls-101" points="190.82 405.82 193.5 421.95 206.51 420.21 190.82 405.82"/>
+    <polygon class="my-face-cls-70" points="193.5 421.95 193.64 422.77 223.07 435.38 206.62 420.31 193.5 421.95"/>
+    <polygon class="my-face-cls-70" points="187.05 419.95 193.64 422.77 193.5 421.95 190.82 405.82 187.05 419.95"/>
+    <polygon class="my-face-cls-91" points="214.75 419.12 214.94 419.09 204.25 392.38 190.82 405.82 214.75 419.12"/>
+    <polygon class="my-face-cls-67" points="233.82 416.57 232.38 416.76 223.07 435.38 233.82 416.57"/>
+    <polygon class="my-face-cls-88" points="215.88 418.96 223.07 435.38 222.38 418.1 215.88 418.96"/>
+    <polygon class="my-face-cls-67" points="206.51 420.21 206.62 420.31 215 419.26 214.75 419.12 206.51 420.21"/>
+    <polygon class="my-face-cls-67" points="193.5 421.95 206.62 420.31 206.51 420.21 193.5 421.95"/>
+    <polygon class="my-face-cls-98" points="226.31 376.35 233.77 386.61 232.07 372.15 226.31 376.35"/>
+    <polygon class="my-face-cls-120" points="222.38 418.1 232.38 416.76 241.88 397.76 221.45 394.84 222.38 418.1"/>
+    <polygon class="my-face-cls-88" points="226.31 376.35 220.38 368.2 220.86 380.3 226.31 376.35"/>
+    <polygon class="my-face-cls-81" points="233.94 386.83 241.88 397.76 263.38 349.38 254.69 355.71 233.94 386.83"/>
+    <polygon class="my-face-cls-88" points="217.63 394.3 204.25 392.38 215.2 417.4 217.63 394.3"/>
+    <polygon class="my-face-cls-88" points="220.38 368.2 231.06 363.52 228.44 341.32 253.35 353.77 263.38 349.38 226.94 340.64 220.38 368.2"/>
+    <polygon class="my-face-cls-88" points="260.6 345.84 233.97 311.95 233.74 312.08 230.24 326.79 263.38 349.38 260.83 346.14 260.69 346.69 260.6 345.84"/>
+    <polygon class="my-face-cls-101" points="200.13 362.12 220.38 368.2 196.19 333.26 200.13 362.12"/>
+    <polygon class="my-face-cls-78" points="220.07 319.61 219.88 319.72 230.24 326.79 233.74 312.08 220.38 319.82 220.07 319.61"/>
+    <polygon class="my-face-cls-88" points="204.25 392.38 220.38 368.2 201.53 372.38 204.25 392.38"/>
+    <polygon class="my-face-cls-90" points="172 378.95 200.32 363.5 200.13 362.12 166.63 352.07 172 378.95"/>
+    <polygon class="my-face-cls-87" points="218.96 381.69 220.38 368.2 204.25 392.38 218.96 381.69"/>
+    <polygon class="my-face-cls-88" points="196.19 333.26 226.94 340.64 230.24 326.79 219.88 319.72 196.19 333.26"/>
+    <polygon class="my-face-cls-87" points="217.63 394.3 221.45 394.84 220.86 380.3 218.96 381.69 217.63 394.3"/>
+    <polygon class="my-face-cls-91" points="200.32 363.5 201.53 372.38 220.38 368.2 201.57 362.82 200.32 363.5"/>
+    <polygon class="my-face-cls-101" points="204.25 392.38 201.53 372.38 172 378.95 204.25 392.38"/>
+    <polygon class="my-face-cls-67" points="200.32 363.5 201.57 362.82 220.38 368.2 200.13 362.12 200.32 363.5"/>
+    <polygon class="my-face-cls-67" points="219.88 319.72 220.07 319.61 204.25 309.07 219.88 319.72"/>
+    <polygon class="my-face-cls-121" points="220.38 368.2 226.94 340.64 196.19 333.26 220.38 368.2"/>
+    <polygon class="my-face-cls-81" points="223.07 435.38 232.38 416.76 222.38 418.1 223.07 435.38"/>
+    <polygon class="my-face-cls-67" points="204.25 392.38 214.94 419.09 215.02 419.08 215.2 417.4 204.25 392.38"/>
+    <polygon class="my-face-cls-92" points="252.17 224.5 236.5 212.32 235.37 213.13 241.88 239.19 252.17 224.5"/>
+    <polygon class="my-face-cls-95" points="198.88 239.19 220.38 236.5 234.96 213.42 198.88 239.19"/>
+    <polygon class="my-face-cls-85" points="169.32 155.88 142.44 158.57 161.52 162.26 169.32 155.88"/>
+    <polygon class="my-face-cls-101" points="182.75 247.25 198.88 239.19 179.27 241.81 182.75 247.25"/>
+    <polygon class="my-face-cls-104" points="179.27 241.81 198.88 239.19 172.66 231.48 179.27 241.81"/>
+    <polygon class="my-face-cls-122" points="233.28 204.79 231.53 197.78 211.18 209.67 198.88 239.19 233.28 204.79"/>
+    <polygon class="my-face-cls-102" points="220.38 236.5 241.88 239.19 235.37 213.13 234.96 213.42 220.38 236.5"/>
+    <polygon class="my-face-cls-85" points="153.19 225.75 172.66 231.48 157.38 207.61 153.19 225.75"/>
+    <polygon class="my-face-cls-87" points="260.69 231.13 260.69 212.32 252.17 224.5 260.69 231.13"/>
+    <polygon class="my-face-cls-102" points="236.5 215 252.63 185.44 231.13 204.25 236.5 215"/>
+    <polygon class="my-face-cls-123" points="184.56 166.72 188.13 163.94 169.32 155.88 167.57 163.43 184.56 166.72"/>
+    <polygon class="my-face-cls-70" points="167.57 163.43 169.32 155.88 161.52 162.26 167.57 163.43"/>
+    <polygon class="my-face-cls-124" points="195.94 218.58 211.18 209.67 225.75 174.69 191.98 190.9 195.94 218.58"/>
+    <polygon class="my-face-cls-94" points="174.69 263.38 158.57 244.57 161.7 263.38 174.69 263.38"/>
+    <polygon class="my-face-cls-123" points="167.57 163.43 161.52 162.26 139.75 180.07 163.13 182.66 167.57 163.43"/>
+    <polygon class="my-face-cls-120" points="260.69 212.32 252.63 185.44 236.5 212.32 260.69 212.32"/>
+    <polygon class="my-face-cls-123" points="142.44 158.57 131.69 155.88 139.75 180.07 142.44 158.57"/>
+    <polygon class="my-face-cls-70" points="148.41 209.48 147.97 209.59 149.61 215 153.19 225.75 148.41 209.48"/>
+    <polygon class="my-face-cls-70" points="139.75 180.07 148.41 209.48 157.18 207.29 139.75 180.07"/>
+    <polygon class="my-face-cls-101" points="225.75 174.69 204.25 163.94 188.13 163.94 188.64 167.51 225.75 174.69"/>
+    <polygon class="my-face-cls-88" points="193.5 252.63 175.5 262.92 190.82 279.51 193.5 252.63"/>
+    <polygon class="my-face-cls-85" points="182.75 247.25 158.57 244.57 175.13 262.51 182.75 247.25"/>
+    <polygon class="my-face-cls-125" points="252.63 185.44 225.75 174.69 231.53 197.78 252.63 185.44"/>
+    <polygon class="my-face-cls-70" points="172.66 231.48 153.19 225.75 158.57 244.57 179.27 241.81 172.66 231.48"/>
+    <polygon class="my-face-cls-94" points="163.13 182.66 157.47 207.22 158.57 206.94 186.03 167 184.56 166.72 163.94 182.75 163.13 182.66"/>
+    <polygon class="my-face-cls-67" points="157.18 207.29 157.38 207.61 157.47 207.22 157.18 207.29"/>
+    <polygon class="my-face-cls-126" points="191.98 190.9 188.64 167.51 187.84 167.35 185.54 194 191.98 190.9"/>
+    <polygon class="my-face-cls-86" points="185.54 194 158.57 206.94 182.75 226.29 185.54 194"/>
+    <polygon class="my-face-cls-126" points="198.88 239.19 195.94 218.58 182.75 226.29 198.88 239.19"/>
+    <polygon class="my-face-cls-101" points="185.54 194 187.84 167.35 186.03 167 158.57 206.94 185.54 194"/>
+    <polygon class="my-face-cls-67" points="161.7 263.38 158.57 244.57 161.25 263.38 161.7 263.38"/>
+    <polygon class="my-face-cls-70" points="147.82 209.63 149.61 215 147.97 209.59 147.82 209.63"/>
+    <polygon class="my-face-cls-88" points="204.25 309.07 190.82 279.51 177.38 303.69 204.25 309.07"/>
+    <polygon class="my-face-cls-88" points="217.69 284.88 241.88 284.88 231.13 279.51 217.69 284.88"/>
+    <polygon class="my-face-cls-121" points="217.69 284.88 209.63 284.88 190.82 279.51 233.82 311.76 217.69 284.88"/>
+    <polygon class="my-face-cls-127" points="177.38 303.69 190.82 279.51 174.69 276.82 177.38 303.69"/>
+    <polygon class="my-face-cls-101" points="172 268.76 174.69 276.82 190.82 279.51 174.69 263.38 172 268.76"/>
+    <polygon class="my-face-cls-92" points="247.25 327.88 254.15 320.23 234.1 311.88 233.98 311.95 247.25 327.88"/>
+    <polygon class="my-face-cls-67" points="233.97 311.95 233.98 311.95 233.82 311.76 233.97 311.95"/>
+    <polygon class="my-face-cls-120" points="259.51 314.26 271.44 301.01 271.44 290.26 251.9 301.57 259.51 314.26"/>
+    <polygon class="my-face-cls-79" points="220.26 320.78 236.5 311.49 201.57 308.32 220.26 320.78"/>
+    <polygon class="my-face-cls-92" points="266.07 325.19 259.51 314.26 254.15 320.23 266.07 325.19"/>
+    <polygon class="my-face-cls-87" points="268.94 262.74 271.44 290.26 271.44 260.69 268.94 262.74"/>
+    <polygon class="my-face-cls-78" points="234.1 311.88 251.9 301.57 241.88 284.88 233.82 311.76 234.1 311.88"/>
+    <polygon class="my-face-cls-120" points="267.88 263.61 241.88 284.88 271.44 290.26 260.69 287.57 267.88 263.61"/>
+    <polygon class="my-face-cls-97" points="234.1 311.88 254.15 320.23 259.51 314.26 251.9 301.57 234.1 311.88"/>
+    <polygon class="my-face-cls-95" points="212.32 249.94 206.94 255.32 201.57 268.76 215 263.38 228.44 247.25 212.32 249.94"/>
+    <polygon class="my-face-cls-102" points="228.44 247.25 215 263.38 231.13 266.07 249.94 252.63 228.44 247.25"/>
+    <polygon class="my-face-cls-120" points="271.44 260.69 260.69 231.13 255.32 249.94 271.44 260.69"/>
+    <polygon class="my-face-cls-95" points="247.25 279.51 251.67 263.33 231.13 266.07 247.25 279.51"/>
+    <polygon class="my-face-cls-95" points="251.67 263.33 268.64 261.07 268.76 260.69 268.79 261.05 271.44 260.69 255.32 249.94 251.67 263.33"/>
+    <polygon class="my-face-cls-128" points="267.88 263.61 260.69 287.57 271.44 290.26 268.94 262.74 267.88 263.61"/>
+    <polygon class="my-face-cls-92" points="260.6 345.84 260.83 346.14 266.07 325.19 258.01 322.51 260.6 345.84"/>
+    <polygon class="my-face-cls-98" points="254.69 355.71 255.32 354.76 253.35 353.77 231.06 363.52 232.07 372.15 254.69 355.71"/>
+    <polygon class="my-face-cls-87" points="228.44 341.32 231.06 363.52 253.35 353.77 228.44 341.32"/>
+    <polygon class="my-face-cls-87" points="233.77 386.61 233.94 386.83 254.69 355.71 232.07 372.15 233.77 386.61"/>
+    <polygon class="my-face-cls-129" points="256.21 252.63 262.78 229.64 252.93 223.07 239.79 239.49 256.21 252.63"/>
+    <polygon class="my-face-cls-85" points="188.13 163.94 169.32 155.88 196.19 155.88 204.25 166.63 188.13 163.94"/>
+    <polygon class="my-face-cls-92" points="266.07 325.19 271.44 301.01 258.01 314.44 266.07 325.19"/>
+    <polygon class="my-face-cls-130" points="196.19 330.57 204.25 309.07 177.38 303.69 196.19 330.57"/>
+    <polygon class="my-face-cls-95" points="190.82 306.38 190.82 279.51 204.25 309.07 190.82 306.38"/>
+    <polygon class="my-face-cls-88" points="185.44 317.13 190.82 306.38 198.88 317.13 196.19 330.57 185.44 317.13"/>
+    <polygon class="my-face-cls-131" points="180.07 284.88 182.75 284.88 180.07 290.26 177.38 301.01 174.69 279.51 180.07 284.88"/>
+    <polygon class="my-face-cls-96" points="83.31 252.63 69.88 233.82 64.5 241.88 83.31 252.63"/>
+    <polygon class="my-face-cls-132" points="114.49 268.76 115.56 263.38 107.5 263.38 112.88 268.76 114.49 268.76"/>
+    <polygon class="my-face-cls-133" points="110.19 268.76 112.88 268.76 107.5 263.38 94.06 279.51 102.13 274.13 110.19 268.76"/>
+    <polygon class="my-face-cls-134" points="118.25 268.76 129 268.76 139.75 279.51 131.69 266.07 115.56 263.38 114.49 268.76 118.25 268.76"/>
+    <polygon class="my-face-cls-133" points="91.38 276.82 88.69 282.19 94.06 279.51 107.5 263.38 91.38 276.82"/>
+    <polygon class="my-face-cls-135" points="231.13 279.51 247.25 279.51 228.44 271.44 231.13 279.51"/>
+    <polygon class="my-face-cls-132" points="215 263.38 201.57 268.76 215 266.07 228.44 271.44 247.25 279.51 231.13 266.07 215 263.38"/>
+    <polygon class="my-face-cls-136" points="241.88 284.88 247.25 279.51 231.13 279.51 241.88 284.88"/>
+    <polygon class="my-face-cls-137" points="174.69 276.82 173.24 276.82 173.49 278.42 174.69 276.82"/>
+    <polygon class="my-face-cls-137" points="196.19 330.57 177.38 303.69 185.44 317.13 196.19 330.57"/>
+    <polygon class="my-face-cls-70" points="135.18 385.26 128.87 397.89 160.45 397.89 135.18 385.26"/>
+    <polygon class="my-face-cls-72" points="160.45 397.89 166.76 410.52 179.4 397.89 160.45 397.89"/>
+    <polygon class="my-face-cls-138" points="166.76 410.52 192.03 404.21 179.4 397.89 166.76 410.52"/>
+    <polygon class="my-face-cls-139" points="128.87 397.89 141.5 404.21 160.45 397.89 128.87 397.89"/>
+    <polygon class="my-face-cls-72" points="141.5 404.21 166.76 410.52 160.45 397.89 141.5 404.21"/>
+    <polygon class="my-face-cls-140" points="179.4 397.89 173.08 391.58 160.45 391.58 179.4 397.89"/>
+    <polygon class="my-face-cls-139" points="122.55 391.58 128.87 397.89 135.18 385.26 122.55 391.58"/>
+    <polygon class="my-face-cls-141" points="173.08 391.58 166.76 385.26 160.45 391.58 173.08 391.58"/>
+    <polygon class="my-face-cls-140" points="179.4 397.89 160.45 391.58 135.18 385.26 160.45 397.89 179.4 397.89"/>
+    <polygon class="my-face-cls-139" points="166.76 385.26 154.13 378.95 135.18 385.26 160.45 391.58 166.76 385.26"/>
+    <polygon class="my-face-cls-140" points="179.4 397.89 204.66 391.58 173.08 391.58 179.4 397.89"/>
+    <polygon class="my-face-cls-141" points="192.03 404.21 204.66 391.58 179.4 397.89 192.03 404.21"/>
+    <polygon class="my-face-cls-142" points="173.08 378.95 166.76 385.26 173.08 391.58 204.66 391.58 192.03 385.26 173.08 378.95"/>
+    <polygon class="my-face-cls-143" points="118.25 239.19 96.75 241.88 120.94 249.94 118.25 239.19"/>
+    <polygon class="my-face-cls-144" points="96.75 241.88 83.31 252.63 96.75 249.94 96.75 241.88"/>
+    <polygon class="my-face-cls-143" points="131.69 239.19 118.25 239.19 120.94 249.94 131.69 239.19"/>
+    <polygon class="my-face-cls-129" points="120.94 249.94 96.75 241.88 96.75 249.94 83.31 252.63 104.81 249.94 120.94 249.94"/>
+    <polygon class="my-face-cls-145" points="153.19 252.63 145.13 244.57 145.13 255.32 153.19 252.63"/>
+    <polygon class="my-face-cls-143" points="145.13 244.57 131.69 239.19 120.94 249.94 145.13 244.57"/>
+    <polygon class="my-face-cls-144" points="134.38 252.63 145.13 255.32 145.13 244.57 120.94 249.94 134.38 252.63"/>
+    <polygon class="my-face-cls-146" points="129 274.13 123.63 284.88 139.75 279.51 129 268.76 129 274.13"/>
+    <polygon class="my-face-cls-70" points="110.19 268.76 102.13 274.13 94.06 279.51 102.13 282.19 115.56 284.88 110.19 276.82 110.19 268.76"/>
+    <polygon class="my-face-cls-147" points="173.24 276.82 163.94 276.82 158.57 298.32 173.49 278.42 173.24 276.82"/>
+    <polygon class="my-face-cls-148" points="172 268.76 163.94 276.82 173.24 276.82 172 268.76"/>
+    <polygon class="my-face-cls-149" points="173.49 278.42 158.57 298.32 177.38 303.69 173.49 278.42"/>
+    <polygon class="my-face-cls-90" points="137.07 349.38 145.13 352.07 147.82 346.69 131.69 341.32 137.07 349.38"/>
+    <polygon class="my-face-cls-1" points="131.69 341.32 147.82 346.69 143.73 340.57 131.69 341.32"/>
+    <polygon class="my-face-cls-90" points="143.73 340.57 147.82 346.69 155.88 346.69 174.69 338.63 143.73 340.57"/>
+    <polygon class="my-face-cls-150" points="196.19 330.57 185.44 317.13 177.38 303.69 177.38 325.19 196.19 330.57"/>
+    <polygon class="my-face-cls-150" points="180.07 346.69 196.19 341.32 174.69 338.63 180.07 346.69"/>
+    <polygon class="my-face-cls-1" points="137.07 330.57 134.38 333.26 131.69 341.32 143.73 340.57 137.07 330.57"/>
+    <polygon class="my-face-cls-151" points="174.69 338.63 196.19 341.32 177.38 325.19 174.69 338.63"/>
+    <polygon class="my-face-cls-73" points="174.69 338.63 137.07 330.57 143.73 340.57 174.69 338.63"/>
+    <polygon class="my-face-cls-151" points="196.19 341.32 196.19 330.57 177.38 325.19 196.19 341.32"/>
+    <polygon class="my-face-cls-152" points="190.82 352.07 196.19 341.32 180.07 346.69 190.82 352.07"/>
+    <polygon class="my-face-cls-153" points="150.5 317.13 137.07 330.57 174.69 338.63 150.5 317.13"/>
+    <polygon class="my-face-cls-154" points="155.88 346.69 166.63 352.07 180.07 346.69 174.69 338.63 155.88 346.69"/>
+    <polygon class="my-face-cls-155" points="177.38 303.69 158.57 298.32 150.5 317.13 177.38 303.69"/>
+    <polygon class="my-face-cls-149" points="174.69 338.63 177.38 325.19 177.38 303.69 150.5 317.13 174.69 338.63"/>
+    <polygon class="my-face-cls-156" points="206.94 255.32 212.32 249.94 228.44 247.25 220.38 236.5 206.94 255.32"/>
+    <polygon class="my-face-cls-157" points="182.75 247.25 193.5 252.63 193.5 241.88 182.75 247.25"/>
+    <polygon class="my-face-cls-143" points="193.5 241.88 206.94 255.32 198.88 239.19 193.5 241.88"/>
+    <polygon class="my-face-cls-158" points="228.44 247.25 249.94 252.63 241.88 239.19 228.44 247.25"/>
+    <polygon class="my-face-cls-159" points="249.94 252.63 255.32 249.94 241.88 239.19 249.94 252.63"/>
+    <polygon class="my-face-cls-159" points="220.38 236.5 228.44 247.25 241.88 239.19 220.38 236.5"/>
+    <polygon class="my-face-cls-160" points="198.88 239.19 206.94 255.32 220.38 236.5 198.88 239.19"/>
+    <polygon class="my-face-cls-143" points="193.5 252.63 206.94 255.32 193.5 241.88 193.5 252.63"/>
+    <polygon class="my-face-cls-161" points="215 266.07 223.07 274.13 217.69 284.88 231.13 279.51 228.44 271.44 215 266.07"/>
+    <polygon class="my-face-cls-162" points="201.57 268.76 190.82 279.51 209.63 284.88 204.25 282.19 201.57 268.76"/>
+    <polygon class="my-face-cls-163" points="215.27 266.07 201.84 268.76 204.52 282.19 209.9 284.88 217.96 284.88 223.34 274.13 215.27 266.07"/>
+    <polygon class="my-face-cls-164" points="129 279.51 126.31 271.44 118.25 268.76 114.49 268.76 112.88 268.76 112.88 268.76 110.19 271.44 107.5 279.51 115.56 284.88 123.63 284.88 129 279.51"/>
+    <polygon class="my-face-cls-158" points="213.79 272.92 213.79 275.61 211.11 278.3 213.79 280.98 219.17 278.3 216.48 272.92 213.79 272.92"/>
+    <polygon class="my-face-cls-82" points="126.31 276.82 123.63 279.51 120.94 282.19 123.63 284.88 126.31 282.19 126.31 276.82 126.31 276.82"/>
+    <polygon class="my-face-cls-165" points="204.25 282.19 206.94 276.82 212.32 279.51 215 282.19 215 284.88 209.63 284.88 204.25 282.19"/>
+    <polygon class="my-face-cls-166" points="215 279.51 220.38 276.82 217.69 282.19 215 282.19 215 279.51"/>
+    <polygon class="my-face-cls-161" points="190.82 279.51 198.88 276.82 204.25 282.19 209.63 284.88 190.82 279.51"/>
+    <polygon class="my-face-cls-135" points="190.82 279.51 201.57 271.44 201.57 268.76 190.82 279.51"/>
+    <polygon class="my-face-cls-162" points="129 268.76 129 274.13 131.69 274.13 139.75 279.51 129 268.76"/>
+    <path class="my-face-cls-70" d="M267.82,290.77H269a1.81,1.81,0,0,1,1.28.53l.88.88a1.81,1.81,0,0,1,0,2.55l-.88.88a1.81,1.81,0,0,1-1.28.53h-1.19a1.81,1.81,0,0,1-1.28-.53l-.88-.88a1.81,1.81,0,0,1,0-2.55l.88-.88A1.81,1.81,0,0,1,267.82,290.77Z" transform="translate(-150.75 -16.64)"/>
+    <path class="my-face-cls-70" d="M266.32,290.77" transform="translate(-150.75 -16.64)"/>
+    <polygon class="my-face-cls-90" points="110.19 268.76 94.06 279.51 104.81 276.82 110.19 271.44 110.19 268.76"/>
+    <polygon class="my-face-cls-144" points="96.75 249.94 107.5 247.25 120.94 249.94 104.81 249.94 83.31 252.63 96.75 249.94"/>
+    <path class="my-face-cls-167" d="M361.92,288.62h1.22a1.72,1.72,0,0,1,1.31.64l.9,1.07a2.48,2.48,0,0,1,0,3.09l-.9,1.07a1.72,1.72,0,0,1-1.31.64h-1.22a1.72,1.72,0,0,1-1.31-.64l-.9-1.07a2.48,2.48,0,0,1,0-3.09l.9-1.07A1.72,1.72,0,0,1,361.92,288.62Z" transform="translate(-150.75 -16.64)"/>
+    <polygon class="my-face-cls-142" points="128.87 397.89 142.44 392.38 150.5 395.07 153.19 397.76 142.44 397.76 128.87 397.89"/>
+    <polygon class="my-face-cls-72" points="122.55 391.58 129.41 392.79 142.44 392.38 132.63 389.83 122.55 391.58"/>
+    <polygon class="my-face-cls-72" points="142.44 392.38 160.45 391.58 167.7 394.53 150.5 395.07 142.44 392.38"/>
+    <polygon class="my-face-cls-141" points="153.19 397.76 143.65 399.64 128.87 397.89 142.84 396.82 153.19 397.76"/>
+    <polygon class="my-face-cls-139" points="154.13 378.95 154.13 383.92 149.83 386.61 135.18 385.26 154.13 378.95"/>
+    <polygon class="my-face-cls-138" points="169.72 387.81 176.17 385.67 183.83 390.37 179.26 391.31 169.72 387.81"/>
+    <polygon class="my-face-cls-138" points="167.7 394.53 204.66 391.58 179.4 397.89 167.7 394.53"/>
+    <polygon class="my-face-cls-168" points="179.4 397.89 178.45 403.54 183.56 403.81 204.66 391.58 179.4 397.89"/>
+    <polygon class="my-face-cls-140" points="141.5 404.21 166.76 410.52 172.94 403.81 164.48 405.15 128.87 397.89 141.5 404.21"/>
+    <polygon class="my-face-cls-141" points="173.08 378.95 182.75 386.74 199.95 389.7 192.03 385.26 173.08 378.95"/>
+    <polygon class="my-face-cls-70" points="151.18 380.83 162.6 386.2 160.45 387.01 151.18 380.83"/>
+    </g>
+</g>
+<g id="Hand">
+    <g class="Hand-Animation">
+    <polygon class="my-face-cls-169" points="196.55 594.38 209.98 578.63 216 568.44 224.33 558.72 231.74 546.68 232.21 535.56 228.5 531.39 217.85 530.93 210.44 539.38 203.15 547.49 202.45 545.63 223.52 520.74 223.41 511.13 216 504.88 206.27 504.53 198.28 510.9 185.08 523.87 198.86 508.82 207.2 502.8 210.79 497.01 211.37 486.94 199.67 477.67 190.64 478.6 163.78 501.41 189.48 478.02 199.9 476.17 201.18 466.91 195.04 457.64 186.01 454.52 174.66 455.44 146.53 477.1 142.48 465.29 136.69 460.65 131.71 452.32 129.86 448.38 124.88 448.38 123.95 457.64 126.5 465.29 121.87 483.23 119.67 489.37 108.56 517.5 103 528.96 103.58 543.43 103 582.34 119.09 575.27 132.98 585.46 139.12 599.93 162.62 587.55 196.55 594.38"/>
+    <polygon class="my-face-cls-170" points="196.55 594.61 192.84 583.49 204.19 585.12 196.55 594.61"/>
+    <polygon class="my-face-cls-171" points="204.19 585.12 192.84 583.49 204.07 574.81 204.19 585.12"/>
+    <polygon class="my-face-cls-172" points="204.07 574.81 190.41 569.83 192.84 583.49 204.07 574.81"/>
+    <polygon class="my-face-cls-173" points="171.54 565.78 161.7 587.43 196.55 594.61 192.26 583.15 190.41 569.83 171.54 565.78"/>
+    <polygon class="my-face-cls-174" points="171.31 564.27 151.86 556.63 140.51 540.89 135.42 565.9 151.16 576.08 160.66 586.74 161.7 587.43 171.77 566.59 171.31 564.27"/>
+    <polygon class="my-face-cls-175" points="161.7 587.43 133.22 585.69 139.24 599.82 161.7 587.43"/>
+    <polygon class="my-face-cls-176" points="135.42 564.39 123.03 547.95 140.51 540.89 135.42 564.39"/>
+    <polygon class="my-face-cls-177" points="135.42 565.9 118.74 575.5 123.03 547.95 135.42 565.9"/>
+    <polygon class="my-face-cls-178" points="103.34 551.89 123.03 547.95 118.74 575.5 103.11 582.45 103.34 551.89"/>
+    <polygon class="my-face-cls-179" points="123.03 547.95 103.58 539.38 103.34 551.89 123.03 547.95"/>
+    <polygon class="my-face-cls-180" points="140.51 540.89 122.91 533.71 123.03 547.95 140.51 540.89"/>
+    <polygon class="my-face-cls-181" points="122.91 533.71 103.58 539.38 123.03 547.95 122.91 533.71"/>
+    <polygon class="my-face-cls-182" points="122.91 533.71 103.11 528.96 103.58 539.38 122.91 533.71"/>
+    <polygon class="my-face-cls-183" points="122.91 533.71 124.88 517.5 116.08 499.32 108.56 517.96 103.58 528.15 122.91 533.71"/>
+    <polygon class="my-face-cls-184" points="125 520.74 143.06 524.91 122.91 533.71 125 520.74"/>
+    <polygon class="my-face-cls-185" points="143.06 524.91 155.21 532.78 151.86 556.63 140.51 540.89 122.91 533.71 143.06 524.91"/>
+    <polygon class="my-face-cls-186" points="171.31 564.27 155.21 532.78 151.86 556.63 171.31 564.27"/>
+    <polygon class="my-face-cls-187" points="180.8 567.17 173.51 548.07 172 548.07 168.76 559.3 172.12 566.01 180.8 567.17"/>
+    <polygon class="my-face-cls-188" points="180.8 567.17 188.67 564.16 190.41 569.83 180.8 567.17"/>
+    <path class="my-face-cls-189" d="M354.83,591.45l-.12-13.89-15.28,3.24,1.74,5.67S354.59,591.45,354.83,591.45Z" transform="translate(-150.75 -16.64)"/>
+    <polygon class="my-face-cls-190" points="204.53 584.3 203.38 560.57 211.94 550.27 212.18 541.24 222.02 541 227 532.32 228.5 531.51 232.09 535.91 231.86 546.68 223.99 559.07 215.88 568.44 210.09 578.63 204.53 584.3"/>
+    <polygon class="my-face-cls-191" points="210.79 538.92 211.71 541 222.02 541 228.5 531.51 218.2 531.05 210.79 538.92"/>
+    <polygon class="my-face-cls-192" points="210.79 538.92 202.57 547.49 202.45 561.03 211.94 550.27 212.18 541.24 210.79 538.92"/>
+    <polygon class="my-face-cls-193" points="180.8 567.17 184.04 556.4 188.79 565.2 180.8 567.17"/>
+    <polygon class="my-face-cls-194" points="184.04 556.4 184.62 544.71 176.28 554.66 184.04 556.4"/>
+    <polygon class="my-face-cls-195" points="184.04 556.4 180.68 566.13 176.28 554.66 184.04 556.4"/>
+    <polygon class="my-face-cls-196" points="172.46 546.68 184.85 543.9 176.28 554.66 172.46 546.68"/>
+    <polygon class="my-face-cls-197" points="172.46 546.68 182.65 525.37 166.91 541.81 172.46 546.68"/>
+    <polygon class="my-face-cls-193" points="184.62 544.71 184.74 533.01 201.41 520.74 183.12 524.45 172.46 546.68 184.62 544.71"/>
+    <polygon class="my-face-cls-198" points="167.02 542.39 167.25 555.59 162.62 546.56 167.02 542.39"/>
+    <polygon class="my-face-cls-199" points="167.02 542.39 172.46 546.68 168.41 558.6 167.25 555.59 167.02 542.39"/>
+    <polygon class="my-face-cls-200" points="162.16 546.33 166.91 541.81 154.98 532.21 162.16 546.33"/>
+    <polygon class="my-face-cls-201" points="155.33 533.83 156.72 513.8 161.81 524.22 155.33 533.83"/>
+    <polygon class="my-face-cls-202" points="143.06 524.91 156.72 513.8 155.21 532.78 143.06 524.91"/>
+    <polygon class="my-face-cls-203" points="125 520.74 135.76 514.49 143.87 525.61 125 520.74"/>
+    <path class="my-face-cls-204" d="M283.85,515.15l2.66,16-10.77,6.25.12-4.05S283.68,515.33,283.85,515.15Z" transform="translate(-150.75 -16.64)"/>
+    <polygon class="my-face-cls-205" points="133.1 498.51 125.46 497.12 119.67 503.26 126.15 504.42 124.88 517.5 133.1 498.51"/>
+    <polyline class="my-face-cls-206" points="133.1 498.51 161 473.04 153.94 492.03 148.03 504.19 135.76 514.49 133.1 497.12 125.46 497.12 135.07 484.97 133.1 497.12 125.46 497.12"/>
+    <polygon class="my-face-cls-207" points="135.53 484.74 148.96 484.62 133.1 497.12 135.53 484.74"/>
+    <polygon class="my-face-cls-208" points="120.02 490.29 136.23 476.75 137.15 462.85 130.32 456.83 130.9 450.24 128.82 448.15 125.69 448.15 123.95 457.18 126.27 465.63 120.02 490.29"/>
+    <polyline class="my-face-cls-209" points="148.5 483.69 161 473.04 165.06 463.32 146.18 476.86 147.8 483.81"/>
+    <polygon class="my-face-cls-210" points="203.38 519.82 195.5 513.33 184.85 523.41 203.38 519.82"/>
+    <polygon class="my-face-cls-211" points="156.72 513.8 170.15 507.78 179.18 488.79 164.13 501.29 148.03 504.19 156.72 513.8"/>
+    <polygon class="my-face-cls-212" points="156.72 513.8 148.03 504.19 135.76 514.49 156.72 513.8"/>
+    <polygon class="my-face-cls-213" points="155.56 488.56 175.01 488.21 162.74 500.6 148.5 503.14 155.56 488.56"/>
+    <polygon class="my-face-cls-214" points="155.56 488.56 175.94 470.84 170.26 465.86 176.75 462.97 175.94 455.21 165.06 463.32 155.56 488.56"/>
+    <polygon class="my-face-cls-215" points="175.01 488.21 175.94 470.84 155.79 487.75 175.01 488.21"/>
+    <polyline class="my-face-cls-216" points="176.05 471.42 182.77 470.84 182.54 481.26 175.01 488.67 175.94 470.84"/>
+    <polygon class="my-face-cls-217" points="193.07 478.72 194.23 494 176.17 495.39 179.18 487.98 190.76 478.72 193.07 478.72"/>
+    <polygon class="my-face-cls-218" points="125.11 516.69 126.15 504.42 118.28 503.72 125.11 516.69"/>
+    <polygon class="my-face-cls-219" points="119.67 503.26 135.07 484.97 148.5 484.97 142.48 465.4 136.57 460.77 131.02 451.51 130.09 457.64 136.69 463.78 135.53 477.9 119.55 490.76 115.5 500.13 119.67 503.26"/>
+    <polygon class="my-face-cls-220" points="132.64 584.54 160.89 587.31 149.89 575.5 135.42 565.9 119.32 574.93 132.64 584.54"/>
+    </g>
+</g>
+</svg>
