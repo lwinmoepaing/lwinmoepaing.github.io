@@ -2,10 +2,7 @@ $(document).ready(function() {
 	//========================================
 	// Initial Call Functions
 	//========================================
-	setSvg();
-	setLogo();
-	marginFromFaceSVG();
-	myHairAnimate();
+	init();
 
 	//========================================
 	// When Window Scroll
@@ -183,6 +180,24 @@ $(document).ready(function() {
 		return arr[random(arr.length - 1)];
 	}
 
+	//=======================================
+	// All Set Function
+	//=======================================
+
+	function init() {
+		setSvg();
+		setLogo();
+		setNavigation();
+		marginFromFaceSVG();
+		myHairAnimate();
+	}
+
+	function setNavigation() {
+		var svg =
+			'<svg id="H-Menu_Bar" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 357.61 225.9"> <defs> <style>.H-Menu-cls-1{fill: #fff; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 20px;}</style> </defs> <title>HumbugurBar</title> <g> <line class="H-Menu-cls-1" x1="10" y1="10" x2="347.61" y2="10"/> <line class="H-Menu-cls-1" x1="10" y1="112.95" x2="193.8" y2="112.95"/> <line class="H-Menu-cls-1" x1="10" y1="215.9" x2="347.61" y2="215.9"/> </g> </svg>';
+
+		$('#Navigation_Container').html(svg);
+	}
 	function setLogo() {
 		var svg =
 			'<svg id="Logo Top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 342"> <defs> <style>.Logo-Top-cls-1{fill: url(#linear-gradient);}.Logo-Top-cls-2{fill: url(#linear-gradient-2);}.Logo-Top-cls-3{fill: url(#linear-gradient-3);}.Logo-Top-cls-4{fill: url(#linear-gradient-4);}.Logo-Top-cls-5{fill: url(#linear-gradient-5);}.Logo-Top-cls-6{fill: url(#linear-gradient-6);}.Logo-Top-cls-7{fill: url(#linear-gradient-7);}</style> <linearGradient id="linear-gradient" x1="63.91" y1="125.2" x2="224.91" y2="275.2" gradientUnits="userSpaceOnUse"> <stop offset="0" stop-color="#593fff"/> <stop offset="1" stop-color="#974175"/> </linearGradient> <linearGradient id="linear-gradient-2" x1="55.96" y1="269.43" x2="398.96" y2="265.43" xlink:href="#linear-gradient"/> <linearGradient id="linear-gradient-3" x1="155.64" y1="54.42" x2="250.64" y2="225.42" xlink:href="#linear-gradient"/> <linearGradient id="linear-gradient-4" x1="370.77" y1="-7.78" x2="364.77" y2="309.22" xlink:href="#linear-gradient"/> <linearGradient id="linear-gradient-5" x1="244.98" y1="134.96" x2="298.28" y2="134.96" xlink:href="#linear-gradient"/> <linearGradient id="linear-gradient-6" x1="405.63" y1="53" x2="336.3" y2="162.33" xlink:href="#linear-gradient"/> <linearGradient id="linear-gradient-7" x1="456.51" y1="9.44" x2="423.18" y2="65.44" xlink:href="#linear-gradient"/> </defs> <title>LogoGuide</title> <g> <polygon class="Logo-Top-cls-1" points="26 317.83 146.84 24.17 200.14 24.17 79.3 317.83 26 317.83"/> <polygon class="Logo-Top-cls-2" points="133.18 218.46 92.29 317.83 198.89 317.83 239.78 218.46 133.18 218.46"/> <polygon class="Logo-Top-cls-3" points="139.52 203.05 192.82 203.05 254.13 54.06 213.13 24.17 139.52 203.05"/> <polygon class="Logo-Top-cls-4" points="447.88 317.83 394.59 317.83 286.34 53.72 327.53 24.17 447.88 317.83"/> <polygon class="Logo-Top-cls-5" points="271.63 167.34 244.98 102.58 298.28 102.58 271.63 167.34"/> <polygon class="Logo-Top-cls-6" points="338.99 24.17 392.29 153.7 438.15 135.63 392.29 24.17 338.99 24.17"/> <polygon class="Logo-Top-cls-7" points="427.35 24.17 454 88.94 437.87 108.63 402.94 24.17 427.35 24.17"/> </g> </svg>';

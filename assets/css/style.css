@@ -1844,6 +1844,17 @@
           color: #231a6b;
           text-align: center; }
 
+.Get-In-Touch {
+  padding: 3rem 0; }
+  .Get-In-Touch p {
+    margin: 0 auto 1rem auto; }
+    @media screen and (max-width: 767px) {
+      .Get-In-Touch p {
+        width: 100%; } }
+    @media screen and (min-width: 768px) {
+      .Get-In-Touch p {
+        width: 60%; } }
+
 body {
   margin: 0 auto;
   max-width: 2000px;
