@@ -47,14 +47,6 @@ $(document).ready(function() {
 	// My Face
 	//========================================
 
-	// $('#My-Face').on('mouseenter', function() {
-	// 	myFaceScaleOn();
-	// });
-
-	// $('#My-Face').on('mouseleave', function() {
-	// 	myFaceScaleDown();
-	// });
-
 	function myHairAnimate() {
 		var allPolygons = $('#Hair > g > polygon');
 		$(allPolygons).each(function(k, v) {

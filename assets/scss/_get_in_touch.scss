@@ -11,4 +11,24 @@
 			width: 60%;
 		}
 	}
+
+	.logo-container {
+		.logo {
+			border: 1px solid $primary-button;
+			display: inline-block;
+			width: 33px;
+			height: 33px;
+			margin: 0 2px;
+			cursor: pointer;
+			border-radius: 33px;
+			line-height: 29px;
+			color: $primary-button;
+			@include transition(all 0.3s ease-in-out);
+
+			&:hover {
+				background-color: $primary-button;
+				color: #ffffff;
+			}
+		}
+	}
 }

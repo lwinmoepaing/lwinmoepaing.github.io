@@ -1855,6 +1855,23 @@
     @media screen and (min-width: 768px) {
       .Get-In-Touch p {
         width: 60%; } }
+  .Get-In-Touch .logo-container .logo {
+    border: 1px solid #643fe6;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 33px;
+    line-height: 29px;
+    color: #643fe6;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out; }
+    .Get-In-Touch .logo-container .logo:hover {
+      background-color: #643fe6;
+      color: #ffffff; }
 
 body {
   margin: 0 auto;
