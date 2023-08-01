@@ -28,5 +28,5 @@ gitignore
 Thumbs.db
 
 yarn-lock.yml
-pnpm-lock.yaml
-# package-lock.json
+# pnpm-lock.yaml
+package-lock.json

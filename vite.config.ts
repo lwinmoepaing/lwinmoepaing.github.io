@@ -4,7 +4,7 @@ import eslint from "vite-plugin-eslint";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/",
+  base: "/lwinmoepaing.github.io/",
   plugins: [
     eslint(),
     {

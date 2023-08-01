@@ -12,26 +12,44 @@ function Navbar() {
       <nav class="main-nav backdrop-blur-xl bg-white/20  dark:bg-black/10 z-30 top-0 shadow-sm fixed flex justify-center items-center px-4 sm:px-8 h-16 w-full">
         <div class="max-wrapper w-full h-full flex justify-between items-center text-lg ">
           <h2 class="font-extrabold">
-            Lwin Moe Paing <span>Dev</span>{" "}
+            <A class="hover:text-indigo-500" href="/">
+              Lwin Moe Paing <span class="text-indigo-500">Dev</span>{" "}
+            </A>
           </h2>
 
           <div class="hidden sm:flex gap-5 font-bold ">
-            <A class="hover:text-indigo-500" href="/blog">
+            <A
+              activeClass="text-indigo-500"
+              inactiveClass=""
+              class="hover:text-indigo-500"
+              href="/blog"
+            >
               {" "}
               Blog{" "}
             </A>
-            <A class="hover:text-indigo-500" href="/books">
+            <A
+              activeClass="text-indigo-500"
+              inactiveClass=""
+              class="hover:text-indigo-500"
+              href="/books"
+            >
               {" "}
               Books{" "}
             </A>
-            <A class="hover:text-indigo-500" href="/sharing">
+            <A
+              activeClass="text-indigo-500"
+              inactiveClass=""
+              class="hover:text-indigo-500"
+              href="/sharing"
+            >
               {" "}
               Sharing{" "}
             </A>
-            <A class="hover:text-indigo-500" href="/slides">
+            {/* <A activeClass="text-indigo-500"
+        inactiveClass="inactive-link" class="hover:text-indigo-500" href="/slides">
               {" "}
               Slides{" "}
-            </A>
+            </A> */}
 
             <Show
               when={setting().darkmode}
