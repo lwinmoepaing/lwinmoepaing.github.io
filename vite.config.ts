@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   base:
-    process.env.NODE_ENV === "production" ? "/lwinmoepaing.github.io/" : "/",
+    process.env.NODE_ENV === "production" ? "https://lwinmoepaing.github.io/" : "/",
   plugins: [
     eslint(),
     {
