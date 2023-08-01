@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <>
       <MetaHead title="Home" body="Portfolio : Lwin Moe Paing (Developer)" />
-      <div class="container px-4 sm:px-8">
+      <div class="max-wrapper px-4 sm:px-8">
         <div class="max-w-[580px] mx-auto">
           <MyAnimation />
         </div>

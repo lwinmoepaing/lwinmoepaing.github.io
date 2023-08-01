@@ -18,6 +18,11 @@ function SharingPage() {
             .
           </h2>
         </div>
+        <div class="max-w-[500px] mx-auto my-[1rem] text-center">
+          <h2 class="text-lg my-2 flex justify-center items-center">
+            Coming soon <span class="text-indigo-500 ml-1 font-bold"> !! </span>
+          </h2>
+        </div>
       </div>
     </>
   );

@@ -4,15 +4,24 @@
 
 body {
   background-color: #fafafa;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+.mm-font {
+  font-family: "Noto Sans Myanmar", sans-serif;
 }
 
 .paused {
   animation-play-state: paused;
 }
 
-.max-wrapper, .container {
+.max-wrapper,
+.container {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.container {
+  margin-top: 4rem;
 }
