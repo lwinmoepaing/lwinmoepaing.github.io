@@ -1,0 +1,223 @@
+svg * {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+
+#Cycle {
+  animation: rotation 60s infinite linear;
+}
+
+#Top_Left_Yellow {
+  animation: rotation 30s infinite linear;
+}
+
+#Top_Left_Circle {
+  animation: top-moving 3s infinite linear, top-opacity 3s infinite linear;
+}
+
+#Left_Middle > path {
+  animation: bounce-top-right 10s infinite linear;
+}
+
+#Left_Middle > circle {
+  animation: bounce-top-left 8s infinite linear;
+}
+
+#Top_Right {
+  animation: scale-bounce 8s infinite linear;
+}
+
+#Left_Button > polygon {
+  animation: bounce-top-right 10s infinite linear;
+}
+
+#Left_Button > path {
+  animation: bounce-top-left 10s infinite linear;
+}
+
+#Transform_Wave {
+  /* transform: translateY(-5px); */
+}
+
+#Wave {
+  transform: rotateX(54deg);
+  animation: transform-rotation 10s infinite linear;
+}
+
+.my-svg {
+  position: relative;
+  top: -10px;
+}
+
+#Light {
+  opacity: 0;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(89deg) scale(0.96);
+  }
+  50% {
+    transform: rotate(179deg) scaleX(1) scaleY(1);
+  }
+  75% {
+    transform: rotate(269deg) scale(0.96);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes top-opacity {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes top-moving {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-13px);
+  }
+}
+
+@keyframes bounce-top-right {
+  from {
+    transform: translateX(0) translateY(0) rotate(0);
+    opacity: 0.3;
+  }
+  25% {
+    transform: translateX(10px) translateY(-5px) rotate(90deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(0px) translateY(-10px) rotate(180deg);
+  }
+  75% {
+    transform: translateX(8px) translateY(-15px) rotate(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-1px) translateY(-20px) rotate(220deg);
+    opacity: 0;
+  }
+}
+
+@keyframes bounce-top-left {
+  from {
+    transform: translateX(0) translateY(0) rotate(0);
+    opacity: 0.3;
+  }
+  25% {
+    transform: translateX(-10px) translateY(-5px) rotate(90deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-0px) translateY(-10px) rotate(180deg);
+  }
+  75% {
+    transform: translateX(-8px) translateY(-15px) rotate(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(1px) translateY(-20px) rotate(220deg);
+    opacity: 0;
+  }
+}
+
+@keyframes scale-bounce {
+  from {
+    transform: scale(0.8) rotate(0);
+    opacity: 0.3;
+  }
+  25% {
+    transform: scale(0.95) rotate(90deg);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.9) rotate(180deg);
+  }
+  75% {
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.7) rotate(220deg);
+    opacity: 0;
+  }
+}
+
+#Toggler {
+  width: 60px;
+  cursor: pointer;
+}
+
+#Toggler * {
+  transition: all 0.3s ease-in-out;
+}
+
+#Toggler.animate #Button,
+#Toggler.animate #Bg_Circle_Group {
+  transform: translateX(150%);
+}
+
+#Toggler #Star_Group {
+  transform: translateX(50%) translateY(-100%);
+}
+
+#Toggler.animate #Star_Group {
+  opacity: 1 !important;
+  transform: translateX(0%) translateY(0%);
+}
+
+#Toggler.animate #Moon {
+  transform: translateX(-100%);
+}
+
+#Toggler.animate #Background_Rectangle {
+  fill: black !important;
+}
+
+#Toggler.animate #Cloud {
+  transform: translateX(50%) translateY(100%);
+}
+
+.theme {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+@keyframes transform-rotation {
+  from {
+    transform: rotateX(67deg) rotateY(350deg) rotateZ(0deg);
+    opacity: 0.8;
+  }
+  25% {
+    transform: rotateX(67deg) rotateY(350deg) rotateZ(89deg) scale(0.96);
+    opacity: 1;
+  }
+  50% {
+    transform: rotateX(67deg) rotateY(350deg) rotateZ(179deg) scaleX(1)
+      scaleY(1);
+  }
+  75% {
+    transform: rotateX(67deg) rotateY(350deg) rotateZ(269deg) scale(0.96);
+    opacity: 1;
+  }
+  to {
+    transform: rotateX(67deg) rotateY(350deg) rotateZ(359deg);
+    opacity: 0.9;
+  }
+}

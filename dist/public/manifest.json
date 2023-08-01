@@ -1,0 +1,52 @@
+{
+  "src/entry-client.css": {
+    "file": "assets/entry-client-882598a9.css",
+    "src": "src/entry-client.css"
+  },
+  "src/entry-client.tsx": {
+    "css": [
+      "assets/entry-client-882598a9.css"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].tsx",
+      "src/routes/index.tsx",
+      "src/routes/about/index.tsx",
+      "src/routes/sharing/catch-22-experience.tsx"
+    ],
+    "file": "assets/entry-client-58a3b59f.js",
+    "isEntry": true,
+    "src": "src/entry-client.tsx"
+  },
+  "src/routes/[...404].tsx": {
+    "file": "assets/_...404_-cdac17a6.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/[...404].tsx"
+  },
+  "src/routes/about/index.tsx": {
+    "file": "assets/index-000598d4.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/about/index.tsx"
+  },
+  "src/routes/index.tsx": {
+    "file": "assets/index-2799f640.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/index.tsx"
+  },
+  "src/routes/sharing/catch-22-experience.tsx": {
+    "file": "assets/catch-22-experience-1a58676a.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/sharing/catch-22-experience.tsx"
+  }
+}

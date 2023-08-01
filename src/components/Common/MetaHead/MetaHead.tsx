@@ -16,7 +16,7 @@ export default function MetaHead(props: MetaHeadProps) {
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="twitter:title" content={props.title || ""} />
       <Meta name="twitter:description" content={props.body || ""} />
-      <Title>{props.title || ""} | LoveLetter </Title>
+      <Title>{props.title || ""} | Lwin Moe Paing </Title>
     </>
   );
 }

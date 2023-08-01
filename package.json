@@ -5,7 +5,8 @@
     "build": "solid-start build",
     "start": "solid-start start",
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint **/*.tsx --fix",
+    "serve": "cd ./dist/public && serve"
   },
   "type": "module",
   "devDependencies": {
@@ -22,8 +23,12 @@
     "vite-plugin-eslint": "^1.8.1"
   },
   "dependencies": {
+    "@nanostores/persistent": "^0.9.1",
+    "@nanostores/solid": "^0.4.2",
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.2",
+    "nanostores": "^0.9.3",
+    "solid-icons": "^1.0.11",
     "solid-js": "^1.7.8",
     "solid-mdx": "^0.0.6",
     "solid-start": "^0.2.30",
