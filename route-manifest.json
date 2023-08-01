@@ -1,0 +1,127 @@
+{
+  "/*404": [
+    {
+      "type": "script",
+      "href": "/assets/_...404_-61da11af.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-6ce0469a.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-cb3834b6.css"
+    }
+  ],
+  "/about/": [
+    {
+      "type": "script",
+      "href": "/assets/index-5f70c99e.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-6ce0469a.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-cb3834b6.css"
+    }
+  ],
+  "/blog/": [
+    {
+      "type": "script",
+      "href": "/assets/index-4af01d27.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-6ce0469a.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-cb3834b6.css"
+    },
+    {
+      "type": "script",
+      "href": "/assets/MetaHead-66027bf9.js"
+    }
+  ],
+  "/books/": [
+    {
+      "type": "script",
+      "href": "/assets/index-c8879552.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-6ce0469a.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-cb3834b6.css"
+    },
+    {
+      "type": "script",
+      "href": "/assets/MetaHead-66027bf9.js"
+    }
+  ],
+  "/": [
+    {
+      "type": "script",
+      "href": "/assets/index-477f16d3.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-6ce0469a.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-cb3834b6.css"
+    },
+    {
+      "type": "script",
+      "href": "/assets/MetaHead-66027bf9.js"
+    }
+  ],
+  "/sharing/catch-22-experience": [
+    {
+      "type": "script",
+      "href": "/assets/catch-22-experience-9c076b0c.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-6ce0469a.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-cb3834b6.css"
+    }
+  ],
+  "/sharing/": [
+    {
+      "type": "script",
+      "href": "/assets/index-56696e03.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-6ce0469a.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-cb3834b6.css"
+    },
+    {
+      "type": "script",
+      "href": "/assets/MetaHead-66027bf9.js"
+    }
+  ],
+  "entry-client": [
+    {
+      "type": "script",
+      "href": "/assets/entry-client-6ce0469a.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-cb3834b6.css"
+    }
+  ],
+  "index.html": []
+}
