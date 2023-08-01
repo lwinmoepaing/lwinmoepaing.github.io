@@ -2,125 +2,139 @@
   "/*404": [
     {
       "type": "script",
-      "href": "/assets/_...404_-61da11af.js"
+      "href": "/lwinmoepaing.github.io/assets/_...404_-cbcc1101.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-6ce0469a.js"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-d7257c1d.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-cb3834b6.css"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-616abe02.css"
     }
   ],
   "/about/": [
     {
       "type": "script",
-      "href": "/assets/index-5f70c99e.js"
+      "href": "/lwinmoepaing.github.io/assets/index-25af48e8.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-6ce0469a.js"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-d7257c1d.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-cb3834b6.css"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-616abe02.css"
     }
   ],
   "/blog/": [
     {
       "type": "script",
-      "href": "/assets/index-4af01d27.js"
+      "href": "/lwinmoepaing.github.io/assets/index-3b2c67f6.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-6ce0469a.js"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-d7257c1d.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-cb3834b6.css"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-616abe02.css"
     },
     {
       "type": "script",
-      "href": "/assets/MetaHead-66027bf9.js"
+      "href": "/lwinmoepaing.github.io/assets/MetaHead-99c8e241.js"
+    }
+  ],
+  "/blog/one": [
+    {
+      "type": "script",
+      "href": "/lwinmoepaing.github.io/assets/one-06cd4816.js"
+    },
+    {
+      "type": "script",
+      "href": "/lwinmoepaing.github.io/assets/entry-client-d7257c1d.js"
+    },
+    {
+      "type": "style",
+      "href": "/lwinmoepaing.github.io/assets/entry-client-616abe02.css"
     }
   ],
   "/books/": [
     {
       "type": "script",
-      "href": "/assets/index-c8879552.js"
+      "href": "/lwinmoepaing.github.io/assets/index-a53fac6f.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-6ce0469a.js"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-d7257c1d.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-cb3834b6.css"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-616abe02.css"
     },
     {
       "type": "script",
-      "href": "/assets/MetaHead-66027bf9.js"
+      "href": "/lwinmoepaing.github.io/assets/MetaHead-99c8e241.js"
     }
   ],
   "/": [
     {
       "type": "script",
-      "href": "/assets/index-477f16d3.js"
+      "href": "/lwinmoepaing.github.io/assets/index-7ecadfe5.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-6ce0469a.js"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-d7257c1d.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-cb3834b6.css"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-616abe02.css"
     },
     {
       "type": "script",
-      "href": "/assets/MetaHead-66027bf9.js"
+      "href": "/lwinmoepaing.github.io/assets/MetaHead-99c8e241.js"
     }
   ],
   "/sharing/catch-22-experience": [
     {
       "type": "script",
-      "href": "/assets/catch-22-experience-9c076b0c.js"
+      "href": "/lwinmoepaing.github.io/assets/catch-22-experience-4a25b4f9.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-6ce0469a.js"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-d7257c1d.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-cb3834b6.css"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-616abe02.css"
     }
   ],
   "/sharing/": [
     {
       "type": "script",
-      "href": "/assets/index-56696e03.js"
+      "href": "/lwinmoepaing.github.io/assets/index-31a5392e.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-6ce0469a.js"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-d7257c1d.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-cb3834b6.css"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-616abe02.css"
     },
     {
       "type": "script",
-      "href": "/assets/MetaHead-66027bf9.js"
+      "href": "/lwinmoepaing.github.io/assets/MetaHead-99c8e241.js"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/assets/entry-client-6ce0469a.js"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-d7257c1d.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-cb3834b6.css"
+      "href": "/lwinmoepaing.github.io/assets/entry-client-616abe02.css"
     }
   ],
   "index.html": []
