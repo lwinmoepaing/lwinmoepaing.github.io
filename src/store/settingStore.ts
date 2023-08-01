@@ -26,7 +26,6 @@ export const toggleDarkmode = action(
   settingStore,
   "toggleDarkmode",
   (store) => {
-    console.log("Clicking Toggle");
     const setting = store.get();
 
     store.set({
