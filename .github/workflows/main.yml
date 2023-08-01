@@ -5,18 +5,27 @@ on:
     branches: [master]
   workflow_dispatch:
 
+env:
+  DEV: false
+  PROD: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: production
 
     steps:
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
       - uses: actions/checkout@v3
 
       - name: install
-        run: npm i --legacy-peer-deps
+        run: pnpm install --frozen-lockfile
 
       - name: build
-        run: npm run build
+        run: pnpm run build
 
       - name: deploy pages
         uses: JamesIves/github-pages-deploy-action@v4.4.1

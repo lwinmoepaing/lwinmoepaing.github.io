@@ -1,5 +1,5 @@
 // @refresh reload
-import { Suspense } from "solid-js";
+import { Show, Suspense } from "solid-js";
 import {
   Body,
   ErrorBoundary,
@@ -16,10 +16,12 @@ import "./styles/my-animation.css";
 
 import { settingStore } from "~/store/settingStore";
 import { useStore } from "@nanostores/solid";
+import { useIsRouting } from "solid-start";
 import Navbar from "./components/Common/Navbar/Navbar";
 
 export default function Root() {
   const setting = useStore(settingStore);
+  const isRouting = useIsRouting();
   return (
     <Html lang="en" class={`${setting().darkmode ? "dark" : ""}`}>
       <Head>
@@ -39,7 +41,9 @@ export default function Root() {
         <ErrorBoundary>
           <Suspense>
             <Routes>
-              <FileRoutes />
+              <Show when={isRouting()} fallback={<FileRoutes />}>
+                Loading
+              </Show>
             </Routes>
           </Suspense>
         </ErrorBoundary>
