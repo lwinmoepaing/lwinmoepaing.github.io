@@ -9,9 +9,11 @@ interface MetaHeadProps {
 export default function MetaHead(props: MetaHeadProps) {
   const location = useLocation();
   let url = location.pathname;
+  let origin = "/";
 
   if (typeof window !== "undefined") {
     url = window?.location?.origin + location.pathname;
+    origin = window?.location?.origin;
   }
 
   return (
@@ -24,10 +26,7 @@ export default function MetaHead(props: MetaHeadProps) {
       <Meta property="og:type" content="article" />
       <Meta property="og:title" content={props.title || ""} />
       <Meta property="og:description" content={props.body || ""} />
-      <Meta
-        property="og:image"
-        content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg"
-      />
+      <Meta property="og:image" content={`${origin}/images/og_facebook_lmp.jpg`} />
       <Title>{props.title || ""} | Lwin Moe Paing </Title>
     </>
   );
