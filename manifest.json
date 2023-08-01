@@ -1,6 +1,6 @@
 {
-  "_MetaHead-f2cddf9e.js": {
-    "file": "assets/MetaHead-f2cddf9e.js",
+  "_MetaHead-7a7a0925.js": {
+    "file": "assets/MetaHead-7a7a0925.js",
     "imports": [
       "src/entry-client.tsx"
     ]
@@ -23,12 +23,12 @@
       "src/routes/sharing/catch-22-experience.tsx",
       "src/routes/sharing/index.tsx"
     ],
-    "file": "assets/entry-client-c2c3a476.js",
+    "file": "assets/entry-client-d9725dab.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/[...404].tsx": {
-    "file": "assets/_...404_-3e0c1d79.js",
+    "file": "assets/_...404_-3ca7e72a.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -36,7 +36,7 @@
     "src": "src/routes/[...404].tsx"
   },
   "src/routes/about/index.tsx": {
-    "file": "assets/index-a762b76b.js",
+    "file": "assets/index-86bb74e3.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -44,16 +44,16 @@
     "src": "src/routes/about/index.tsx"
   },
   "src/routes/blog/index.tsx": {
-    "file": "assets/index-852c1e76.js",
+    "file": "assets/index-6962b465.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-f2cddf9e.js"
+      "_MetaHead-7a7a0925.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/blog/index.tsx"
   },
   "src/routes/blog/one.tsx": {
-    "file": "assets/one-a99cf565.js",
+    "file": "assets/one-685ba446.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -61,25 +61,25 @@
     "src": "src/routes/blog/one.tsx"
   },
   "src/routes/books/index.tsx": {
-    "file": "assets/index-108aa577.js",
+    "file": "assets/index-7f92faec.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-f2cddf9e.js"
+      "_MetaHead-7a7a0925.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/books/index.tsx"
   },
   "src/routes/index.tsx": {
-    "file": "assets/index-cb533ba9.js",
+    "file": "assets/index-9e530cf9.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-f2cddf9e.js"
+      "_MetaHead-7a7a0925.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/index.tsx"
   },
   "src/routes/sharing/catch-22-experience.tsx": {
-    "file": "assets/catch-22-experience-d13b6772.js",
+    "file": "assets/catch-22-experience-ad9e9a50.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -87,10 +87,10 @@
     "src": "src/routes/sharing/catch-22-experience.tsx"
   },
   "src/routes/sharing/index.tsx": {
-    "file": "assets/index-ff3183e4.js",
+    "file": "assets/index-b1f048e3.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-f2cddf9e.js"
+      "_MetaHead-7a7a0925.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/sharing/index.tsx"
