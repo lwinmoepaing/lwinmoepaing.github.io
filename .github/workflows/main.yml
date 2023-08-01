@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
 
 jobs:
@@ -21,5 +21,5 @@ jobs:
       - name: deploy pages
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
-          branch: main
+          branch: master
           folder: dist/public
