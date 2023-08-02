@@ -1,6 +1,5 @@
 import { settingStore, toggleDarkmode } from "~/store/settingStore";
 import { useStore } from "@nanostores/solid";
-import { A } from "@solidjs/router";
 const MyAnimation = () => {
   const setting = useStore(settingStore);
 
@@ -2247,7 +2246,7 @@ const MyAnimation = () => {
           />
         </g>
       </g>
-      <A href="https://drive.google.com/file/d/1EcXt3WrOzLh-PR6ywdEXR1kIMr0DxK3s/view?usp=drive_link">
+      <a href="https://drive.google.com/file/d/1EcXt3WrOzLh-PR6ywdEXR1kIMr0DxK3s/view?usp=drive_link">
         <g id="Book">
           <g>
             <g>
@@ -2661,7 +2660,7 @@ const MyAnimation = () => {
             />
           </g>
         </g>
-      </A>
+      </a>
       <g id="CenterPoint">
         <circle cx="172.23" cy="115.24" r="2.1" style={{ fill: "#10111e" }} />
       </g>
