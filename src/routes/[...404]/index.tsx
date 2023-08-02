@@ -4,7 +4,7 @@ export default function NotFound() {
   return (
     <main class="mt-32">
       <div class="max-w-[500px] mx-auto my-[1rem] text-center">
-        <h1 class="text-5xl my-4 text-slate-100">
+        <h1 class="text-5xl my-4 ">
           ! not found
           <span class="text-indigo-500"> 404 </span>
           Page

@@ -17,6 +17,7 @@ import "./styles/my-animation.css";
 import { settingStore } from "~/store/settingStore";
 import { useStore } from "@nanostores/solid";
 import Navbar from "./components/Common/Navbar/Navbar";
+import MousePointer from "./components/Common/MousePointer/MousePointer";
 
 export default function Root() {
   const setting = useStore(settingStore);
@@ -36,6 +37,7 @@ export default function Root() {
         />
       </Head>
       <Body class={`dark:bg-black pt-[4rem] pb-[1rem] dark:text-slate-100`}>
+        <MousePointer />
         <Navbar />
         <ErrorBoundary>
           <Suspense>

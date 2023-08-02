@@ -12,7 +12,7 @@ function Navbar() {
       <nav class="main-nav backdrop-blur-xl bg-white/20  dark:bg-black/10 z-30 top-0 shadow-sm fixed flex justify-center items-center px-4 sm:px-8 h-16 w-full">
         <div class="max-wrapper w-full h-full flex justify-between items-center text-lg ">
           <h2 class="font-extrabold">
-            <A class="hover:text-indigo-500" href="/">
+            <A class="hover:text-indigo-500 interactable" href="/">
               Lwin Moe Paing <span class="text-indigo-500">Dev</span>{" "}
             </A>
           </h2>
@@ -21,7 +21,7 @@ function Navbar() {
             <A
               activeClass="text-indigo-500"
               inactiveClass=""
-              class="hover:text-indigo-500"
+              class="hover:text-indigo-500 interactable"
               href="/blog"
             >
               {" "}
@@ -30,7 +30,7 @@ function Navbar() {
             <A
               activeClass="text-indigo-500"
               inactiveClass=""
-              class="hover:text-indigo-500"
+              class="hover:text-indigo-500 interactable"
               href="/books"
             >
               {" "}
@@ -39,24 +39,19 @@ function Navbar() {
             <A
               activeClass="text-indigo-500"
               inactiveClass=""
-              class="hover:text-indigo-500"
+              class="hover:text-indigo-500 interactable"
               href="/sharing"
             >
               {" "}
               Sharing{" "}
             </A>
-            {/* <A activeClass="text-indigo-500"
-        inactiveClass="inactive-link" class="hover:text-indigo-500" href="/slides">
-              {" "}
-              Slides{" "}
-            </A> */}
-
             <Show
               when={setting().darkmode}
               fallback={
                 <span
                   onClick={toggleDarkmode}
-                  class="h-6 w-6 cursor-pointer hover:text-indigo-500"
+                  class="h-6 w-6 cursor-pointer hover:text-indigo-500 interactable"
+                  data-type="darkmode"
                 >
                   <FiMoon class="w-full h-full" />
                 </span>
@@ -64,7 +59,8 @@ function Navbar() {
             >
               <span
                 onClick={toggleDarkmode}
-                class="h-6 w-6 cursor-pointer hover:text-indigo-500"
+                class="h-6 w-6 cursor-pointer hover:text-indigo-500 interactable"
+                data-type="darkmode"
               >
                 <FiSun class="w-full h-full" />
               </span>

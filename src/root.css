@@ -25,3 +25,50 @@ body {
 .container {
   margin-top: 4rem;
 }
+
+.mouse {
+  height: 12px;
+  width: 12px;
+  background-color: rgb(99, 102, 241);
+  border-radius: 50%;
+
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 10000;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 300ms ease;
+  display: grid;
+  place-items: center;
+}
+
+body:hover .mouse {
+  opacity: 1;
+}
+
+body .interactable:hover {
+  cursor: none;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #6366f1;
+  border-radius: 100vw;
+  margin-block: 0.5em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(2 8 23);
+  border: 3px solid #6366f1;
+  border-radius: 100vw;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(2 8 23);
+}
