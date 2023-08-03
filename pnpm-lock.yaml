@@ -13,9 +13,6 @@ dependencies:
   '@solidjs/router':
     specifier: ^0.8.2
     version: 0.8.2(solid-js@1.7.8)
-  '@types/animejs':
-    specifier: ^3.1.7
-    version: 3.1.7
   animejs:
     specifier: ^3.2.1
     version: 3.2.1
@@ -48,6 +45,9 @@ devDependencies:
   '@mdx-js/rollup':
     specifier: ^2.3.0
     version: 2.3.0(rollup@3.27.0)
+  '@types/animejs':
+    specifier: ^3.1.7
+    version: 3.1.7
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.2.1
     version: 6.2.1(@typescript-eslint/parser@6.2.1)(eslint@8.46.0)(typescript@4.9.4)
@@ -1976,7 +1976,7 @@ packages:
 
   /@types/animejs@3.1.7:
     resolution: {integrity: sha512-kFSyjM+fLo3oE9noWEtUvF82ttN8fTrKohiEMIrSzEzEjnsCmtO0rBCUQBlSPEb2w8vfN+v4/Zo0tK21Bgmq4g==}
-    dev: false
+    dev: true
 
   /@types/babel__core@7.20.1:
     resolution: {integrity: sha512-aACu/U/omhdk15O4Nfb+fHgH/z3QsfQzpnvRZhYhThms83ZnAOZz7zZAWO7mn2yyNQaA4xTO8GLK3uqFU4bYYw==}
