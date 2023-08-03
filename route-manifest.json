@@ -2,139 +2,139 @@
   "/*404/": [
     {
       "type": "script",
-      "href": "/assets/index-880d82c5.js"
+      "href": "/assets/index-fc132e9a.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-589a561d.js"
+      "href": "/assets/entry-client-04789c35.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-8489d04d.css"
+      "href": "/assets/entry-client-a432dfb9.css"
     }
   ],
   "/about/": [
     {
       "type": "script",
-      "href": "/assets/index-cd5f4a78.js"
+      "href": "/assets/index-d182350d.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-589a561d.js"
+      "href": "/assets/entry-client-04789c35.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-8489d04d.css"
+      "href": "/assets/entry-client-a432dfb9.css"
     }
   ],
   "/blog/": [
     {
       "type": "script",
-      "href": "/assets/index-c8b6fcab.js"
+      "href": "/assets/index-f442b818.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-589a561d.js"
+      "href": "/assets/entry-client-04789c35.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-8489d04d.css"
+      "href": "/assets/entry-client-a432dfb9.css"
     },
     {
       "type": "script",
-      "href": "/assets/MetaHead-d7e97c71.js"
+      "href": "/assets/MetaHead-f9acdff5.js"
     }
   ],
   "/blog/one": [
     {
       "type": "script",
-      "href": "/assets/one-f4feae21.js"
+      "href": "/assets/one-8df14466.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-589a561d.js"
+      "href": "/assets/entry-client-04789c35.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-8489d04d.css"
+      "href": "/assets/entry-client-a432dfb9.css"
     }
   ],
   "/books/": [
     {
       "type": "script",
-      "href": "/assets/index-f820b32d.js"
+      "href": "/assets/index-b5eda582.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-589a561d.js"
+      "href": "/assets/entry-client-04789c35.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-8489d04d.css"
+      "href": "/assets/entry-client-a432dfb9.css"
     },
     {
       "type": "script",
-      "href": "/assets/MetaHead-d7e97c71.js"
+      "href": "/assets/MetaHead-f9acdff5.js"
     }
   ],
   "/": [
     {
       "type": "script",
-      "href": "/assets/index-740d4550.js"
+      "href": "/assets/index-117f7e30.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-589a561d.js"
+      "href": "/assets/entry-client-04789c35.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-8489d04d.css"
+      "href": "/assets/entry-client-a432dfb9.css"
     },
     {
       "type": "script",
-      "href": "/assets/MetaHead-d7e97c71.js"
+      "href": "/assets/MetaHead-f9acdff5.js"
     }
   ],
   "/sharing/catch-22-experience": [
     {
       "type": "script",
-      "href": "/assets/catch-22-experience-9ef64153.js"
+      "href": "/assets/catch-22-experience-997d3c69.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-589a561d.js"
+      "href": "/assets/entry-client-04789c35.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-8489d04d.css"
+      "href": "/assets/entry-client-a432dfb9.css"
     }
   ],
   "/sharing/": [
     {
       "type": "script",
-      "href": "/assets/index-903cc1ee.js"
+      "href": "/assets/index-d906c87d.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-589a561d.js"
+      "href": "/assets/entry-client-04789c35.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-8489d04d.css"
+      "href": "/assets/entry-client-a432dfb9.css"
     },
     {
       "type": "script",
-      "href": "/assets/MetaHead-d7e97c71.js"
+      "href": "/assets/MetaHead-f9acdff5.js"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/assets/entry-client-589a561d.js"
+      "href": "/assets/entry-client-04789c35.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-8489d04d.css"
+      "href": "/assets/entry-client-a432dfb9.css"
     }
   ],
   "index.html": []
