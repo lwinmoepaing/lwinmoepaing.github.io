@@ -1,6 +1,6 @@
 {
-  "_MetaHead-b630612c.js": {
-    "file": "assets/MetaHead-b630612c.js",
+  "_MetaHead-bf826861.js": {
+    "file": "assets/MetaHead-bf826861.js",
     "imports": [
       "src/entry-client.tsx"
     ]
@@ -11,12 +11,12 @@
     "src": "node_modules/.pnpm/workbox-window@7.0.0/node_modules/workbox-window/build/workbox-window.prod.es5.mjs"
   },
   "src/entry-client.css": {
-    "file": "assets/entry-client-a432dfb9.css",
+    "file": "assets/entry-client-32ae28a5.css",
     "src": "src/entry-client.css"
   },
   "src/entry-client.tsx": {
     "css": [
-      "assets/entry-client-a432dfb9.css"
+      "assets/entry-client-32ae28a5.css"
     ],
     "dynamicImports": [
       "src/routes/index.tsx",
@@ -29,12 +29,12 @@
       "src/routes/sharing/index.tsx",
       "node_modules/.pnpm/workbox-window@7.0.0/node_modules/workbox-window/build/workbox-window.prod.es5.mjs"
     ],
-    "file": "assets/entry-client-2fefe2a9.js",
+    "file": "assets/entry-client-0f685d9a.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/[...404]/index.tsx": {
-    "file": "assets/index-07fa67dc.js",
+    "file": "assets/index-7aeaffc3.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -42,7 +42,7 @@
     "src": "src/routes/[...404]/index.tsx"
   },
   "src/routes/about/index.tsx": {
-    "file": "assets/index-9039baf1.js",
+    "file": "assets/index-244853e6.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -50,16 +50,16 @@
     "src": "src/routes/about/index.tsx"
   },
   "src/routes/blog/index.tsx": {
-    "file": "assets/index-13cadeec.js",
+    "file": "assets/index-8e483a65.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-b630612c.js"
+      "_MetaHead-bf826861.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/blog/index.tsx"
   },
   "src/routes/blog/one.tsx": {
-    "file": "assets/one-dae25c7e.js",
+    "file": "assets/one-22cabec6.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -67,25 +67,25 @@
     "src": "src/routes/blog/one.tsx"
   },
   "src/routes/books/index.tsx": {
-    "file": "assets/index-c1dc5669.js",
+    "file": "assets/index-a4f77583.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-b630612c.js"
+      "_MetaHead-bf826861.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/books/index.tsx"
   },
   "src/routes/index.tsx": {
-    "file": "assets/index-a7ec4d00.js",
+    "file": "assets/index-2227e57c.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-b630612c.js"
+      "_MetaHead-bf826861.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/index.tsx"
   },
   "src/routes/sharing/catch-22-experience.tsx": {
-    "file": "assets/catch-22-experience-3450d594.js",
+    "file": "assets/catch-22-experience-2656716f.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -93,10 +93,10 @@
     "src": "src/routes/sharing/catch-22-experience.tsx"
   },
   "src/routes/sharing/index.tsx": {
-    "file": "assets/index-125ff86e.js",
+    "file": "assets/index-222e5e15.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-b630612c.js"
+      "_MetaHead-bf826861.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/sharing/index.tsx"
