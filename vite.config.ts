@@ -18,10 +18,6 @@ export default defineConfig({
       enforce: "pre",
     },
     VitePWA({
-      devOptions: {
-        enabled: true,
-        type: "module",
-      },
       registerType: "autoUpdate",
       injectRegister: "inline",
       // add this to cache all the
@@ -34,6 +30,10 @@ export default defineConfig({
         "*.png",
         "*.html",
       ],
+      // add this to cache all the imports
+      workbox: {
+        globPatterns: ["**/*"],
+      },
       manifest: {
         theme_color: "#6366f1",
         background_color: "#6366f1",
