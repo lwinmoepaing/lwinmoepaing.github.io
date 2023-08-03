@@ -2,12 +2,12 @@
   "name": "lwinmoepaing.github.io",
   "scripts": {
     "dev": "solid-start dev",
-    "build": "solid-start build",
+    "build": "solid-start build && bash ./after-build.sh",
     "start": "solid-start start",
     "lint": "eslint",
     "lint:fix": "eslint **/*.tsx --fix",
     "serve": "cd ./dist/public && serve -p 8000",
-    "postbuild": "bash ./after-build.sh"
+    "post-build": "bash ./after-build.sh"
   },
   "type": "module",
   "devDependencies": {
