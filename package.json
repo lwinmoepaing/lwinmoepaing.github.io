@@ -2,7 +2,7 @@
   "name": "lwinmoepaing.github.io",
   "scripts": {
     "dev": "solid-start dev",
-    "build": "solid-start build && bash ./after-build.sh",
+    "build": "solid-start build",
     "start": "solid-start start",
     "lint": "eslint",
     "lint:fix": "eslint **/*.tsx --fix",

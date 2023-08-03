@@ -26,7 +26,10 @@ jobs:
 
       - name: build
         run: pnpm run build
-
+      
+      - name: post-build
+        run: pnpm run post-build
+        
       - name: deploy pages
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
