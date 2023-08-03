@@ -42,8 +42,9 @@ function MousePointer() {
       animateTrailer(e, interacting);
     });
   });
+
   return (
-    <div class="mouse" id="trailer">
+    <div class="mouse invisible sm:visible" id="trailer">
       <Show when={isInteracting()} fallback={<></>}>
         <Switch
           fallback={<FiArrowUpRight class="w-[6px] h-[6px] text-white " />}

@@ -18,9 +18,15 @@ import { settingStore } from "~/store/settingStore";
 import { useStore } from "@nanostores/solid";
 import Navbar from "./components/Common/Navbar/Navbar";
 import MousePointer from "./components/Common/MousePointer/MousePointer";
+import { usePwaRegister } from "./lib/pwa/usePwaRegister";
 
 export default function Root() {
   const setting = useStore(settingStore);
+
+  if (typeof navigator !== "undefined" && "serviceWorker" in navigator) {
+    // && !/localhost/.test(window.location)) {
+    usePwaRegister();
+  }
 
   return (
     <Html lang="en" class={`${setting().darkmode ? "dark" : ""}`}>
