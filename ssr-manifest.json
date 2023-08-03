@@ -1,6 +1,8 @@
 {
   "\u0000vite/preload-helper": [
   ],
+  "../../../../../@vite-plugin-pwa/virtual:pwa-register/solid": [
+  ],
   "node_modules/.pnpm/@nanostores+persistent@0.9.1_nanostores@0.9.3/node_modules/@nanostores/persistent/index.js": [
   ],
   "node_modules/.pnpm/@nanostores+solid@0.4.2_nanostores@0.9.3_solid-js@1.7.8/node_modules/@nanostores/solid/dist/index.js": [
@@ -53,45 +55,50 @@
   ],
   "node_modules/.pnpm/solid-start@0.2.30_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.8_solid-start-node_2l6effkxtzoukkhj7mb2lrmi5u/node_modules/solid-start/server/types.tsx": [
   ],
+  "node_modules/.pnpm/workbox-window@7.0.0/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
+    "/assets/workbox-window.prod.es5-a7b12eab.js"
+  ],
   "src/components/Common/MetaHead/MetaHead.tsx": [
-    "/assets/MetaHead-9f70e9f2.js"
+    "/assets/MetaHead-d7e97c71.js"
   ],
   "src/components/Common/MousePointer/MousePointer.tsx": [
   ],
   "src/components/Common/Navbar/Navbar.tsx": [
   ],
   "src/components/MyAnimation/MyAnimation.tsx": [
-    "/assets/index-9dc65a49.js"
+    "/assets/index-740d4550.js"
   ],
   "src/entry-client.tsx": [
+  ],
+  "src/lib/pwa/usePwaRegister.ts": [
   ],
   "src/root.css": [
   ],
   "src/root.tsx": [
   ],
   "src/routes/[...404]/index.tsx": [
-    "/assets/index-d29461d4.js"
+    "/assets/index-880d82c5.js"
   ],
   "src/routes/about/index.tsx": [
-    "/assets/index-a3f80448.js"
+    "/assets/index-cd5f4a78.js"
   ],
   "src/routes/blog/index.tsx": [
-    "/assets/index-c15155b9.js"
+    "/assets/index-c8b6fcab.js"
   ],
   "src/routes/blog/one.tsx": [
-    "/assets/one-186f25f1.js"
+    "/assets/one-f4feae21.js"
   ],
   "src/routes/books/index.tsx": [
-    "/assets/index-127fa3f6.js"
+    "/assets/index-f820b32d.js"
   ],
   "src/routes/index.tsx": [
-    "/assets/index-9dc65a49.js"
+    "/assets/index-740d4550.js"
   ],
   "src/routes/sharing/catch-22-experience.tsx": [
-    "/assets/catch-22-experience-d7959617.js"
+    "/assets/catch-22-experience-9ef64153.js"
   ],
   "src/routes/sharing/index.tsx": [
-    "/assets/index-75f9dc1b.js"
+    "/assets/index-903cc1ee.js"
   ],
   "src/store/settingStore.ts": [
   ],
