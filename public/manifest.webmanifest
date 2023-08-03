@@ -2,7 +2,7 @@
   "theme_color": "#6366f1",
   "background_color": "#6366f1",
   "id": "./",
-  "start_url": "./",
+  "start_url": "/",
   "display": "standalone",
   "short_name": "lwinmoepaing",
   "description": "Pwa for Lwin Moe Paing",
