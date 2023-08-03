@@ -8,10 +8,10 @@
   "node_modules/.pnpm/@nanostores+solid@0.4.2_nanostores@0.9.3_solid-js@1.7.8/node_modules/@nanostores/solid/dist/index.js": [
   ],
   "node_modules/.pnpm/@solid-primitives+refs@1.0.4_solid-js@1.7.8/node_modules/@solid-primitives/refs/dist/index.js": [
-    "/assets/MetaHead-007eae12.js"
+    "/assets/MetaHead-b9c9d27d.js"
   ],
   "node_modules/.pnpm/@solid-primitives+transition-group@1.0.2_solid-js@1.7.8/node_modules/@solid-primitives/transition-group/dist/index.js": [
-    "/assets/MetaHead-007eae12.js"
+    "/assets/MetaHead-b9c9d27d.js"
   ],
   "node_modules/.pnpm/@solidjs+meta@0.28.2_solid-js@1.7.8/node_modules/@solidjs/meta/dist/index.jsx": [
   ],
@@ -24,6 +24,8 @@
   "node_modules/.pnpm/@solidjs+router@0.8.2_solid-js@1.7.8/node_modules/@solidjs/router/dist/routing.js": [
   ],
   "node_modules/.pnpm/@solidjs+router@0.8.2_solid-js@1.7.8/node_modules/@solidjs/router/dist/utils.js": [
+  ],
+  "node_modules/.pnpm/animejs@3.2.1/node_modules/animejs/lib/anime.es.js": [
   ],
   "node_modules/.pnpm/nanostores@0.9.3/node_modules/nanostores/action/index.js": [
   ],
@@ -62,21 +64,21 @@
   "node_modules/.pnpm/solid-start@0.2.30_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.8_solid-start-node_2l6effkxtzoukkhj7mb2lrmi5u/node_modules/solid-start/server/types.tsx": [
   ],
   "node_modules/.pnpm/solid-transition-group@0.2.2_solid-js@1.7.8/node_modules/solid-transition-group/dist/index.js": [
-    "/assets/MetaHead-007eae12.js"
+    "/assets/MetaHead-b9c9d27d.js"
   ],
   "node_modules/.pnpm/workbox-window@7.0.0/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
     "/assets/workbox-window.prod.es5-a7b12eab.js"
   ],
-  "src/components/Animation/FlaotAnimation.tsx": [
+  "src/components/Animation/FloatAnimation.tsx": [
   ],
   "src/components/Animation/MyAnimation.tsx": [
-    "/assets/index-fddb1e96.js"
+    "/assets/index-f6ca0153.js"
   ],
   "src/components/Common/AnimateContainer/AnimateContainer.tsx": [
-    "/assets/MetaHead-007eae12.js"
+    "/assets/MetaHead-b9c9d27d.js"
   ],
   "src/components/Common/MetaHead/MetaHead.tsx": [
-    "/assets/MetaHead-007eae12.js"
+    "/assets/MetaHead-b9c9d27d.js"
   ],
   "src/components/Common/MousePointer/MousePointer.tsx": [
   ],
@@ -93,28 +95,28 @@
   "src/root.tsx": [
   ],
   "src/routes/[...404]/index.tsx": [
-    "/assets/index-8f4d6711.js"
+    "/assets/index-412275ee.js"
   ],
   "src/routes/about/index.tsx": [
-    "/assets/index-d17a46ba.js"
+    "/assets/index-702984de.js"
   ],
   "src/routes/blog/index.tsx": [
-    "/assets/index-b7ea3ce8.js"
+    "/assets/index-50455c04.js"
   ],
   "src/routes/blog/one.tsx": [
-    "/assets/one-0f4ba946.js"
+    "/assets/one-44082214.js"
   ],
   "src/routes/books/index.tsx": [
-    "/assets/index-e9725378.js"
+    "/assets/index-65727de6.js"
   ],
   "src/routes/index.tsx": [
-    "/assets/index-fddb1e96.js"
+    "/assets/index-f6ca0153.js"
   ],
   "src/routes/sharing/catch-22-experience.tsx": [
-    "/assets/catch-22-experience-516d4df9.js"
+    "/assets/catch-22-experience-91a120a0.js"
   ],
   "src/routes/sharing/index.tsx": [
-    "/assets/index-24658ba3.js"
+    "/assets/index-ee74e7ad.js"
   ],
   "src/store/settingStore.ts": [
   ],
