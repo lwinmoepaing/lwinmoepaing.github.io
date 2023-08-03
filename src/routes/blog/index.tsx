@@ -13,13 +13,12 @@ function BlogPage() {
           <div class="max-w-[500px] mx-auto my-[1rem] text-center">
             <h2 class="text-lg my-2 flex justify-center items-center">
               <FiLayers class="text-indigo-500 h-5 w-5 mr-2" />
-              Hello, This is my{" "}
-              <span class="text-indigo-500 mx-2 font-bold">
-                Personal Blogs
-              </span>{" "}
-              page.
+              This is my{" "}
+              <span class="text-indigo-500 mx-2 font-bold">Personal Blogs</span>
+              .
             </h2>
           </div>
+
           <div class="animate-fade-up animate-delay-500 animate-ease-in grid grid-cols-1 sm:grid-cols-2 place-items-center sm:gap-x-4 sm:gap-y-16 gap-y-11">
             <a href="https://www.facebook.com/lwin.im/posts/pfbid02C49bcDqe4bZzyDCfzfNyw4WqdAB2dhR5cACbeDKrLf5ViDCRzhnzNffJmU6ae5npl">
               <section class="lg:w-[22rem] md:w-[20rem] sm:w-[15rem] xxs:w-[18rem]">

@@ -1,6 +1,7 @@
-import { createEffect, createSignal, onCleanup } from "solid-js";
+import { onMount, onCleanup } from "solid-js";
+import anime from "animejs";
 
-function FlaotAnimation() {
+function FloatAnimation() {
   const arr = [
     "M189.8 -166.4C238.1 -141.4 264 -70.7 263.1 -0.9C262.2 68.8 234.3 137.7 186 163.2C137.7 188.7 68.8 170.8 -0.8 171.7C-70.5 172.5 -140.9 191.9 -174.9 166.4C-208.9 140.9 -206.5 70.5 -200.2 6.2C-194 -58 -184 -116 -150 -141C-116 -166 -58 -158 6.4 -164.4C70.7 -170.7 141.4 -191.4 189.8 -166.4",
     "M128.8 -121.6C161 -96.6 177 -48.3 176.4 -0.6C175.8 47.1 158.6 94.3 126.4 123.9C94.3 153.6 47.1 165.8 2.5 163.3C-42.2 160.9 -84.4 143.7 -133.2 114C-182 84.4 -237.5 42.2 -251.8 -14.3C-266 -70.7 -239.1 -141.4 -190.3 -166.4C-141.4 -191.4 -70.7 -170.7 -11.2 -159.5C48.3 -148.3 96.6 -146.6 128.8 -121.6",
@@ -9,46 +10,46 @@ function FlaotAnimation() {
     "M128.3 -103.3C178.3 -78.3 239.1 -39.1 251.4 12.3C263.6 63.6 227.3 127.3 177.3 171.9C127.3 216.6 63.6 242.3 -3.3 245.6C-70.2 248.9 -140.5 229.8 -181.8 185.1C-223.1 140.5 -235.6 70.2 -235.2 0.4C-234.9 -69.5 -221.7 -139.1 -180.4 -164.1C-139.1 -189.1 -69.5 -169.5 -15.2 -154.3C39.1 -139.1 78.3 -128.3 128.3 -103.3",
   ];
 
-  const [animateData, setData] = createSignal(arr[0]);
-  const [index, setIndex] = createSignal(0);
+  // const [animateData, setData] = createSignal(arr[0]);
+  // const [index, setIndex] = createSignal(0);
 
-  createEffect(() => {
-    const path = arr[index() + 1];
-    setData(path);
-
-    const timer = setInterval(() => {
-      const path = arr[index() + 1];
-      setData(path);
-      setIndex((prev) => {
-        return prev + 1 >= arr.length - 1 ? 0 : prev + 1;
-      });
-    }, 2000);
-
-    onCleanup(() => clearInterval(timer));
+  onMount(() => {
+    anime({
+      targets: "#fluidSvg path",
+      d: arr.map((x) => ({ value: x })),
+      easing: "linear",
+      direction: "alternate",
+      duration: 15000,
+      loop: true,
+    });
+    onCleanup(() => {
+      anime.remove("#fluidSvg path")
+    })
   });
 
   return (
     <div class="top-0 z-[1000] fixed w-full h-full flex justify-center items-center animate-[navBarAnimation_2s_0s_ease-in-out_forwards]">
       <svg
+        id="fluidSvg"
         viewBox="0 0 900 600"
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
         width="900"
         height="600"
-        class="w-full h-full scale-[1.8] md:scale-[1.2]"
+        class="w-full h-full fluidSvg "
       >
         <g transform="translate(420.4370044186388 299.46084788335605)">
           <path
-            class="transition-[all] duration-[2000ms] ease-in-out"
-            d={animateData()}
+            class=""
+            d={arr[0]}
             style={{ fill: "#5453a3" }}
           />
         </g>
       </svg>
 
-      <div class="absolute backdrop-blur-md bg-white/20  dark:bg-black/40 z-100 w-full h-full" />
+      <div class="absolute backdrop-blur-lg bg-white/20  dark:bg-black/40 z-100 w-full h-full" />
     </div>
   );
 }
 
-export default FlaotAnimation;
+export default FloatAnimation;
