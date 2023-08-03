@@ -1,5 +1,5 @@
 // @refresh reload
-import { Suspense } from "solid-js";
+import { Show, Suspense } from "solid-js";
 import {
   Body,
   ErrorBoundary,
@@ -18,15 +18,10 @@ import { settingStore } from "~/store/settingStore";
 import { useStore } from "@nanostores/solid";
 import Navbar from "./components/Common/Navbar/Navbar";
 import MousePointer from "./components/Common/MousePointer/MousePointer";
-import { usePwaRegister } from "./lib/pwa/usePwaRegister";
+import PwaReloadPrompt from "./components/PwaReloadPrompt/PwaReloadPrompt";
 
 export default function Root() {
   const setting = useStore(settingStore);
-
-  if (typeof navigator !== "undefined" && "serviceWorker" in navigator) {
-    // && !/localhost/.test(window.location)) {
-    usePwaRegister();
-  }
 
   return (
     <Html lang="en" class={`${setting().darkmode ? "dark" : ""}`}>
@@ -41,8 +36,19 @@ export default function Root() {
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar&family=Nunito:wght@400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
+        <link
+          rel="apple-touch-icon"
+          href="/images/logo/icon-192x192.png"
+          sizes="180x180"
+        />
+        <link rel="mask-icon" href="/images/mask.svg" color="#6366f1" />
+        <meta name="theme-color" content="#6366f1" />
+        <link rel="manifest" href="/manifest.webmanifest" />
       </Head>
       <Body class={`dark:bg-black pt-[4rem] pb-[1rem] dark:text-slate-100`}>
+        <Show when={typeof navigator !== "undefined"} fallback={<></>}>
+          <PwaReloadPrompt />
+        </Show>
         <MousePointer />
         <Navbar />
         <ErrorBoundary>

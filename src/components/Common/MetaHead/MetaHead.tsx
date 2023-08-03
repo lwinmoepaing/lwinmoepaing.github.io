@@ -17,13 +17,17 @@ export default function MetaHead(props: MetaHeadProps) {
       <Meta name="twitter:description" content={props.body || ""} />
       <Meta property="og:url" content={location.pathname} />
       <Meta property="og:type" content="article" />
-      <Meta property="og:title" content={`${props.title || ""} | Lwin Moe Paing`} />
+      <Meta
+        property="og:title"
+        content={`${props.title || ""} | Lwin Moe Paing`}
+      />
       <Meta property="og:description" content={props.body || ""} />
       <Meta
         property="og:image"
         content={`https://lwinmoepaing.github.io/images/og_facebook_lmp.jpg`}
       />
       <Title>{props.title || ""} | Lwin Moe Paing </Title>
+      
     </>
   );
 }
