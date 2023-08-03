@@ -2141,26 +2141,28 @@ const MyAnimation = () => {
             />
           </g>
         </g>
-        <circle
-          id="Light"
-          cx="105.19"
-          cy="120"
-          r="23.56"
-          style={{
-            fill: "url(#radial-gradient-5)",
-            opacity: `${setting().darkmode ? "1" : "0"}`,
-          }}
-        />
-        <path
-          id="LampHead"
-          d="M95.55,135.33c-.01,.72,2.41,1.96,3.09,2.19,1.39,.46,2.11,.85,6.35,.56,3.42-.23,5.05-.63,6.58-1.03,.78-.21,1.38-.81,1.38-1.62v-26.31c0-.63-.36-1.21-.93-1.48-1.14-.54-3.4-1.27-7.25-1.22-4.81,.06-6.78,.36-7.98,1.01-.5,.27-.8,.82-.81,1.39l-.43,26.51Z"
-          style={{
-            fill: "url(#linear-gradient-58)",
-            stroke: "#181818",
-            "stroke-miterlimit": "10",
-            "stroke-width": "0.2px",
-          }}
-        />
+        <g data-type="darkmode" class={`interactable`} onClick={toggleDarkmode}>
+          <circle
+            id="Light"
+            cx="105.19"
+            cy="120"
+            r="23.56"
+            style={{
+              fill: "url(#radial-gradient-5)",
+              opacity: `${setting().darkmode ? "1" : "0"}`,
+            }}
+          />
+          <path
+            id="LampHead"
+            d="M95.55,135.33c-.01,.72,2.41,1.96,3.09,2.19,1.39,.46,2.11,.85,6.35,.56,3.42-.23,5.05-.63,6.58-1.03,.78-.21,1.38-.81,1.38-1.62v-26.31c0-.63-.36-1.21-.93-1.48-1.14-.54-3.4-1.27-7.25-1.22-4.81,.06-6.78,.36-7.98,1.01-.5,.27-.8,.82-.81,1.39l-.43,26.51Z"
+            style={{
+              fill: "url(#linear-gradient-58)",
+              stroke: "#181818",
+              "stroke-miterlimit": "10",
+              "stroke-width": "0.2px",
+            }}
+          />
+        </g>
       </g>
       <g id="Particles">
         <g id="Left_Middle">

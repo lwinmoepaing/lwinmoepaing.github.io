@@ -1,8 +1,15 @@
 import { Match, Show, Switch, createEffect, createSignal } from "solid-js";
-import { FiArrowUpRight, FiBookOpen, FiMoon, FiSun } from "solid-icons/fi";
+import {
+  FiArrowUpRight,
+  FiBookOpen,
+  FiMoon,
+  FiSun,
+  FiLayers,
+  FiHeart,
+  FiShare2,
+} from "solid-icons/fi";
 import { settingStore } from "~/store/settingStore";
 import { useStore } from "@nanostores/solid";
-
 
 function MousePointer() {
   const setting = useStore(settingStore);
@@ -10,6 +17,7 @@ function MousePointer() {
   const [interactIcon, setInteractIcon] = createSignal("");
 
   createEffect(() => {
+    const audio = new Audio("/clicky.mp3");
     const trailer = document.getElementById("trailer");
 
     const animateTrailer = (e: MouseEvent, interacting: boolean) => {
@@ -41,6 +49,17 @@ function MousePointer() {
       setInteracting(interacting);
       animateTrailer(e, interacting);
     });
+
+    window?.addEventListener("click", (e: MouseEvent) => {
+      const interactable = (e?.target as HTMLElement)?.closest?.(
+        ".interactable"
+      );
+
+      const interacting = interactable !== null;
+      if (interacting) {
+        audio?.play();
+      }
+    });
   });
 
   return (
@@ -51,6 +70,15 @@ function MousePointer() {
         >
           <Match when={interactIcon() === "book"}>
             <FiBookOpen class="w-[6px] h-[6px] text-white " />
+          </Match>
+          <Match when={interactIcon() === "home"}>
+            <FiHeart class="w-[6px] h-[6px] text-white " />
+          </Match>
+          <Match when={interactIcon() === "share"}>
+            <FiShare2 class="w-[6px] h-[6px] text-white " />
+          </Match>
+          <Match when={interactIcon() === "blog"}>
+            <FiLayers class="w-[6px] h-[6px] text-white " />
           </Match>
           <Match when={setting().darkmode && interactIcon() === "darkmode"}>
             <FiSun class="w-[6px] h-[6px] text-white " />

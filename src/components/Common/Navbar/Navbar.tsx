@@ -12,7 +12,7 @@ function Navbar() {
       <nav class="main-nav backdrop-blur-xl bg-white/20  dark:bg-black/10 z-30 top-0 shadow-sm fixed flex justify-center items-center px-4 sm:px-8 h-16 w-full">
         <div class="max-wrapper w-full h-full flex justify-between items-center text-lg ">
           <h2 class="font-extrabold">
-            <A class="hover:text-indigo-500 interactable" href="/">
+            <A class="hover:text-indigo-500 interactable" data-type="home" href="/">
               Lwin Moe Paing <span class="text-indigo-500">Dev</span>{" "}
             </A>
           </h2>
@@ -22,6 +22,7 @@ function Navbar() {
               activeClass="text-indigo-500"
               inactiveClass=""
               class="hover:text-indigo-500 interactable"
+              data-type="blog"
               href="/blog"
             >
               {" "}
@@ -30,6 +31,7 @@ function Navbar() {
             <A
               activeClass="text-indigo-500"
               inactiveClass=""
+              data-type="book"
               class="hover:text-indigo-500 interactable"
               href="/books"
             >
@@ -41,6 +43,7 @@ function Navbar() {
               inactiveClass=""
               class="hover:text-indigo-500 interactable"
               href="/sharing"
+              data-type="share"
             >
               {" "}
               Sharing{" "}
