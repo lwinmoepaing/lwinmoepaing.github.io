@@ -855,8 +855,13 @@ const MyAnimation = () => {
             "stroke-linejoin": "round",
             "stroke-width": "0.5px",
           }}
+          class="opacity-0 animate-[opacity0to1_1s_100ms_ease-in-out_forwards]"
         />
-        <g id="Inner_Icons" data-name="Inner Icons">
+        <g
+          id="Inner_Icons"
+          data-name="Inner Icons"
+          class="opacity-0 animate-[opacity0to1_1s_100ms_ease-in-out_forwards]"
+        >
           <circle
             cx="221.93"
             cy="76.02"
@@ -890,8 +895,13 @@ const MyAnimation = () => {
               "stroke-linecap": "round",
               "stroke-linejoin": "round",
             }}
+            class="opacity-0 animate-[opacity0to1_1s_400ms_ease-in-out_forwards]"
           />
-          <g id="Icon_Path" data-name="Icon Path">
+          <g
+            id="Icon_Path"
+            data-name="Icon Path"
+            class="opacity-0 animate-[opacity0to1_1s_400ms_ease-in-out_forwards]"
+          >
             <g id="Html">
               <path
                 d="M176.22,36.96c-.18-.07-.35-.13-.53-.2-.84-.3-1.68-.6-2.52-.91-.14-.05-.29-.1-.43-.15-.03,0-.04-.02-.04-.05,0-.49-.01-.98-.02-1.48,0-.45-.01-.9-.02-1.36,0-.49-.02-.98-.02-1.47,0-.49-.01-.98-.02-1.47,0-.49-.01-.98-.02-1.47,0-.45-.01-.9-.02-1.36,0-.13,0-.27,0-.4,0-.05,0-.06,.06-.06,.94,.07,1.88,.14,2.83,.21,1.97,.15,3.93,.3,5.9,.44,.07,0,.07,0,.06,.07-.05,.29-.1,.58-.15,.87-.05,.29-.1,.59-.15,.88-.05,.29-.09,.57-.14,.86-.05,.29-.1,.59-.15,.88-.05,.28-.09,.57-.14,.85-.05,.29-.1,.59-.15,.88-.05,.29-.09,.58-.14,.86-.05,.29-.1,.58-.15,.87-.05,.29-.09,.58-.14,.86-.05,.29-.1,.58-.14,.87,0,.05-.02,.1-.02,.15,0,.04-.02,.05-.05,.05-.32,.06-.64,.13-.97,.19-.88,.17-1.77,.35-2.65,.52,0,0-.02,0-.02,0h-.03Z"
@@ -2053,7 +2063,10 @@ const MyAnimation = () => {
           </g>
         </g>
       </g>
-      <g id="Transform_Wave">
+      <g
+        id="Transform_Wave"
+        class="opacity-0 animate-[moveWaveTop_1s_900ms_ease-in-out_forwards]"
+      >
         <g style={{ "clip-path": "url(#clippath)" }}>
           <g id="Wave">
             <g style={{ mask: "url(#mask)" }}>

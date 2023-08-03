@@ -72,3 +72,20 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background: rgb(2 8 23);
 }
+
+.slide-fade-enter-active {
+  transition: opacity .5s;
+}
+.slide-fade-exit-active {
+  transition: opacity 0s;
+}
+.slide-fade-enter {
+  opacity: 0;
+}
+.slide-fade-exit-to {
+  opacity: 0;
+  /* transform: translateY(10px); */
+}
+.slide-fade-enter {
+  /* transform: translateY(-10px); */
+}
