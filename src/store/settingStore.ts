@@ -7,10 +7,11 @@ export const settingStore = persistentAtom<SettingType>(
   "setting",
   {
     darkmode: true,
+    showNavbar: false,
   },
   {
     encode: (value) => {
-      return JSON.stringify(value);
+      return JSON.stringify({ ...value, showNavbar: false });
     },
     decode: (value) => {
       try {
@@ -34,3 +35,12 @@ export const toggleDarkmode = action(
     });
   }
 );
+
+export const toogleNavbar = action(settingStore, "toggleNavbar", (store) => {
+  const setting = store.get();
+
+  store.set({
+    ...setting,
+    showNavbar: !setting.showNavbar,
+  });
+});

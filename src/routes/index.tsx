@@ -1,6 +1,6 @@
 import AnimateContainer from "~/components/Common/AnimateContainer/AnimateContainer";
 import MetaHead from "~/components/Common/MetaHead/MetaHead";
-import MyAnimation from "~/components/MyAnimation/MyAnimation";
+import MyAnimation from "~/components/Animation/MyAnimation";
 
 function HomePage() {
   return (
