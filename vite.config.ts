@@ -1,8 +1,9 @@
 import solid from "solid-start/vite";
-import solidStatic from "solid-start-static";
+import solidStartStatic from "solid-start-static";
 import eslint from "vite-plugin-eslint";
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
+import manifest from './public/manifest.json'
 
 export default defineConfig({
   plugins: [
@@ -34,39 +35,8 @@ export default defineConfig({
       workbox: {
         globPatterns: ["**/*"],
       },
-      manifest: {
-        theme_color: "#6366f1",
-        background_color: "#6366f1",
-        scope: "./",
-        start_url: ".",
-        display: "standalone",
-        short_name: "lwinmoepaing",
-        description: "Pwa for Lwin Moe Paing",
-        name: "Lwin Moe Paing Dev",
-        icons: [
-          {
-            src: "./images/logo/icon-192x192.png",
-            sizes: "192x192",
-            type: "image/png",
-          },
-          {
-            src: "./images/logo/icon-256x256.png",
-            sizes: "256x256",
-            type: "image/png",
-          },
-          {
-            src: "./images/logo/icon-384x384.png",
-            sizes: "384x384",
-            type: "image/png",
-          },
-          {
-            src: "./images/logo/icon-512x512.png",
-            sizes: "512x512",
-            type: "image/png",
-          },
-        ],
-      },
+      manifest: manifest
     }),
-    solid({ ssr: true, extensions: [".mdx", ".md"], adapter: solidStatic() }),
+    solid({ ssr: true, extensions: [".mdx", ".md"], adapter: solidStartStatic()}),
   ],
 });

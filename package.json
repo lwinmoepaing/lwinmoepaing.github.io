@@ -6,7 +6,8 @@
     "start": "solid-start start",
     "lint": "eslint",
     "lint:fix": "eslint **/*.tsx --fix",
-    "serve": "cd ./dist/public && serve -p 8000"
+    "serve": "cd ./dist/public && serve -p 8000",
+    "postbuild": "bash ./after-build.sh"
   },
   "type": "module",
   "devDependencies": {
