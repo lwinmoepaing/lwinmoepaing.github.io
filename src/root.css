@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fafafa;
   font-family: "Nunito", sans-serif;
@@ -74,7 +78,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .slide-fade-enter-active {
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 .slide-fade-exit-active {
   transition: opacity 0s;

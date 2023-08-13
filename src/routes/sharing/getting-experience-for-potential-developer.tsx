@@ -31,6 +31,14 @@ function Catch22ExperiencePage() {
     });
   });
 
+  createEffect(() => {
+    if (currentSlide()) {
+      //
+      console.log("Watching");
+      window.scrollTo(0, document.body.scrollHeight);
+    }
+  });
+
   return (
     <>
       <MetaHead
@@ -242,7 +250,8 @@ function Catch22ExperiencePage() {
                     Deliverying What you build
                   </h2>
                   <p class="sm:mt-4 mt-3 text-base xxs:text-sm font-medium max-w-[600px] mx-auto">
-                    Case study: web design focused on interaction design. by Nana
+                    Case study: web design focused on interaction design. by
+                    Nana
                   </p>
                   <div class="my-3">
                     <A
