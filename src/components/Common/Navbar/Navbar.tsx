@@ -22,7 +22,7 @@ const navLinks = [
   {
     name: "Sharing",
     link: "/sharing",
-    type: "sharing",
+    type: "share",
   },
 ];
 
