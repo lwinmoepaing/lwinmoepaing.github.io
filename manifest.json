@@ -30,8 +30,8 @@
       "type": "image/png"
     }
   ],
-  "_MetaHead-b9c9d27d.js": {
-    "file": "assets/MetaHead-b9c9d27d.js",
+  "_MetaHead-7ef5a7b5.js": {
+    "file": "assets/MetaHead-7ef5a7b5.js",
     "imports": [
       "src/entry-client.tsx"
     ]
@@ -42,12 +42,12 @@
     "src": "node_modules/.pnpm/workbox-window@7.0.0/node_modules/workbox-window/build/workbox-window.prod.es5.mjs"
   },
   "src/entry-client.css": {
-    "file": "assets/entry-client-bfcd99d4.css",
+    "file": "assets/entry-client-6884649c.css",
     "src": "src/entry-client.css"
   },
   "src/entry-client.tsx": {
     "css": [
-      "assets/entry-client-bfcd99d4.css"
+      "assets/entry-client-6884649c.css"
     ],
     "dynamicImports": [
       "src/routes/index.tsx",
@@ -56,16 +56,16 @@
       "src/routes/blog/index.tsx",
       "src/routes/blog/one.tsx",
       "src/routes/books/index.tsx",
-      "src/routes/sharing/catch-22-experience.tsx",
+      "src/routes/sharing/getting-experience-for-potential-developer.tsx",
       "src/routes/sharing/index.tsx",
       "node_modules/.pnpm/workbox-window@7.0.0/node_modules/workbox-window/build/workbox-window.prod.es5.mjs"
     ],
-    "file": "assets/entry-client-6f6d294f.js",
+    "file": "assets/entry-client-7ac5e282.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/[...404]/index.tsx": {
-    "file": "assets/index-412275ee.js",
+    "file": "assets/index-a1d567c2.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -73,7 +73,7 @@
     "src": "src/routes/[...404]/index.tsx"
   },
   "src/routes/about/index.tsx": {
-    "file": "assets/index-702984de.js",
+    "file": "assets/index-6ac4e325.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -81,16 +81,16 @@
     "src": "src/routes/about/index.tsx"
   },
   "src/routes/blog/index.tsx": {
-    "file": "assets/index-50455c04.js",
+    "file": "assets/index-6ff49d3b.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-b9c9d27d.js"
+      "_MetaHead-7ef5a7b5.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/blog/index.tsx"
   },
   "src/routes/blog/one.tsx": {
-    "file": "assets/one-44082214.js",
+    "file": "assets/one-e8cccaf4.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -98,36 +98,37 @@
     "src": "src/routes/blog/one.tsx"
   },
   "src/routes/books/index.tsx": {
-    "file": "assets/index-65727de6.js",
+    "file": "assets/index-ec6393f9.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-b9c9d27d.js"
+      "_MetaHead-7ef5a7b5.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/books/index.tsx"
   },
   "src/routes/index.tsx": {
-    "file": "assets/index-f6ca0153.js",
+    "file": "assets/index-1ea30696.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-b9c9d27d.js"
+      "_MetaHead-7ef5a7b5.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/index.tsx"
   },
-  "src/routes/sharing/catch-22-experience.tsx": {
-    "file": "assets/catch-22-experience-91a120a0.js",
-    "imports": [
-      "src/entry-client.tsx"
-    ],
-    "isDynamicEntry": true,
-    "src": "src/routes/sharing/catch-22-experience.tsx"
-  },
-  "src/routes/sharing/index.tsx": {
-    "file": "assets/index-ee74e7ad.js",
+  "src/routes/sharing/getting-experience-for-potential-developer.tsx": {
+    "file": "assets/getting-experience-for-potential-developer-45859940.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-b9c9d27d.js"
+      "_MetaHead-7ef5a7b5.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/sharing/getting-experience-for-potential-developer.tsx"
+  },
+  "src/routes/sharing/index.tsx": {
+    "file": "assets/index-54177d99.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_MetaHead-7ef5a7b5.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/sharing/index.tsx"
