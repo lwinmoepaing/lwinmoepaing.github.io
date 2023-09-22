@@ -46,7 +46,7 @@ function Catch22ExperiencePage() {
         body="Sharing Sessions By Lwin Moe Paing (Developer)"
       />
       <AnimateContainer>
-        <div class="px-4 sm:px-8 pb-[300px]">
+        <div class="px-4 sm:px-8 pb-[100px]">
           <div class="max-w-[760px] mx-auto text-center">
             <Show when={currentSlide() >= 1}>
               <div class="max-w-[500px] mx-auto text-center">
