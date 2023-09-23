@@ -30,8 +30,8 @@
       "type": "image/png"
     }
   ],
-  "_MetaHead-beff3284.js": {
-    "file": "assets/MetaHead-beff3284.js",
+  "_MetaHead-140cf236.js": {
+    "file": "assets/MetaHead-140cf236.js",
     "imports": [
       "src/entry-client.tsx"
     ]
@@ -42,12 +42,12 @@
     "src": "node_modules/.pnpm/workbox-window@7.0.0/node_modules/workbox-window/build/workbox-window.prod.es5.mjs"
   },
   "src/entry-client.css": {
-    "file": "assets/entry-client-5ae1383c.css",
+    "file": "assets/entry-client-d38091dc.css",
     "src": "src/entry-client.css"
   },
   "src/entry-client.tsx": {
     "css": [
-      "assets/entry-client-5ae1383c.css"
+      "assets/entry-client-d38091dc.css"
     ],
     "dynamicImports": [
       "src/routes/index.tsx",
@@ -56,16 +56,17 @@
       "src/routes/blog/index.tsx",
       "src/routes/blog/one.tsx",
       "src/routes/books/index.tsx",
+      "src/routes/sharing/complete-product-with-react-and-react-native.tsx",
       "src/routes/sharing/getting-experience-for-potential-developer.tsx",
       "src/routes/sharing/index.tsx",
       "node_modules/.pnpm/workbox-window@7.0.0/node_modules/workbox-window/build/workbox-window.prod.es5.mjs"
     ],
-    "file": "assets/entry-client-98f9e157.js",
+    "file": "assets/entry-client-faae8f52.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/[...404]/index.tsx": {
-    "file": "assets/index-711a1568.js",
+    "file": "assets/index-2d0d4498.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -73,7 +74,7 @@
     "src": "src/routes/[...404]/index.tsx"
   },
   "src/routes/about/index.tsx": {
-    "file": "assets/index-537ef6ab.js",
+    "file": "assets/index-f81b1767.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -81,16 +82,16 @@
     "src": "src/routes/about/index.tsx"
   },
   "src/routes/blog/index.tsx": {
-    "file": "assets/index-c0c902ae.js",
+    "file": "assets/index-a7c9830d.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-beff3284.js"
+      "_MetaHead-140cf236.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/blog/index.tsx"
   },
   "src/routes/blog/one.tsx": {
-    "file": "assets/one-14825fd6.js",
+    "file": "assets/one-33ae540f.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -98,37 +99,46 @@
     "src": "src/routes/blog/one.tsx"
   },
   "src/routes/books/index.tsx": {
-    "file": "assets/index-882fd0e9.js",
+    "file": "assets/index-0b6c4367.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-beff3284.js"
+      "_MetaHead-140cf236.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/books/index.tsx"
   },
   "src/routes/index.tsx": {
-    "file": "assets/index-84f59bde.js",
+    "file": "assets/index-a7b591da.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-beff3284.js"
+      "_MetaHead-140cf236.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/index.tsx"
   },
-  "src/routes/sharing/getting-experience-for-potential-developer.tsx": {
-    "file": "assets/getting-experience-for-potential-developer-fa8b39ec.js",
+  "src/routes/sharing/complete-product-with-react-and-react-native.tsx": {
+    "file": "assets/complete-product-with-react-and-react-native-8e959f0e.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-beff3284.js"
+      "_MetaHead-140cf236.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/sharing/complete-product-with-react-and-react-native.tsx"
+  },
+  "src/routes/sharing/getting-experience-for-potential-developer.tsx": {
+    "file": "assets/getting-experience-for-potential-developer-799b1d71.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_MetaHead-140cf236.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/sharing/getting-experience-for-potential-developer.tsx"
   },
   "src/routes/sharing/index.tsx": {
-    "file": "assets/index-7665a4e0.js",
+    "file": "assets/index-5fef2b74.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-beff3284.js"
+      "_MetaHead-140cf236.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/sharing/index.tsx"
