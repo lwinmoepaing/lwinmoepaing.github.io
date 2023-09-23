@@ -11,7 +11,7 @@ import CrossPlatform from "~/components/Sharing/CompleteForProduct/CrossPlatform
 import PlatformOwnEco from "~/components/Sharing/CompleteForProduct/PlatformOwnEco";
 
 function CompleteProductWithReactAndReactNativePage() {
-  const [currentSlide, setCurrentSlide] = createSignal(8);
+  const [currentSlide, setCurrentSlide] = createSignal(1);
 
   createEffect(() => {
     const click = () => {
@@ -35,8 +35,9 @@ function CompleteProductWithReactAndReactNativePage() {
   createEffect(() => {
     if (currentSlide()) {
       //
-      console.log("Watching");
-      window.scrollTo(0, document.body.scrollHeight);
+      setTimeout(() => {
+        window.scrollTo(0, document.body.scrollHeight);
+      }, 100);
     }
   });
 
@@ -48,7 +49,7 @@ function CompleteProductWithReactAndReactNativePage() {
       />
       <AnimateContainer>
         <div class="px-4 sm:px-8 pb-[40px]">
-          <div class="max-w-[850px] mx-auto text-center">
+          <div class="max-w-[880px] mx-auto text-center">
             <Show when={currentSlide() >= 1}>
               <div class="max-w-[800px] mx-auto text-center">
                 <CompleteForProduct />
@@ -66,7 +67,12 @@ function CompleteProductWithReactAndReactNativePage() {
             </AnimateContainer>
             <AnimateContainer>
               <Show when={currentSlide() >= 4}>
-                <p class="my-10"> Showing GIF</p>
+                <div class="w-full mt-8 mb-20">
+                  <img
+                    class="w-full block mx-auto"
+                    src="/images/sharings/cpbe_sharing.gif"
+                  />
+                </div>
               </Show>
             </AnimateContainer>
             <AnimateContainer>
@@ -86,16 +92,11 @@ function CompleteProductWithReactAndReactNativePage() {
             </AnimateContainer>
             <AnimateContainer>
               <Show when={currentSlide() >= 8}>
-                <p class="my-10"> Button Showing GIF</p>
-              </Show>
-            </AnimateContainer>
-            <AnimateContainer>
-              <Show when={currentSlide() >= 9}>
                 <CfpSharingLogic />
               </Show>
             </AnimateContainer>
             <AnimateContainer>
-              <Show when={currentSlide() >= 10}>
+              <Show when={currentSlide() >= 9}>
                 <CfpStateManagement />
               </Show>
             </AnimateContainer>
