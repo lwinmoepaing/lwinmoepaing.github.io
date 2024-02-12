@@ -1,4 +1,8 @@
+import { useStore } from "@nanostores/solid";
+import { settingStore } from "~/store/settingStore";
+
 const HeroSectionAnimation = () => {
+  const setting = useStore(settingStore);
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1218 500">
       <defs>
@@ -10,9 +14,22 @@ const HeroSectionAnimation = () => {
           <feComposite in="SourceGraphic" />
         </filter>
         <style>
-          {
-            ".hero-class-4{fill:#6067af}.hero-class-7{fill:none;stroke:#6067af;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}"
-          }
+          {`
+            .hero-class-4 {
+              fill: #6067af
+            }
+            .hero-class-7 {
+              fill:none;
+              stroke:"#6067af";
+              stroke-linecap:round;
+              stroke-linejoin:round;
+              stroke-width:2px;
+            }
+
+            #Doodle_BG_Layer  * {
+              fill:${setting().darkmode ? "#eeeeee" : "#000000"};
+            }
+          `}
         </style>
       </defs>
       <g id="Doodle_BG_Layer">

@@ -29,7 +29,7 @@ const ButterflyAnimation = () => {
           style={{
             transform: "translateY(-20px)",
             fill: "#575f92",
-            "font-family": "Myanmar Sans Pro",
+            "font-family": `"Myanmar Sans Pro"`,
             "font-size": "20px",
           }}
         >
