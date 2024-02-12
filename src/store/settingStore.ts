@@ -6,7 +6,7 @@ import { persistentAtom } from "@nanostores/persistent";
 export const settingStore = persistentAtom<SettingType>(
   "setting",
   {
-    darkmode: true,
+    darkmode: false,
     showNavbar: false,
   },
   {

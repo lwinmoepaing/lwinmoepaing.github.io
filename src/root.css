@@ -13,8 +13,9 @@ body {
 
 @font-face {
   font-family: "Myanmar Sans Pro";
-  src: url("MyanmarSansPro.woff2") format("woff2"),
-    url("MyanmarSansPro.woff") format("woff");
+  src: url("/fonts/MyanmarSansPro.woff2") format("woff2"),
+    url("/fonts/MyanmarSansPro.woff") format("woff"),
+    url("/fonts/MyanmarSansPro-Regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

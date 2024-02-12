@@ -3,6 +3,7 @@ import MetaHead from "~/components/Common/MetaHead/MetaHead";
 import SittingAnimation from "~/components/Animation/SittingAnimation/SittingAnimation";
 import HeroSectionAnimation from "~/components/Animation/HeroSectionAnimation/HeroSectionAnimation";
 import ButterflyAnimation from "~/components/Animation/ButterflyAnimation/ButterflyAnimation";
+import SharingTextAnimation from "~/components/Animation/SharingTextAnimation/SharingTextAnimation";
 
 function HomePage() {
   return (
@@ -11,8 +12,12 @@ function HomePage() {
 
       <AnimateContainer>
         <div>
-          <div class="max-w-[1500px] mx-auto">
-            <HeroSectionAnimation />
+          <div class="max-w-[1300px] mx-auto">
+            <div class="overflow-hidden flex justify-center items-center">
+              <div class="w-full min-w-[690px] mx-auto">
+                <HeroSectionAnimation />
+              </div>
+            </div>
           </div>
 
           <div class="max-wrapper px-4 sm:px-8 animate-[opacity0to1_0.3s_ease-in-out]">
@@ -30,8 +35,12 @@ function HomePage() {
               </h2>
             </div>
 
-            <div class="max-w-[960px] mx-auto">
+            <div class="max-w-[960px] mx-auto mb-[2rem]">
               <ButterflyAnimation />
+            </div>
+
+            <div class="max-w-[400px] mx-auto">
+              <SharingTextAnimation />
             </div>
 
             <div class="max-w-[580px] mx-auto">

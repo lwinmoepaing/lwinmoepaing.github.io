@@ -29,14 +29,12 @@ const ButterflyAnimation = () => {
           style={{
             transform: "translateY(-20px)",
             fill: "#575f92",
-            "font-family": `"Myanmar Sans Pro"`,
             "font-size": "20px",
           }}
+          class="mm-sans-font"
         >
           <textPath href="#Doodle_Butterfly_Line" startOffset={480}>
-            {
-              "\u101C\u102D\u1015\u103A\u1015\u103C\u102C\u101C\u1031\u1038\u101C\u102D\u102F\u1021\u1014\u102C\u1038\u1019\u103E\u102C\u101D\u1032"
-            }
+            လိပ်ပြာလေးလိုအနားမှာဝဲ
           </textPath>
         </text>
         <g id="Doodle_Butterfly_Heart">
