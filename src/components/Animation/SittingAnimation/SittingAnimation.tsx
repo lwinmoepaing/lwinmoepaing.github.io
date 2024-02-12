@@ -1,6 +1,6 @@
 import { settingStore, toggleDarkmode } from "~/store/settingStore";
 import { useStore } from "@nanostores/solid";
-const MyAnimation = () => {
+const SittingAnimation = () => {
   const setting = useStore(settingStore);
 
   return (
@@ -2928,4 +2928,4 @@ const MyAnimation = () => {
   );
 };
 
-export default MyAnimation;
+export default SittingAnimation;

@@ -33,6 +33,12 @@ export default function Root() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
+          rel="preload"
+          href="/fonts/MyanmarSansPro.woff2"
+          as="font"
+          type="font/woff2"
+         />
+        <link
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar&family=Nunito:wght@400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />

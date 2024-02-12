@@ -11,6 +11,21 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+@font-face {
+  font-family: "Myanmar Sans Pro";
+  src: url("MyanmarSansPro.woff2") format("woff2"),
+    url("MyanmarSansPro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.mm-sans-font {
+  font-family: "Myanmar Sans Pro";
+  font-weight: normal;
+  font-style: normal;
+}
+
 .mm-font {
   font-family: "Noto Sans Myanmar", sans-serif;
 }

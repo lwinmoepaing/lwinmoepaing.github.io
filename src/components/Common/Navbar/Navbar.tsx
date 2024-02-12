@@ -7,7 +7,7 @@ import {
   toogleNavbar,
 } from "~/store/settingStore";
 import { useStore } from "@nanostores/solid";
-import FlaotAnimation from "~/components/Animation/FloatAnimation";
+import FlaotAnimation from "~/components/Animation/FloatAnimation/FloatAnimation";
 const navLinks = [
   {
     name: "Blog",
