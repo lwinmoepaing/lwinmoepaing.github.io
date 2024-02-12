@@ -7,7 +7,7 @@ const HeroSectionAnimation = () => {
     <>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1218 500">
         <defs>
-          <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+          <filter id="drop-shadow-hero-section" filterUnits="userSpaceOnUse">
             <feOffset dx={1} dy={1} />
             <feGaussianBlur result="blur" stdDeviation={3} />
             <feFlood flood-color="#231f20" flood-opacity={0.2} />
@@ -163,7 +163,9 @@ const HeroSectionAnimation = () => {
             <path
               d="m842.58 172.68-471.9 18.19c-15.96.61-28.56 12.89-28 27.28l2.73 70.74c.55 14.39 14.06 25.66 30.02 25.04l209.54-8.08c-.13 1.35.38 2.76 1.68 3.83l21.88 16.46c2.1 1.72 5.36 1.6 7.32-.28l21.14-18.12c1.22-1.17 1.61-2.61 1.38-3.94l208.95-8.05c15.96-.61 28.56-12.89 28-27.28l-2.73-70.74c-.55-14.39-14.06-25.66-30.02-25.04Z"
               style={{
-                filter: "url(#drop-shadow-1)",
+                filter: setting().darkmode
+                  ? "unset"
+                  : "url(#drop-shadow-hero-section)",
                 fill: "#fff",
               }}
             />
