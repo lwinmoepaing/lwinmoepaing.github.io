@@ -20,7 +20,7 @@ const HeroSectionAnimation = () => {
             }
             .hero-class-7 {
               fill:none;
-              stroke:"#6067af";
+              stroke: #6067af;
               stroke-linecap:round;
               stroke-linejoin:round;
               stroke-width:2px;
