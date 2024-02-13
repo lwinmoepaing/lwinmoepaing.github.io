@@ -7,11 +7,17 @@
   ],
   "node_modules/.pnpm/@nanostores+solid@0.4.2_nanostores@0.9.3_solid-js@1.7.8/node_modules/@nanostores/solid/dist/index.js": [
   ],
+  "node_modules/.pnpm/@solid-primitives+intersection-observer@2.1.4_solid-js@1.7.8/node_modules/@solid-primitives/intersection-observer/dist/index.js": [
+    "/assets/index-76539e76.js"
+  ],
   "node_modules/.pnpm/@solid-primitives+refs@1.0.4_solid-js@1.7.8/node_modules/@solid-primitives/refs/dist/index.js": [
-    "/assets/MetaHead-eaa9bd31.js"
+    "/assets/MetaHead-4e1a265c.js"
   ],
   "node_modules/.pnpm/@solid-primitives+transition-group@1.0.2_solid-js@1.7.8/node_modules/@solid-primitives/transition-group/dist/index.js": [
-    "/assets/MetaHead-eaa9bd31.js"
+    "/assets/MetaHead-4e1a265c.js"
+  ],
+  "node_modules/.pnpm/@solid-primitives+utils@6.2.2_solid-js@1.7.8/node_modules/@solid-primitives/utils/dist/chunk/R5675YMU.js": [
+    "/assets/index-76539e76.js"
   ],
   "node_modules/.pnpm/@solidjs+meta@0.28.2_solid-js@1.7.8/node_modules/@solidjs/meta/dist/index.jsx": [
   ],
@@ -64,86 +70,89 @@
   "node_modules/.pnpm/solid-start@0.2.30_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.8_solid-start-node_2l6effkxtzoukkhj7mb2lrmi5u/node_modules/solid-start/server/types.tsx": [
   ],
   "node_modules/.pnpm/solid-transition-group@0.2.2_solid-js@1.7.8/node_modules/solid-transition-group/dist/index.js": [
-    "/assets/MetaHead-eaa9bd31.js"
+    "/assets/MetaHead-4e1a265c.js"
   ],
   "node_modules/.pnpm/workbox-window@7.0.0/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
     "/assets/workbox-window.prod.es5-a7b12eab.js"
   ],
   "src/components/Animation/ButterflyAnimation/ButterflyAnimation.tsx": [
-    "/assets/index-a278b2ce.js"
+    "/assets/index-76539e76.js"
   ],
   "src/components/Animation/CircleBackgroundAnimation/CircleBackgroundAnimation.tsx": [
-    "/assets/index-a278b2ce.js"
+    "/assets/index-76539e76.js"
   ],
   "src/components/Animation/FloatAnimation/FloatAnimation.tsx": [
   ],
   "src/components/Animation/HeroSectionAnimation/HeroSectionAnimation.tsx": [
-    "/assets/index-a278b2ce.js"
+    "/assets/index-76539e76.js"
   ],
   "src/components/Animation/SharingTextAnimation/SharingTextAnimation.tsx": [
-    "/assets/index-a278b2ce.js"
+    "/assets/index-76539e76.js"
   ],
   "src/components/Animation/WalkingWorldAnimation/WalkingWorldAnimation.tsx": [
-    "/assets/index-a278b2ce.js"
+    "/assets/index-76539e76.js"
   ],
   "src/components/Animation/WaveTextAnimation/WaveTextAnimation.tsx": [
-    "/assets/index-a278b2ce.js"
+    "/assets/index-76539e76.js"
   ],
   "src/components/Common/AnimateContainer/AnimateContainer.tsx": [
-    "/assets/MetaHead-eaa9bd31.js"
+    "/assets/MetaHead-4e1a265c.js"
   ],
   "src/components/Common/MetaHead/MetaHead.tsx": [
-    "/assets/MetaHead-eaa9bd31.js"
+    "/assets/MetaHead-4e1a265c.js"
   ],
   "src/components/Common/MousePointer/MousePointer.tsx": [
   ],
   "src/components/Common/Navbar/Navbar.tsx": [
+  ],
+  "src/components/Home/IntroText.tsx": [
+    "/assets/index-76539e76.js"
   ],
   "src/components/PwaReloadPrompt/PwaReloadPrompt.tsx": [
   ],
   "src/components/PwaReloadPrompt/ReloadPrompt.module.css?used": [
   ],
   "src/components/Sharing/CompleteForProduct/CfpAtomicDesign.tsx": [
-    "/assets/complete-product-with-react-and-react-native-c6211b71.js"
+    "/assets/complete-product-with-react-and-react-native-416875fa.js"
   ],
   "src/components/Sharing/CompleteForProduct/CfpSharingLogic.tsx": [
-    "/assets/complete-product-with-react-and-react-native-c6211b71.js"
+    "/assets/complete-product-with-react-and-react-native-416875fa.js"
   ],
   "src/components/Sharing/CompleteForProduct/CfpStateManagement.tsx": [
-    "/assets/complete-product-with-react-and-react-native-c6211b71.js"
+    "/assets/complete-product-with-react-and-react-native-416875fa.js"
   ],
   "src/components/Sharing/CompleteForProduct/ChosingTailwindUI.tsx": [
-    "/assets/complete-product-with-react-and-react-native-c6211b71.js"
+    "/assets/complete-product-with-react-and-react-native-416875fa.js"
   ],
   "src/components/Sharing/CompleteForProduct/CommonSharing.tsx": [
-    "/assets/complete-product-with-react-and-react-native-c6211b71.js"
+    "/assets/complete-product-with-react-and-react-native-416875fa.js"
   ],
   "src/components/Sharing/CompleteForProduct/CompleteForProduct.tsx": [
-    "/assets/complete-product-with-react-and-react-native-c6211b71.js"
+    "/assets/complete-product-with-react-and-react-native-416875fa.js"
   ],
   "src/components/Sharing/CompleteForProduct/CrossPlatform.tsx": [
-    "/assets/complete-product-with-react-and-react-native-c6211b71.js"
+    "/assets/complete-product-with-react-and-react-native-416875fa.js"
   ],
   "src/components/Sharing/CompleteForProduct/PlatformOwnEco.tsx": [
-    "/assets/complete-product-with-react-and-react-native-c6211b71.js"
+    "/assets/complete-product-with-react-and-react-native-416875fa.js"
   ],
   "src/components/Sharing/ExperienceForJunior/ExpCardList.tsx": [
-    "/assets/getting-experience-for-potential-developer-c0ec1115.js"
+    "/assets/getting-experience-for-potential-developer-5f147acd.js"
   ],
   "src/components/Sharing/ExperienceForJunior/ExpJuniorTitle.tsx": [
-    "/assets/getting-experience-for-potential-developer-c0ec1115.js"
+    "/assets/getting-experience-for-potential-developer-5f147acd.js"
   ],
   "src/components/Sharing/ExperienceForJunior/ExpLevel.tsx": [
-    "/assets/getting-experience-for-potential-developer-c0ec1115.js"
+    "/assets/getting-experience-for-potential-developer-5f147acd.js"
   ],
   "src/components/Sharing/ExperienceForJunior/FocusOnJunior.tsx": [
-    "/assets/getting-experience-for-potential-developer-c0ec1115.js"
+    "/assets/getting-experience-for-potential-developer-5f147acd.js"
   ],
   "src/components/Sharing/ExperienceForJunior/KnowledgeVsExp.tsx": [
-    "/assets/getting-experience-for-potential-developer-c0ec1115.js"
+    "/assets/getting-experience-for-potential-developer-5f147acd.js"
   ],
   "src/components/Sharing/ExperienceForJunior/WhatDoWeAlreadyHave.tsx": [
-    "/assets/getting-experience-for-potential-developer-c0ec1115.js"
+    "/assets/getting-experience-for-potential-developer-5f147acd.js"
   ],
   "src/entry-client.tsx": [
   ],
@@ -152,31 +161,31 @@
   "src/root.tsx": [
   ],
   "src/routes/[...404]/index.tsx": [
-    "/assets/index-a0474a28.js"
+    "/assets/index-814d088b.js"
   ],
   "src/routes/about/index.tsx": [
-    "/assets/index-9f8f174c.js"
+    "/assets/index-36f280df.js"
   ],
   "src/routes/blog/index.tsx": [
-    "/assets/index-3ad6dd8c.js"
+    "/assets/index-99b5eb14.js"
   ],
   "src/routes/blog/one.tsx": [
-    "/assets/one-8b749652.js"
+    "/assets/one-7a8b0ebb.js"
   ],
   "src/routes/books/index.tsx": [
-    "/assets/index-d91831f3.js"
+    "/assets/index-2f592940.js"
   ],
   "src/routes/index.tsx": [
-    "/assets/index-a278b2ce.js"
+    "/assets/index-76539e76.js"
   ],
   "src/routes/sharing/complete-product-with-react-and-react-native.tsx": [
-    "/assets/complete-product-with-react-and-react-native-c6211b71.js"
+    "/assets/complete-product-with-react-and-react-native-416875fa.js"
   ],
   "src/routes/sharing/getting-experience-for-potential-developer.tsx": [
-    "/assets/getting-experience-for-potential-developer-c0ec1115.js"
+    "/assets/getting-experience-for-potential-developer-5f147acd.js"
   ],
   "src/routes/sharing/index.tsx": [
-    "/assets/index-9853cf12.js"
+    "/assets/index-534f7abc.js"
   ],
   "src/store/settingStore.ts": [
   ],
