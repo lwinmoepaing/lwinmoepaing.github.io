@@ -4,6 +4,7 @@ import SittingAnimation from "~/components/Animation/SittingAnimation/SittingAni
 import HeroSectionAnimation from "~/components/Animation/HeroSectionAnimation/HeroSectionAnimation";
 import ButterflyAnimation from "~/components/Animation/ButterflyAnimation/ButterflyAnimation";
 import SharingTextAnimation from "~/components/Animation/SharingTextAnimation/SharingTextAnimation";
+import CircleBackgroundAnimation from "~/components/Animation/CircleBackgroundAnimation/CircleBackgroundAnimation";
 
 function HomePage() {
   return (
@@ -35,14 +36,22 @@ function HomePage() {
               </h2>
             </div>
 
-            <div class="max-w-[960px] mx-auto mb-[2rem]">
+            <div class="max-w-[960px] mx-auto ">
               <ButterflyAnimation />
             </div>
+          </div>
 
+          <div class="mx-auto">
             <div class="max-w-[400px] mx-auto">
               <SharingTextAnimation />
             </div>
 
+            <div class="relative max-w-[1600px] mx-auto md:top-[-2.5rem]">
+              <CircleBackgroundAnimation />
+            </div>
+          </div>
+
+          <div class="max-wrapper px-4 sm:px-8 animate-[opacity0to1_0.3s_ease-in-out]">
             <div class="max-w-[580px] mx-auto">
               <SittingAnimation />
             </div>
