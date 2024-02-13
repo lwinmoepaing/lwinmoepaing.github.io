@@ -30,6 +30,7 @@
   "dependencies": {
     "@nanostores/persistent": "^0.9.1",
     "@nanostores/solid": "^0.4.2",
+    "@solid-primitives/intersection-observer": "^2.1.4",
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.2",
     "animejs": "^3.2.1",

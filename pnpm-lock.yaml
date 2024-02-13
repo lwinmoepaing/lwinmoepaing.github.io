@@ -7,6 +7,9 @@ dependencies:
   '@nanostores/solid':
     specifier: ^0.4.2
     version: 0.4.2(nanostores@0.9.3)(solid-js@1.7.8)
+  '@solid-primitives/intersection-observer':
+    specifier: ^2.1.4
+    version: 2.1.4(solid-js@1.7.8)
   '@solidjs/meta':
     specifier: ^0.28.2
     version: 0.28.2(solid-js@1.7.8)
@@ -1920,6 +1923,15 @@ packages:
   /@sideway/pinpoint@2.0.0:
     resolution: {integrity: sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==}
 
+  /@solid-primitives/intersection-observer@2.1.4(solid-js@1.7.8):
+    resolution: {integrity: sha512-qOBBqhJDv8oYO+X7vn2KldbAofyobBRhOm7l5cYJSnRagx1bR4/DmK0E06GB6Uc+7DNsfM92+1k0ytzZsYptfQ==}
+    peerDependencies:
+      solid-js: ^1.6.12
+    dependencies:
+      '@solid-primitives/utils': 6.2.2(solid-js@1.7.8)
+      solid-js: 1.7.8
+    dev: false
+
   /@solid-primitives/refs@1.0.4(solid-js@1.7.8):
     resolution: {integrity: sha512-BxZKkct0OIyADWIoA9UITm+3G5Xb3IkOa0nZd40SgOK5DtMqpXFIEPUkJ/woPB90WqlM9UvvuiJHUyAjMeAmCw==}
     peerDependencies:
@@ -1939,6 +1951,14 @@ packages:
 
   /@solid-primitives/utils@6.2.0(solid-js@1.7.8):
     resolution: {integrity: sha512-T62WlLwKkbmicsw/xpwMQyv9MmZRSaVyutXfS5icc9v0cb8qGMUxRxr5LVvZHYQCZ9DEFboZB0r711xsbVBbeA==}
+    peerDependencies:
+      solid-js: ^1.6.12
+    dependencies:
+      solid-js: 1.7.8
+    dev: false
+
+  /@solid-primitives/utils@6.2.2(solid-js@1.7.8):
+    resolution: {integrity: sha512-11ypVbp987XxETeRqY5Y3OmmTpm8/jZqJXRvo6AyqBthzkvvjEdReuUMU2yVb+pwWGxfZpWHZ6EUCcGXUMhfwg==}
     peerDependencies:
       solid-js: ^1.6.12
     dependencies:
