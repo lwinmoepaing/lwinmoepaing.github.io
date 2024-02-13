@@ -20,7 +20,8 @@ function FloatAnimation() {
       easing: "linear",
       direction: "alternate",
       duration: 15000,
-      loop: true,
+      
+
     });
     onCleanup(() => {
       anime.remove("#fluidSvg path")

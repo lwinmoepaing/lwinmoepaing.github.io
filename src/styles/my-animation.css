@@ -222,7 +222,7 @@ svg * {
   }
 }
 
-@keyframes opacity0to1{
+@keyframes opacity0to1 {
   from {
     opacity: 0;
   }
@@ -250,5 +250,84 @@ svg * {
   to {
     opacity: 1;
     transform: translateY(0px) scale(1.5);
+  }
+}
+
+/* Background Line Animations */
+
+#Caring_Bg_Line {
+  animation: caringLineAnimation 2.8s infinite linear;
+}
+
+@keyframes caringLineAnimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}
+
+#Caring_Circles {
+  animation: caringCircleAnimation 2.5s infinite linear;
+}
+
+@keyframes caringCircleAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#Gray_Grid {
+  animation: grayGridAnimation 1s infinite linear alternate;
+}
+
+#Yellow_Grid {
+  animation: yellowGridAnimation 1s infinite linear alternate;
+}
+
+#Pink_Grid {
+  animation: pinkGridAnimation 1.2s infinite linear alternate;
+}
+
+#Caring_Rects > g > g > circle {
+}
+
+@keyframes grayGridAnimation {
+  0% {
+    transform: rotate(0deg) translateY(0) scale(1);
+  }
+  100% {
+    transform: rotate(-18deg) translateY(105px) scale(1.02);
+  }
+}
+
+@keyframes yellowGridAnimation {
+  0% {
+    transform: rotate(0deg) translateY(0);
+  }
+  100% {
+    transform: rotate(18deg) translateY(105px);
+  }
+}
+
+@keyframes pinkGridAnimation {
+  0% {
+    transform: rotate(0deg) translateY(-60px) scale(1.05);
+  }
+  100% {
+    transform: rotate(10deg) translateY(10px) scale(0.9);
+  }
+}
+
+@keyframes scaleCircleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
   }
 }
