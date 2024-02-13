@@ -29,24 +29,33 @@ function HomePage() {
             <ButterflyAnimation />
           </div>
 
-          <div class="mx-auto">
+          <div class="mx-auto mb-[5rem] md:mb-0">
             <div class="max-w-[400px] mx-auto">
               <SharingTextAnimation />
             </div>
 
             <div class="relative max-w-[1600px] mx-auto md:top-[-2.5rem]">
-              <CircleBackgroundAnimation />
+              <div class="overflow-hidden flex justify-center items-center">
+                <div class="w-full min-w-[590px] mx-auto">
+                  <CircleBackgroundAnimation />
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="mb-[2.5rem]">
-            <WaveTextAnimation />
+          <div class="my-[2.5rem]">
+            <div class="relative max-w-[1600px] mx-auto md:top-[-2.5rem]">
+              <div class="overflow-hidden flex justify-center items-center">
+                <div class="w-full min-w-[900px] mx-auto">
+                  <WaveTextAnimation />
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="max-w-[570px] mx-auto">
             <WalkingWorldAnimation />
           </div>
-
         </div>
       </AnimateContainer>
     </>

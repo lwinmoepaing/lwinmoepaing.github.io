@@ -5,6 +5,82 @@ import {
 import anime from "animejs";
 import { createEffect, onCleanup } from "solid-js";
 
+const appearAnimation = (isVisible: boolean) => {
+  const targets = [
+    "#Doodle_Left_Butterfly",
+    "#Doodle_Butterfly_Line",
+    "#Doodle_Butterfly_Text",
+    "#Doodle_Butterfly_Heart",
+    "#Doodle_Right_Butterfly",
+  ];
+
+  if (isVisible) {
+    anime({
+      targets,
+      easing: "easeOutQuart",
+      translateY: function () {
+        return 5;
+      },
+      delay: function (el, index) {
+        return index * 200;
+      },
+      duration: function () {
+        return anime.random(650, 900);
+      },
+      opacity: [0, 1],
+    });
+  } else {
+    anime({
+      targets,
+      easing: "easeOutQuart",
+      translateY: function () {
+        return 0;
+      },
+      duration: function () {
+        return anime.random(100, 200);
+      },
+      opacity: [1, 0],
+    });
+  }
+
+  return () => anime.remove(targets);
+};
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const scrollAnimation = (_el: HTMLDivElement | undefined) => {
+  const onScroll = () => {
+    // const scrollTop = window.scrollY;
+    // const elScrollHeight = el?.scrollHeight || 0;
+    // const elOffsetTop = el?.offsetTop || 0;
+    // const breakPoint = elScrollHeight + elOffsetTop + 20;
+    // const triggerPoint = scrollTop + +(window.innerHeight / 2).toFixed(3);
+    // // let percentage = 0;
+    // // if (triggerPoint >= elOffsetTop && triggerPoint <= breakPoint) {
+    // //   const start = elOffsetTop;
+    // //   const indigator = triggerPoint - start;
+    // //   percentage = (indigator / (breakPoint - start)) * 100;
+    // // } else if (triggerPoint > breakPoint) {
+    // //   percentage = 100;
+    // // }
+    // // console.log({ percentage });
+  };
+  // const path = anime.path('#Doodle_Butterfly_Line');
+  // anime({
+  //   targets: '#Doodle_Flying_Butterfly',
+  //   translateX: path('x'),
+  //   translateY: path('y'),
+  //   rotate: path('angle'),
+  //   easing: 'linear',
+  //   duration: 2000,
+  //   loop: true
+  // });
+  if (window) {
+    window.addEventListener("scroll", onScroll, true);
+  }
+
+  return () => window.removeEventListener("scroll", onScroll, true);
+};
+
 const ButterflyAnimation = () => {
   let el: HTMLDivElement | undefined;
   const useVisibilityObserver = createVisibilityObserver(
@@ -18,82 +94,12 @@ const ButterflyAnimation = () => {
 
   createEffect(() => {
     const isVisible = visible();
-
-    const onScroll = () => {
-      const scrollTop = window.scrollY;
-      const elScrollHeight = el?.scrollHeight || 0;
-      const elOffsetTop = el?.offsetTop || 0;
-      const breakPoint = elScrollHeight + elOffsetTop + 20;
-      const triggerPoint = scrollTop + +(window.innerHeight / 2).toFixed(3);
-
-      let percentage = 0;
-      if (triggerPoint >= elOffsetTop && triggerPoint <= breakPoint) {
-        const start = elOffsetTop;
-        const indigator = triggerPoint - start;
-        percentage = (indigator / (breakPoint - start)) * 100;
-      } else if (triggerPoint > breakPoint) {
-        percentage = 100;
-      }
-
-      console.log({ percentage });
-    };
-
-    if (window) {
-      window.addEventListener("scroll", onScroll, true);
-    }
-
-    const targets = [
-      "#Doodle_Left_Butterfly",
-      "#Doodle_Butterfly_Line",
-      "#Doodle_Butterfly_Text",
-      "#Doodle_Butterfly_Heart",
-      "#Doodle_Right_Butterfly",
-    ];
-
-    if (isVisible) {
-      anime({
-        targets,
-        easing: "easeOutQuart",
-        translateY: function () {
-          return 5;
-        },
-        delay: function (el, index) {
-          return index * 200;
-        },
-        duration: function () {
-          return anime.random(650, 900);
-        },
-        opacity: [0, 1],
-      });
-    } else {
-      anime({
-        targets,
-        easing: "easeOutQuart",
-        translateY: function () {
-          return 0;
-        },
-        duration: function () {
-          return anime.random(100, 200);
-        },
-        opacity: [1, 0],
-      });
-    }
-
-    // const path = anime.path('#Doodle_Butterfly_Line');
-
-    // anime({
-    //   targets: '#Doodle_Flying_Butterfly',
-    //   translateX: path('x'),
-    //   translateY: path('y'),
-    //   rotate: path('angle'),
-    //   easing: 'linear',
-    //   duration: 2000,
-    //   loop: true
-    // });
+    const makeAppearAnimation = appearAnimation(isVisible);
+    const makeScrollAnimation = scrollAnimation(el);
 
     onCleanup(() => {
-      window.removeEventListener("scroll", onScroll, true);
-      anime.remove(targets);
+      makeAppearAnimation();
+      makeScrollAnimation();
     });
   });
 
