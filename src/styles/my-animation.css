@@ -331,3 +331,215 @@ svg * {
     transform: scale(1.5);
   }
 }
+
+/* Walking */
+#Right_Foot_Group {
+  animation: rightFootAnimation 1.2s infinite ease-in-out alternate;
+}
+#Right_First_Part {
+  animation: rightFootFirstPartAnimation 1.2s infinite ease-in-out alternate;
+}
+#Right_Second_Part {
+  animation: rightFootSecondPartAnimation 1.2s infinite ease-in-out alternate;
+}
+#Right_Foot {
+  animation: rightFootPartAnimation 1.2s infinite ease-in-out alternate;
+}
+@keyframes rightFootAnimation {
+  0% {
+    transform: rotate(0) translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(-33px);
+  }
+}
+@keyframes rightFootFirstPartAnimation {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  100% {
+    transform: translateX(16px) rotate(42deg);
+  }
+}
+@keyframes rightFootSecondPartAnimation {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  100% {
+    transform: rotate(40deg) translateX(-11.5px);
+  }
+}
+
+@keyframes rightFootPartAnimation {
+  0% {
+    transform: rotate(0) translateX(0) translateY(0);
+  }
+  100% {
+    transform: rotate(43deg) translateX(-25px) translateY(11px);
+  }
+}
+
+#Left_Foot_Group {
+  animation: leftFootAnimation 1.2s infinite ease-in-out alternate;
+}
+#Left_First_Part {
+  animation: leftFootFirstPartAnimation 1.2s infinite ease-in-out alternate;
+}
+#Left_Second_Part {
+  animation: leftFootSecondPartAnimation 1.2s infinite ease-in-out alternate;
+}
+#Left_Foot {
+  animation: leftFootPartAnimation 1.2s infinite ease-in-out alternate;
+}
+
+@keyframes leftFootAnimation {
+  0% {
+    transform: rotate(0) translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(7px) translateY(5px);
+  }
+}
+@keyframes leftFootFirstPartAnimation {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  100% {
+    transform: translateX(14px) rotate(-36deg);
+  }
+}
+@keyframes leftFootSecondPartAnimation {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  100% {
+    transform: rotate(-30deg) translateX(30px) translateY(18px);
+  }
+}
+
+@keyframes leftFootPartAnimation {
+  0% {
+    transform: rotate(0) translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(46px) rotate(-31deg) translateY(3px);
+  }
+}
+
+#Left_Hand {
+  /* transform: translateY(2px); */
+  animation: leftHandPartAnimation 1.2s infinite ease-in-out alternate;
+}
+
+@keyframes leftHandPartAnimation {
+  0% {
+    transform: rotate(0) translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateY(2px) rotate(-4deg) translateX(2px);
+  }
+}
+
+#Right_Hand {
+  animation: rightHandPartAnimation 1.2s infinite ease-in-out alternate;
+}
+
+@keyframes rightHandPartAnimation {
+  0% {
+    transform: rotate(0) translateX(0) translateY(0);
+  }
+  100% {
+    transform: translate(0px, -0.8px);
+  }
+}
+
+#Bag {
+  animation: bagPartAnimation 0.9s infinite ease-in-out alternate;
+}
+
+@keyframes bagPartAnimation {
+  0% {
+    transform: scale(1) translateY(0) rotate(0) translateX(0);
+  }
+  100% {
+    transform: scale(1.04) translateY(1.5px) translateX(-0.8px);
+  }
+}
+
+#Book {
+  animation: bookHandPartAnimation 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes bookHandPartAnimation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(23deg);
+  }
+}
+
+#Head {
+  animation: headPartAnimation 0.5s infinite ease-in-out alternate;
+}
+
+@keyframes headPartAnimation {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+  100% {
+    transform: translate(0.5px, 0.5px) rotate(1.5deg);
+  }
+}
+
+#Hair {
+  animation: hairPartAnimation 0.6s infinite ease-in-out alternate;
+}
+
+@keyframes hairPartAnimation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
+}
+
+#Body {
+  animation: bodyPart 0.4s infinite ease-in-out alternate;
+}
+
+@keyframes bodyPart {
+  0% {
+    transform: scale(1) translateY(0px) translateX(0px);
+  }
+  100% {
+    transform: scale(1.01) translateY(1px) translateX(-0.5px);
+  }
+}
+
+#World_Walking_Path_Lines {
+  animation: walkingPathLinesAnimation 7s infinite linear;
+}
+
+@keyframes walkingPathLinesAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+#World {
+  animation: walkingPathLinesAnimation 7s infinite linear reverse;
+}
+
+@keyframes walkingPathLinesAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
