@@ -30,8 +30,8 @@
       "type": "image/png"
     }
   ],
-  "_MetaHead-e5e60ffb.js": {
-    "file": "assets/MetaHead-e5e60ffb.js",
+  "_MetaHead-eaa9bd31.js": {
+    "file": "assets/MetaHead-eaa9bd31.js",
     "imports": [
       "src/entry-client.tsx"
     ]
@@ -61,12 +61,12 @@
       "src/routes/sharing/index.tsx",
       "node_modules/.pnpm/workbox-window@7.0.0/node_modules/workbox-window/build/workbox-window.prod.es5.mjs"
     ],
-    "file": "assets/entry-client-5327a967.js",
+    "file": "assets/entry-client-de1cb389.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/[...404]/index.tsx": {
-    "file": "assets/index-6b7c6a11.js",
+    "file": "assets/index-a0474a28.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -74,7 +74,7 @@
     "src": "src/routes/[...404]/index.tsx"
   },
   "src/routes/about/index.tsx": {
-    "file": "assets/index-95282545.js",
+    "file": "assets/index-9f8f174c.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -82,16 +82,16 @@
     "src": "src/routes/about/index.tsx"
   },
   "src/routes/blog/index.tsx": {
-    "file": "assets/index-58f2e64f.js",
+    "file": "assets/index-3ad6dd8c.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-e5e60ffb.js"
+      "_MetaHead-eaa9bd31.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/blog/index.tsx"
   },
   "src/routes/blog/one.tsx": {
-    "file": "assets/one-737d9c1e.js",
+    "file": "assets/one-8b749652.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -99,46 +99,46 @@
     "src": "src/routes/blog/one.tsx"
   },
   "src/routes/books/index.tsx": {
-    "file": "assets/index-67e8e419.js",
+    "file": "assets/index-d91831f3.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-e5e60ffb.js"
+      "_MetaHead-eaa9bd31.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/books/index.tsx"
   },
   "src/routes/index.tsx": {
-    "file": "assets/index-74736bc1.js",
+    "file": "assets/index-a278b2ce.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-e5e60ffb.js"
+      "_MetaHead-eaa9bd31.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/index.tsx"
   },
   "src/routes/sharing/complete-product-with-react-and-react-native.tsx": {
-    "file": "assets/complete-product-with-react-and-react-native-d5e02942.js",
+    "file": "assets/complete-product-with-react-and-react-native-c6211b71.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-e5e60ffb.js"
+      "_MetaHead-eaa9bd31.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/sharing/complete-product-with-react-and-react-native.tsx"
   },
   "src/routes/sharing/getting-experience-for-potential-developer.tsx": {
-    "file": "assets/getting-experience-for-potential-developer-28a60254.js",
+    "file": "assets/getting-experience-for-potential-developer-c0ec1115.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-e5e60ffb.js"
+      "_MetaHead-eaa9bd31.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/sharing/getting-experience-for-potential-developer.tsx"
   },
   "src/routes/sharing/index.tsx": {
-    "file": "assets/index-ec4bb840.js",
+    "file": "assets/index-9853cf12.js",
     "imports": [
       "src/entry-client.tsx",
-      "_MetaHead-e5e60ffb.js"
+      "_MetaHead-eaa9bd31.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/sharing/index.tsx"
