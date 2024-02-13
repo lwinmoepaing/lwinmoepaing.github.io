@@ -1,11 +1,12 @@
 import AnimateContainer from "~/components/Common/AnimateContainer/AnimateContainer";
 import MetaHead from "~/components/Common/MetaHead/MetaHead";
-import SittingAnimation from "~/components/Animation/SittingAnimation/SittingAnimation";
+// import SittingAnimation from "~/components/Animation/SittingAnimation/SittingAnimation";
 import HeroSectionAnimation from "~/components/Animation/HeroSectionAnimation/HeroSectionAnimation";
 import ButterflyAnimation from "~/components/Animation/ButterflyAnimation/ButterflyAnimation";
 import SharingTextAnimation from "~/components/Animation/SharingTextAnimation/SharingTextAnimation";
 import CircleBackgroundAnimation from "~/components/Animation/CircleBackgroundAnimation/CircleBackgroundAnimation";
 import WaveTextAnimation from "~/components/Animation/WaveTextAnimation/WaveTextAnimation";
+import WalkingWorldAnimation from "~/components/Animation/WalkingWorldAnimation/WalkingWorldAnimation";
 
 function HomePage() {
   return (
@@ -52,15 +53,19 @@ function HomePage() {
             </div>
           </div>
 
-          <div>
+          <div class="mb-[2.5rem]">
             <WaveTextAnimation />
           </div>
 
-          <div class="max-wrapper px-4 sm:px-8 animate-[opacity0to1_0.3s_ease-in-out]">
+          <div class="max-w-[570px] mx-auto">
+            <WalkingWorldAnimation />
+          </div>
+
+          {/* <div class="max-wrapper px-4 sm:px-8 animate-[opacity0to1_0.3s_ease-in-out]">
             <div class="max-w-[580px] mx-auto">
               <SittingAnimation />
             </div>
-          </div>
+          </div> */}
         </div>
       </AnimateContainer>
     </>

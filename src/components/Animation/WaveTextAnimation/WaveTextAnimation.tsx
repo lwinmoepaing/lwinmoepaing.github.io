@@ -11,14 +11,14 @@ const WaveTextAnimation = () => (
           .wave-class-3{fill:none;stroke-dasharray:0 0 3 3;stroke-linecap:round;stroke-linejoin:round}
           .wave-outline-text {
             fill: #fff;
-            font-size: 50px;
+            font-size: 36px;
             stroke: #575f92;
             stroke-miterlimit: 10;
             stroke-width: 1.25px;
           }
           .wave-fill-text {
             fill: #575f92;
-            font-size: 50px;
+            font-size: 36px;
             stroke-miterlimit: 10;
           }
         `}
