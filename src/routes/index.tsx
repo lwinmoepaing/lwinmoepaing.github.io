@@ -5,6 +5,7 @@ import HeroSectionAnimation from "~/components/Animation/HeroSectionAnimation/He
 import ButterflyAnimation from "~/components/Animation/ButterflyAnimation/ButterflyAnimation";
 import SharingTextAnimation from "~/components/Animation/SharingTextAnimation/SharingTextAnimation";
 import CircleBackgroundAnimation from "~/components/Animation/CircleBackgroundAnimation/CircleBackgroundAnimation";
+import WaveTextAnimation from "~/components/Animation/WaveTextAnimation/WaveTextAnimation";
 
 function HomePage() {
   return (
@@ -49,6 +50,10 @@ function HomePage() {
             <div class="relative max-w-[1600px] mx-auto md:top-[-2.5rem]">
               <CircleBackgroundAnimation />
             </div>
+          </div>
+
+          <div>
+            <WaveTextAnimation />
           </div>
 
           <div class="max-wrapper px-4 sm:px-8 animate-[opacity0to1_0.3s_ease-in-out]">
