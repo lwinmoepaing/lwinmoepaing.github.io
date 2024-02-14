@@ -64,6 +64,15 @@ function HomePage() {
           <div class="max-w-[570px] mx-auto">
             <WalkingWorldAnimation />
           </div>
+
+          <div class="max-wrapper px-4 sm:px-8 animate-[opacity0to1_0.3s_ease-in-out]">
+            <div class="max-w-[500px] mx-auto my-[3rem] text-center">
+              <h2 class="text-lg my-2">
+                <span class="text-indigo-500 font-bold">Thank you </span> for
+                visiting lwinmoepaing.com
+              </h2>
+            </div>
+          </div>
         </div>
       </AnimateContainer>
     </>
