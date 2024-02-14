@@ -92,9 +92,9 @@ const hideAnimation = (props: {
         translateY: [-24, 0],
         scale: [1, 0.8],
         opacity: [1, 0],
-        changeComplete: () => setTimeout(() => resolve(), 800),
+        changeComplete: () => setTimeout(() => resolve(), 10),
       });
-    }, 3000);
+    }, 2500);
   });
 };
 
