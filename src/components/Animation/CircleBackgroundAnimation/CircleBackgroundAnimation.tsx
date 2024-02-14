@@ -6,6 +6,7 @@ import {
 } from "@solid-primitives/intersection-observer";
 import anime from "animejs";
 import { createEffect, onCleanup } from "solid-js";
+import { A } from "@solidjs/router";
 
 const lineAnimation = (isVisible: boolean) => {
   const bgLine = "#Caring_BG_Line";
@@ -96,6 +97,110 @@ const rectAnimation = (isVisible: boolean) => {
   return () => anime.remove([rects]);
 };
 
+const noiceFilter = (isVisible: boolean) => {
+  // noise-filter
+  const defaultConfig = {
+    targets: "#noise-filter > *",
+    easing: "easeInOutExpo",
+    duration: 4000,
+  };
+
+  if (isVisible) {
+    anime({
+      ...defaultConfig,
+      baseFrequency: [0.24, 0],
+      scale: [6, 1],
+    });
+  } else {
+    anime({
+      ...defaultConfig,
+      duration: 200,
+      baseFrequency: [0, 0.24],
+      scale: [1, 5],
+    });
+  }
+};
+
+const caringCardAnimation = (isVisible: boolean) => {
+  const rects = "#Caring_Session_Cards > a";
+  let timer = null;
+  const defaultConfig = {
+    targets: [rects],
+    easing: "easeInOutExpo",
+  };
+  if (isVisible) {
+    timer = setTimeout(() => {
+      anime({
+        ...defaultConfig,
+        duration: 1500,
+        scale: [0, 1],
+        opacity: [0, 1],
+        delay: anime.stagger(50),
+        changeComplete: () => {
+          anime({
+            ...defaultConfig,
+            duration: 700,
+            translateX: () => anime.random(-40, 40),
+            translateY: () => anime.random(-80, 80),
+            rotate: () => anime.random(-33, 33),
+            scale: [1, 1.08],
+            direction: "alternate",
+            loop: true,
+            delay: anime.stagger(100),
+          });
+        },
+      });
+
+      noiceFilter(isVisible);
+    }, 800);
+  } else {
+    if (timer) {
+      clearTimeout(timer);
+    }
+    anime({
+      ...defaultConfig,
+      duration: 300,
+      scale: [1, 0],
+      opacity: [1, 0],
+      delay: anime.stagger(120),
+    });
+
+    noiceFilter(isVisible);
+  }
+
+  return () => anime.remove([rects]);
+};
+
+const Card = (props: {
+  image: string;
+  text: string;
+  link: string;
+  target?: string;
+}) => {
+  return (
+    <A
+      href={props.link}
+      target={props.target}
+      class="shadow-md opacity-[0] block cursor-pointer w-full max-w-[220px] bg-white min-h-[230px] rounded-3xl mx-auto dark:text-indigo-500 relative overflow-hidden "
+    >
+      <div class="p-[10px] w-full h-[150px] ">
+        <img
+          class="object-cover w-full h-full block rounded-2xl"
+          src={props.image}
+          style={{
+            filter: "url(#noise-filter)",
+          }}
+        />
+      </div>
+      <div class="absolute w-[100%] bottom-0 ">
+        <p class="min-h-[68px] text-center bg-white rounded-2xl border border-indigo-500 border-dashed m-[10px] p-[10px]">
+          {props.text}
+        </p>
+      </div>
+    </A>
+  );
+};
+
 const CircleBackgroundAnimation = () => {
   const setting = useStore(settingStore);
   let el: HTMLDivElement | undefined;
@@ -112,19 +217,22 @@ const CircleBackgroundAnimation = () => {
     const makeBgLineAnimation = lineAnimation(isVisible);
     const makeCircleAnimation = circleAnimation(isVisible);
     const makeRectAnimation = rectAnimation(isVisible);
+    const makeCaringAnimation = caringCardAnimation(isVisible);
     onCleanup(() => {
       makeBgLineAnimation();
       makeCircleAnimation();
       makeRectAnimation();
+      makeCaringAnimation();
     });
   });
 
   return (
-    <div ref={el}>
+    <div ref={el} class="relative">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         id="Caring_Lyaer"
         viewBox="0 0 1218 560"
+        class="absolute w-full block top-[50%] translate-y-[-50%]"
       >
         <defs>
           <clipPath id="circle-clippath">
@@ -538,6 +646,49 @@ const CircleBackgroundAnimation = () => {
           </g>
         </g>
       </svg>
+
+      <svg class="hidden">
+        <filter id="noise-filter" x="0" y="0" width="100%" height="100%">
+          <feTurbulence
+            result="Turbulance"
+            type="fractalNoise"
+            baseFrequency="0.24"
+            numOctaves="2"
+            stitchTiles="noStitch"
+          />
+          <feDisplacementMap
+            in="SourceGraphic"
+            in2="Turbulance"
+            result="DisplacementMap"
+            xChannelSelector="A"
+            yChannelSelector="A"
+            scale="5"
+          />
+        </filter>
+      </svg>
+
+      <div
+        class="grid py-[5rem] gap-y-[5rem] gap-x-[20px] md:gap-y-[20px] md:grid-cols-3 md:py-[12rem] relative"
+        id="Caring_Session_Cards"
+      >
+        <Card
+          image="/images/sharing.jpeg"
+          text="Exp Sharing Session for Junior Developer"
+          link="https://www.facebook.com/lwin.im/posts/pfbid02cRYiBBPvjtZwZNTLFz1bZ4GNp2fStTu2HG69g15qKz6QWL8HqHPzFcFTsgUsNJKrl"
+          target="_blank"
+        />
+        <Card
+          image="/images/html-css-ebook.jpg"
+          text="Ebook: HTML&CSS by LwinMoePaing"
+          link="https://drive.google.com/file/d/1EcXt3WrOzLh-PR6ywdEXR1kIMr0DxK3s/view"
+          target="_blank"
+        />
+        <Card
+          image="/images/varcamp.jpg"
+          text="Upcoming - SVG Animation Sharing "
+          link="#"
+        />
+      </div>
     </div>
   );
 };
