@@ -57,6 +57,7 @@ const WalkingWorldAnimation = () => {
         xmlns="http://www.w3.org/2000/svg"
         id="World_Walking"
         viewBox="0 0 620 764.09"
+        // viewBox="0 0 620 564.09"
       >
         <defs>
           <style>

@@ -34,7 +34,7 @@ function Catch22ExperiencePage() {
   createEffect(() => {
     if (currentSlide()) {
       //
-      console.log("Watching");
+      // console.log("Watching");
       window.scrollTo(0, document.body.scrollHeight);
     }
   });

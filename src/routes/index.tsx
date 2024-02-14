@@ -7,6 +7,7 @@ import CircleBackgroundAnimation from "~/components/Animation/CircleBackgroundAn
 import WaveTextAnimation from "~/components/Animation/WaveTextAnimation/WaveTextAnimation";
 import WalkingWorldAnimation from "~/components/Animation/WalkingWorldAnimation/WalkingWorldAnimation";
 import IntroText from "~/components/Home/IntroText";
+import PandaButton from "~/components/Common/PandaButton/PandaButton";
 
 function HomePage() {
   return (
@@ -51,6 +52,13 @@ function HomePage() {
                 </div>
               </div>
             </div>
+          </div>
+
+          <div class="mx-auto mb-10 text-center">
+            <PandaButton
+              title="Send Email Now!"
+              link="mailto:lwinmoepaing.dev@gmail.com"
+            />
           </div>
 
           <div class="max-w-[570px] mx-auto">
