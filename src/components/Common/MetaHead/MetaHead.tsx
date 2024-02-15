@@ -27,7 +27,7 @@ export default function MetaHead(props: MetaHeadProps) {
         content={`https://lwinmoepaing.github.io/images/og_facebook_lmp.jpg`}
       />
       <Title>{props.title || ""} | Lwin Moe Paing </Title>
-      
+      <Meta property="description" content={props.body || ""} />
     </>
   );
 }

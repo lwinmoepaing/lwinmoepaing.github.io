@@ -190,6 +190,7 @@ const Card = (props: {
           style={{
             filter: "url(#noise-filter)",
           }}
+          alt={`${props.text} Picture`}
         />
       </div>
       <div class="absolute w-[100%] bottom-0 ">
@@ -672,19 +673,19 @@ const CircleBackgroundAnimation = () => {
         id="Caring_Session_Cards"
       >
         <Card
-          image="/images/sharing.jpeg"
+          image="/images/sharing.webp"
           text="Exp Sharing Session for Junior Developer"
           link="https://www.facebook.com/lwin.im/posts/pfbid02cRYiBBPvjtZwZNTLFz1bZ4GNp2fStTu2HG69g15qKz6QWL8HqHPzFcFTsgUsNJKrl"
           target="_blank"
         />
         <Card
-          image="/images/html-css-ebook.jpg"
+          image="/images/html-css-ebook.webp"
           text="Ebook: HTML&CSS by LwinMoePaing"
           link="https://drive.google.com/file/d/1EcXt3WrOzLh-PR6ywdEXR1kIMr0DxK3s/view"
           target="_blank"
         />
         <Card
-          image="/images/varcamp.jpg"
+          image="/images/varcamp.webp"
           text="Upcoming - SVG Animation Sharing "
           link="#"
         />
