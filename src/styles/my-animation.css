@@ -290,7 +290,24 @@ svg * {
 }
 
 #Pink_Grid {
-  animation: pinkGridAnimation 1.2s infinite linear alternate;
+  animation: pinkGridAnimation 1s infinite linear alternate;
+}
+
+#Caring_Rects {
+  transform: translateY(-45px);
+}
+
+#circle-clippath *,
+#circle-clippath-1 *,
+#circle-clippath-2 * {
+  transform-box: unset;
+  transform-origin: 0% 0%;
+}
+#Pink_Grid > *,
+#Yellow_Grid > *,
+#Gray_Grid > * {
+  transform-box: unset;
+  transform-origin: 0% 0%;
 }
 
 #Caring_Rects > g > g > circle {
