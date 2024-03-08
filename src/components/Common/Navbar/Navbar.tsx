@@ -63,6 +63,17 @@ function Navbar() {
               )}
             </For>
 
+            <A
+              activeClass=""
+              inactiveClass=""
+              class="hover:text-indigo-500 interactable"
+              data-type={"/"}
+              target="_self"
+              href={"/docs/resume.pdf"}
+            >
+              Resume
+            </A>
+
             <Show
               when={setting().darkmode}
               fallback={
@@ -134,6 +145,23 @@ function Navbar() {
               </A>
             )}
           </For>
+          <A
+            activeClass=""
+            inactiveClass=""
+            class="hover:text-indigo-500 interactable text-2xl"
+            data-type={"/"}
+            target="_self"
+            href={"/docs/resume.pdf"}
+            onClick={toogleNavbar}
+          >
+            Resume
+          </A>
+          <span
+            class="hover:text-indigo-500 interactable text-2xl"
+            onClick={toogleNavbar}
+          >
+            Back
+          </span>
         </div>
       </Show>
     </header>
